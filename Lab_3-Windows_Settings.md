@@ -18,30 +18,30 @@
 ## Tasks to be Covered and Correlated Objectives
 
 - **Tasks**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Configure Display Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Personalize the Desktop**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Manage Power Options**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Customize Ease of Access Options**  
-  - 3.0 Software Troubleshooting    23%: 
+  - Software Troubleshooting
 - **Configure Time and Language Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Configure Update and Security Settings**  
-  - 2.0 Security       28%: 
+  - Security
 - **Manage Apps**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Configure Devices and Printers**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Configure Network and Sharing Center**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Configure Sound Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Configure File Explorer Options**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 - **Configure Indexing Options**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - Operational Procedures
 
 ---

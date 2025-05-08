@@ -15,24 +15,24 @@
 ## Tasks to be Covered and Correlated Objectives
 
 - **Tasks**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Windows Defender Antivirus Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Windows Firewall with Advanced Security**  
-  - 2.0 Security       28%: 
+  - 2.0 Security
 - **Manage Local User Accounts**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure User Account Control (UAC) Levels**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Encrypting File System (EFS)**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems
 - **Manage NTFS Permissions**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Local Security Policy**  
-  - 2.0 Security       28%: 
+  - 2.0 Security
 - **Configure Windows Update Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Password Policies**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 
 ---

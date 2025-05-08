@@ -13,20 +13,20 @@
 ## Tasks to be Covered and Correlated Objectives
 
 - **Tasks**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Strong Password Policies**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Implement User Account Control (UAC)**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Review and Modify Firewall Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Update Software and Operating System**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems
 - **Secure Browser Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Manage Email Security Options**  
-  - 2.0 Security       28%: 
+  - 2.0 Security
 - **Configure Account Lockout Policies**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 
 ---
