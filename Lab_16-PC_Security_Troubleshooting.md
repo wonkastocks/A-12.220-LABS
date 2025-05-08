@@ -16,26 +16,26 @@
 ## Tasks to be Covered and Correlated Objectives
 
 - **Tasks**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Troubleshoot Inability to Access Network**  
-  - 3.0 Software Troubleshooting    23%: 
+  - 3.0 Software Troubleshooting
 - **Investigate Desktop Alerts**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Analyze False Antivirus Alerts**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Identify Altered System Files**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems
 - **Recover Missing or Renamed Files**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Troubleshoot Unwanted Notifications**  
-  - 3.0 Software Troubleshooting    23%: 
+  - 3.0 Software Troubleshooting
 - **Diagnose OS Update Failures**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Resolve Browser Redirection Issues**  
   - 1.101.0  |  Operating Systems: Given a scenario, install and configure cloud-based productivity tools.     .
 - **Diagnose Degraded Browser Performance**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Remove Random/Frequent Pop-ups**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 
 ---

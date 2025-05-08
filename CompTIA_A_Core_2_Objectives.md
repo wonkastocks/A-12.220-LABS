@@ -41,8 +41,3 @@
 | Write and execute a basic script to automate a task. | Explain the basics of scripting. | 4.8 |
 | Use Remote Desktop Protocol (RDP) to connect to a remote computer. | Given a scenario, use remote access technologies. | 4.9 |
 
----
-**  
-  - 1.0 Operating Systems     28%: 
-
----
