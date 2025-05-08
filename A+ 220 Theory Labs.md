@@ -1,0 +1,19 @@
+**Note:** In a virtual environment, these labs are not possible. Where available, videos and reading assignments will be added.
+
+Lab  Title	Practical/Theory	Domain	Objective	Lab VMs required	Videos
+Operating system types, filesystems, lifecycle compatibility	Theory	Operating Systems	Explain common operating system types and their purposes 1.0	N/A	
+Windows edition features and comparison	Theory	Operating Systems	Compare and contrast basic features of Microsoft Windows editions 1.2	N/A	
+macOS and Linux desktop features and utilities	Theory	Operating Systems	Explain common features and tools of the macOS desktop operating system 1.7, 
+Identify common features and tools of the Linux client/desktop operating system 1.8	N/A	
+Application and cloud-service deployment	Theory	Operating Systems	Install applications according to requirements 1.9, 
+Install and configure cloud-based productivity tools 1.10	N/A	
+Wireless security protocols and authentication	Theory	Security	Compare and contrast wireless security protocols and authentication methods 2.3	N/A	
+Mobile-device security configuration	Theory	Security	Apply common methods for securing mobile devices 2.8	N/A	
+Mobile OS and application troubleshooting	Theory	Software Troubleshooting	Troubleshoot common mobile OS and application issues 3.2	N/A	
+Mobile security issue troubleshooting	Theory	Software Troubleshooting	Troubleshoot common mobile OS and application security issues 3.3	N/A	
+Documentation and asset-management best practices	Theory	Operational Procedures	Implement best practices associated with documentation and support systems information management 4.1	N/A	
+Change-management process implementation	Theory	Operational Procedures	Apply change-management procedures 4.2	N?A	
+Safety procedures and environmental controls	Theory	Operational Procedures	Use common safety procedures 4.4, 
+Summarize environmental impacts and local environment controls 4.5	N/A	
+Policy, licensing, and privacy compliance	Theory	Operational Procedures	Explain the importance of prohibited content/activity and privacy, licensing, and policy concepts 4.6	N/A	
+Communication skills and professionalism	Theory	Operational Procedures	Use proper communication techniques and professionalism 4.7	N/A	
