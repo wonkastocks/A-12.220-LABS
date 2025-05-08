@@ -116,6 +116,92 @@ Each hands-on lab includes a set of practical tasks. See the corresponding `Lab_
 
 For more details on objectives, theory labs, and practical tasks, refer to the documentation in the `Documents` folder and the markdown files in this repository.
 
+---
+
+## Project File Listing
+
+- **A+ 12.220 Objectives Summary.md**  
+  Summary of the CompTIA A+ 220-1202 exam objectives, domains, and exam details.
+
+- **A+ 220 Theory Labs List.md**  
+  A table of all theory labs with titles, domains, objectives, and requirements.
+
+- **A+ 220 Theory Labs.md**  
+  Extracted details from the "Theory Labs" spreadsheet tab, including objectives and domains.
+
+- **A_ 12.220 Master Task List.md**  
+  Master checklist of all tasks and labs for the A+ 12.220 project.
+
+- **CompTIA_A_Core_2_Objectives.md**  
+  Detailed breakdown of Core 2 objectives and related activities.
+
+- **Documents/A+ 12.220.xlsx**  
+  The main reference Excel file containing all lab and objective data.
+
+- **Documents/comptia-a-220-1202-exam-objectives.pdf**  
+  The official CompTIA A+ 220-1202 objectives PDF.
+
+- **Lab_1-OS_Installations.md**  
+  Hands-on lab for installing, breaking, and restoring Windows 11.
+
+- **Lab_10-System_Hardening.md**  
+  Hands-on lab for configuring security and hardening system settings.
+
+- **Lab_11-Data_Disposal.md**  
+  Hands-on lab for secure data deletion and storage device sanitization.
+
+- **Lab_12-SOHO_-_Networking.md**  
+  Hands-on lab for configuring SOHO networking and security settings.
+
+- **Lab_13-Browser_Security.md**  
+  Hands-on lab for browser security configuration and privacy controls.
+
+- **Lab_14-Windows_OS_TS.md**  
+  Hands-on lab for troubleshooting Windows operating system issues.
+
+- **Lab_15-Security_Settings.md**  
+  Hands-on lab for configuring Windows security settings and policies.
+
+- **Lab_16-PC_Security_Troubleshooting.md**  
+  Hands-on lab for diagnosing and resolving PC security problems.
+
+- **Lab_17-Backup_and_Recovery.md**  
+  Hands-on lab for backup, restore, and disaster recovery procedures.
+
+- **Lab_18-Scripting_and_AI.md**  
+  Hands-on lab for basic scripting tasks and using AI tools.
+
+- **Lab_2-Windows_graphical_CLI.md**  
+  Hands-on lab for using Windows graphical tools and command-line interface.
+
+- **Lab_3-Windows_Settings.md**  
+  Hands-on lab for configuring Windows settings and personalization.
+
+- **Lab_4-Networking.md**  
+  Hands-on lab for configuring and troubleshooting networking.
+
+- **Lab_5-Security_controls.md**  
+  Hands-on lab for implementing security controls in Windows.
+
+- **Lab_6-Windows_Local_Security_Conf.md**  
+  Hands-on lab for local Windows security configuration.
+
+- **Lab_7-Malware_defense.md**  
+  Hands-on lab for malware detection and defense.
+
+- **Lab_8-Social_Engineering_Attacks.md**  
+  Hands-on lab for identifying and mitigating social engineering attacks.
+
+- **Lab_9-SOHO_malware-removal.md**  
+  Hands-on lab for malware removal in a SOHO environment.
+
+- **README.md**  
+  Main project overview, objectives, lab titles, and navigation guide.
+
+- **Status.md**  
+  Status tracking for labs and project progress.
+
+
 
 ## Hands-On Lab Titles
 - 1- OS installations
