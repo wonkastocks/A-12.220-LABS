@@ -2,7 +2,7 @@
 
 ## Task List
 - Install Windows 11 From Install Media
-- Break Windowd 1 Install
+- Break Windowd 1
 - Restore Windows 11
 - Create an Extra Drive for Windows 1
 - Manage New Drive
@@ -19,32 +19,32 @@
 ## Tasks to be Covered and Correlated Objectives
 
 - **Install Windows 11 From Install Media**  
-  - 4.0 Operational Procedures     21%: Total      100%
-- **Break Windowd 1 Install**  
-  - 1.0 Operating Systems     28%: 
+  - 4.0 Operational Procedures     
+- **Break Windowd 1**  
+  - 1.0 Operating Systems      
 - **Restore Windows 11**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Create an Extra Drive for Windows 1**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Manage New Drive**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Run a PC Health Check**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Configure Internet Access**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Driver Update**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Create a New User Profile**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Login to New Account**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Backup a User Profile**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Delete a User Profile**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Restore a Profile from Backup**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Installing Ubuntu Linux**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 
 ---

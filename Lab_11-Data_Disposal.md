@@ -14,22 +14,22 @@
 ## Tasks to be Covered and Correlated Objectives
 
 - **Tasks**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Overwrite Data on a Hard Drive (Windows)**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Overwrite Data on a Hard Drive (Linux)**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Securely Delete Files (Windows)**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Securely Delete Files (Linux)**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Physically Destroy a Storage Device**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Verify Data Sanitization (Windows)**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Verify Data Sanitization (Linux)**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Follow Data Disposal Best Practices**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 
 ---

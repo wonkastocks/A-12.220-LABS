@@ -16,26 +16,26 @@
 ## Tasks to be Covered and Correlated Objectives
 
 - **Tasks**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Configure IP Addressing**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Configure DNS Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Configure Windows Firewall Rules**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Configure File and Printer Sharing**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Map Network Drives**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Establish a VPN Connection**  
-  - 1.0 Operating Systems     28%: 
+  - 1.0 Operating Systems      
 - **Test Network Connectivity**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Configure Network Discovery**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Configure Proxy Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 - **Configure Network Locations**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures     
 
 ---

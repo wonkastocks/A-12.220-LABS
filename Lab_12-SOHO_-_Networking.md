@@ -16,25 +16,25 @@
 ## Tasks to be Covered and Correlated Objectives
 
 - **Tasks**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Change Default Router Password**  
-  - 1.101.0  |  Operating Systems: Given a scenario, install and configure cloud-based productivity tools.     .
+  - 1.101.0  |  Operating Systems: Given a scenario, install and configure cloud-based productivity tools.
 - **Enable the Router Firewall**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Firewall Port Forwarding**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure DHCP Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Static IP Addresses**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Enable MAC Address Filtering**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure DMZ Settings**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Update Router Firmware**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Configure Content Filtering**  
-  - 4.0 Operational Procedures     21%: Total      100%
+  - 4.0 Operational Procedures
 - **Inspect Router Logs**  
   - 2.92.0  |  Security: • Router settings
 
