@@ -2,9 +2,9 @@
 
 ## Task List
 - Install Windows 11 From Install Media
-- Break Windowd 1 Install
+- Break Windows 11 Install
 - Restore Windows 11
-- Create an Extra Drive for Windows 1
+- Create an Extra Drive for Windows 11
 - Manage New Drive
 - Run a PC Health Check
 - Configure Internet Access
@@ -20,11 +20,11 @@
 
 - **Install Windows 11 From Install Media**  
   - Objective 1.1 Given a scenario, perform OS installations and upgrades in a diverse environment.
-- **Break Windowd 1 Install**  
+- **Break Windows 11 Install**  
   - Objective 1.1 Given a scenario, perform OS installations and upgrades in a diverse environment.
 - **Restore Windows 11**  
   - Objective 1.1 Given a scenario, perform OS installations and upgrades in a diverse environment.
-- **Create an Extra Drive for Windows 1**  
+- **Create an Extra Drive for Windows 11**  
   - Objective 1.1 Given a scenario, perform OS installations and upgrades in a diverse environment.
 - **Manage New Drive**  
   - Objective 1.1 Given a scenario, perform OS installations and upgrades in a diverse environment.
