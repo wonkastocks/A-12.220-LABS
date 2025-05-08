@@ -1,5 +1,122 @@
 # CompTIA A+ 220-1202 Project
 
+Welcome to your CompTIA A+ 220-1202 Lab and Study Project! This repository contains all the resources, labs, and objectives you need to master the A+ Core 2 exam.
+
+**Official Documentation is located in the `Documents` subfolder.**
+
+---
+
+## Quick Reference
+
+### Hands-On Lab Titles
+- 1- OS installations
+- 2-Windows graphical, CLI
+- 3-Windows Settings
+- 4-Networking
+- 5-Security controls
+- 6- Windows Local Security Confi
+- 7-Malware defense
+- 8-Social Engineering Attacks
+- 9-SOHO malware-removal
+- 10-System Hardening
+- 11-Data Disposal
+- 12-SOHO - Networking
+- 13-Browser Security
+- 14-Windows OS TS
+- 15 -Security Settings
+- 16- PC Security Troubleshooting
+- 17-Backup and Recovery
+- 18-Scripting and AI
+
+### Theory Lab Titles
+- Operating system types, filesystems, lifecycle compatibility
+- Windows edition features and comparison
+- macOS and Linux desktop features and utilities
+- Application and cloud-service deployment
+- Wireless security protocols and authentication
+- Mobile-device security configuration
+- Mobile OS and application troubleshooting
+- Mobile security issue troubleshooting
+- Documentation and asset-management best practices
+- Change-management process implementation
+- Safety procedures and environmental controls
+- Policy, licensing, and privacy compliance
+- Communication skills and professionalism
+
+---
+
+## Exam Objectives (Summary)
+
+- Install, configure, and maintain computer equipment, mobile devices, and software for end users.
+- Service components based on customer requirements.
+- Understand networking basics and apply basic cybersecurity methods to mitigate threats.
+- Properly and safely diagnose, resolve, and document common hardware and software issues.
+- Apply troubleshooting skills and provide customer support using appropriate communication skills.
+- Understand the basics of scripting, cloud technologies, virtualization, and multi-OS deployments in corporate environments.
+
+### Exam Domains
+| Domain                       | Percentage of Examination |
+|------------------------------|--------------------------|
+| 1.0 Operating Systems        | 28%                      |
+| 2.0 Security                 | 28%                      |
+| 3.0 Software Troubleshooting | 23%                      |
+| 4.0 Operational Procedures   | 21%                      |
+
+---
+
+## Theory Labs
+
+**Note:** In a virtual environment, these labs are not possible. Where available, videos and reading assignments will be added.
+
+See also: `A+ 220 Theory Labs.md` for full details.
+
+| Lab Title                                      | Practical/Theory | Domain            | Objective                                                                                       |
+|------------------------------------------------|------------------|-------------------|------------------------------------------------------------------------------------------------|
+| Operating system types, filesystems, lifecycle compatibility | Theory           | Operating Systems | Explain common operating system types and their purposes 1.0                                    |
+| Windows edition features and comparison        | Theory           | Operating Systems | Compare and contrast basic features of Microsoft Windows editions 1.2                           |
+| macOS and Linux desktop features and utilities | Theory           | Operating Systems | Explain common features and tools of the macOS desktop operating system 1.7, Identify common features and tools of the Linux client/desktop operating system 1.8 |
+| Application and cloud-service deployment       | Theory           | Operating Systems | Install applications according to requirements 1.9, Install and configure cloud-based productivity tools 1.10 |
+| Wireless security protocols and authentication | Theory           | Security          | Compare and contrast wireless security protocols and authentication methods 2.3                 |
+| Mobile-device security configuration           | Theory           | Security          | Apply common methods for securing mobile devices 2.8                                            |
+| Mobile OS and application troubleshooting      | Theory           | Software Troubleshooting | Troubleshoot common mobile OS and application issues 3.1                                   |
+| Mobile security issue troubleshooting          | Theory           | Software Troubleshooting | Troubleshoot common mobile OS and application security issues 3.3                             |
+| Documentation and asset-management best practices | Theory        | Operational Procedures | Implement best practices associated with documentation and support systems information management 4.1 |
+| Change-management process implementation       | Theory           | Operational Procedures | Apply change-management procedures 4.2                                         |
+| Safety procedures and environmental controls   | Theory           | Operational Procedures | Use common safety procedures 4.4, Summarize environmental impacts and local environment controls 4.5 |
+| Policy, licensing, and privacy compliance      | Theory           | Operational Procedures | Explain the importance of prohibited content/activity and privacy, licensing, and policy concepts 4.6 |
+| Communication skills and professionalism       | Theory           | Operational Procedures | Use proper communication techniques and professionalism 4.7                                    |
+
+---
+
+## Hands-On Labs & Tasks
+
+Each hands-on lab includes a set of practical tasks. See the corresponding `Lab_*.md` files for full task lists and details. Example labs:
+
+- **Lab 1: OS Installations**
+  - Install Windows 11 from install media
+  - Break Windows 11 install (simulate failure)
+  - Restore Windows 11
+  - Create and manage drives
+  - Run PC health check
+  - Configure Internet access
+  - Update drivers
+  - ...and more
+
+- **Lab 2: Windows Graphical & CLI**
+  - Use Task Manager, MMC Snap-ins, CLI tools, etc.
+
+- **Lab 17: Backup and Recovery**
+  - Perform full/incremental/differential backups
+  - Restore files and system states
+  - Test backup integrity
+
+...and so forth for each lab. See individual lab markdown files for all details.
+
+---
+
+For more details on objectives, theory labs, and practical tasks, refer to the documentation in the `Documents` folder and the markdown files in this repository.
+
+
 ## Hands-On Lab Titles
 - 1- OS installations
 - 2-Windows graphical, CLI
