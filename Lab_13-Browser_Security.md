@@ -29,8 +29,8 @@
 | Update the Web Browser         | 4.0 Operational Procedures                                        |
 | Manage Browser Extensions      | 4.0 Operational Procedures                                        |
 | Configure Pop-up Blocker       | 4.0 Operational Procedures                                        |
-| Clear Browsing Data            | 1.101.0  |  Operating Systems: Given a scenario, install and configure cloud-based productivity tools.     . |
-| Clear Browser Cache            | 2.92.0  |  Security: • Router settings                              |
+| Clear Browsing Data            | 1.10 Security   |
+| Clear Browser Cache            | 2.92    Security: • Router settings                              |
 | Configure Private Browsing Mode| 4.0 Operational Procedures                                        |
 | Manage Browser Permissions     | 4.0 Operational Procedures                                        |
 | Configure Secure DNS Settings  | 4.0 Operational Procedures                                        |
