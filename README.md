@@ -1,6 +1,6 @@
-# Lab: 1- OS installations
 
-## Hands-On-Task
+
+## Hands-On-Tasks
 
 
 ### Introduction  
