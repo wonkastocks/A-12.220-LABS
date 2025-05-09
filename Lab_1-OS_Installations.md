@@ -316,3 +316,37 @@ Explain the importance of applying updates and drivers immediately after install
 
 Applying updates and drivers ensures the OS is secure, stable, and compatible with hardware. Updates patch vulnerabilities and improve performance, while drivers enable hardware functionality. Failing to update can leave the system exposed to security risks and hardware malfunctions. (Objective 1.4)
 
+---
+
+## Summary
+
+In this lab, you learned how to perform a clean installation of Windows 11, including preparing installation media, configuring initial settings, and understanding the difference between clean installs and upgrades. You also practiced troubleshooting installation problems, restoring a non-booting system, and using built-in Windows recovery tools. Additional hands-on tasks included partitioning and formatting drives, adding and managing extra storage, updating drivers, configuring internet access, and managing user profiles and backups. You also performed a basic installation and configuration of Ubuntu Linux, giving you exposure to multiple operating systems.
+
+These activities directly support the CompTIA A+ 220-1202 objectives, especially those related to operating system installation, configuration, troubleshooting, and system management. You practiced identifying hardware compatibility requirements, creating and restoring user profiles, and ensuring system health through updates and PC health checks. By working through real-world scenarios, you developed the ability to respond to common issues faced by end users and IT departments alike.
+
+Mastering these skills is essential for any PC Technician. The ability to install, configure, and troubleshoot operating systems is foundational to IT support roles. It ensures you can deploy new systems, recover from failures, and maintain secure, efficient, and user-friendly computing environments. These competencies not only help you pass the CompTIA A+ exam but also prepare you for success in the workplace, where you will be expected to solve technical problems and support a wide range of users and devices.
+
+---
+
+## References
+
+Andrews, J. (2022). CompTIA A+ Guide to IT Technical Support (10th ed.). Cengage Learning.
+
+CompTIA. (2022). CompTIA A+ Certification Exam Objectives (220-1202). https://www.comptia.org/certifications/a
+
+Microsoft. (2023). Install, upgrade, and migrate to Windows 11. https://learn.microsoft.com/en-us/windows/deployment/upgrade/windows-11-upgrade
+
+National Institute of Standards and Technology. (2011). Guide to General Server Security (SP 800-123). https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-123.pdf
+
+National Institute of Standards and Technology. (2020). Security and Privacy Controls for Information Systems and Organizations (SP 800-53 Rev. 5). https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
+
+Ubuntu. (2024). Installation Guide. https://ubuntu.com/tutorials/install-ubuntu-desktop
+
+Microsoft. (2023). Windows 11 System Requirements. https://www.microsoft.com/en-us/windows/windows-11-specifications
+
+CompTIA. (2022). CompTIA IT Fundamentals (ITF+) Study Guide. https://www.comptia.org/certifications/it-fundamentals
+
+National Institute of Standards and Technology. (2016). Data Integrity: Detecting and Responding to Ransomware and Other Destructive Events (SP 1800-11). https://www.nist.gov/publications/data-integrity-detecting-and-responding-ransomware-and-other-destructive-events
+
+U.S. Department of Homeland Security. (2019). Cybersecurity Workforce Training Guide. https://www.cisa.gov/sites/default/files/publications/cybersecurity-workforce-training-guide.pdf
+
