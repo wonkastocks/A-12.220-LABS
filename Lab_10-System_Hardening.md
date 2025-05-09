@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Configure Strong Passwords     |
 | Enable Account Lockout Policies|
 | Configure Firewall Settings    |
@@ -20,7 +19,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Configure Strong Passwords     | 4.0 Operational Procedures                                        |
 | Enable Account Lockout Policies| 4.0 Operational Procedures                                        |
 | Configure Firewall Settings    | 4.0 Operational Procedures                                        |
