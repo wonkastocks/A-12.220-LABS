@@ -24,9 +24,10 @@
 ## Tasks to be Covered and Correlated Objectives
 
 
+
 | Task                          | Objective/Domain/Description                                                      |
 |-------------------------------|----------------------------------------------------------------------------------|
-| Change Default Router Password | 1.101.0  |  Operating Systems: Given a scenario, install and configure cloud-based productivity tools. |
+| Change Default Router Password | 1.101 Operating Systems                                                          |
 | Enable the Router Firewall     | 4.0 Operational Procedures                                                        |
 | Configure Firewall Port Forwarding | 4.0 Operational Procedures                                                    |
 | Configure DHCP Settings        | 4.0 Operational Procedures                                                        |
@@ -37,6 +38,5 @@
 | Configure Content Filtering    | 4.0 Operational Procedures                                                        |
 | Inspect Router Logs            | 2.92.0  |  Security: • Router settings                                              |
 
----
 
 
