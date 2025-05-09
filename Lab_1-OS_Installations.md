@@ -1,3 +1,9 @@
+## Introduction and Objectives
+
+In this lab, you will gain hands-on experience with installing, configuring, and troubleshooting modern operating systems, including Windows 11 and Ubuntu Linux. You will perform clean installations, upgrades, partitioning, driver updates, user profile management, and recovery procedures. These tasks directly support the CompTIA A+ 220-1202 objectives, particularly Objective 1.1 (Operating System Installations and Upgrades), Objective 1.2 (Operating System Configuration), Objective 1.3 (Troubleshooting), and Objective 1.4 (System Management).
+
+As a PC Technician, it is critical to understand how to install and configure operating systems, resolve installation issues, manage storage and user profiles, and maintain system health. These skills ensure you can support end-users, maintain business continuity, and keep systems secure and up to date. Mastery of these objectives is essential for passing the CompTIA A+ certification and succeeding in IT support roles.
+
 # 1- OS installations
 
 ## Task List
