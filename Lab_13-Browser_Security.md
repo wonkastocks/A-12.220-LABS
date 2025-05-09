@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Update the Web Browser         |
 | Manage Browser Extensions      |
 | Configure Pop-up Blocker       |
@@ -20,7 +19,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Update the Web Browser         | 4.0 Operational Procedures                                        |
 | Manage Browser Extensions      | 4.0 Operational Procedures                                        |
 | Configure Pop-up Blocker       | 4.0 Operational Procedures                                        |
