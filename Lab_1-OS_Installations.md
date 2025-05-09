@@ -59,13 +59,6 @@
 | **Installing Ubuntu Linux** | |
 | Installing Ubuntu Linux        | Objective 1.1 |
 
-## Lab Steps
-
-
-
-
-
-
 **Operating system installations and upgrades**
 
 Ensure Hard Drive is selected and click Add.
