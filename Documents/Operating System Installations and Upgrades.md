@@ -4,6 +4,9 @@
 
 ### Install Windows 11 from Install Media
 
+**Task:** Perform a clean installation of Windows 11 from installation media.
+**Objective Reference:** 1.1
+
 1. Click the **Start** button to provision the lab.
 2. When the lab finishes starting up, click **Hyper-V Server** in the topology map.
 3. Click **Send Ctrl+Alt+Delete**.
@@ -43,6 +46,9 @@
 
 ## Break the Windows 11 Installation
 
+**Task:** Simulate a failed Windows 11 installation by intentionally corrupting system files.
+**Objective Reference:** 1.1
+
 1. When the desktop appears, leave the VM in its current state and proceed to the next exercise.
 2. Click **File Explorer** to open it.
 3. In the **Search** field, type in **ntoskrnl**.
@@ -63,7 +69,13 @@
 
 ## Restoring Windows 11
 
+**Task:** Restore a non-booting Windows 11 system using built-in recovery tools.
+**Objective Reference:** 1.2
+
 ### Create an Extra Drive for Windows 11
+
+**Task:** Add and configure an extra virtual hard drive in Windows 11.
+**Objective Reference:** 1.2
 
 1. Right-click **ntoskrnl** file and click **Delete**.
 2. Right-click **Recycle bin** and select **Empty Recycle Bin**.
@@ -84,6 +96,9 @@
 
 ## Manage New Hard Drive
 
+**Task:** Partition, format, and label a new hard drive in Windows 11.
+**Objective Reference:** 1.2
+
 1. Enter **Passw0rd** in the password field and press Enter to login.
 2. Right-click **Start** and select **Disk Management**.
 3. In the **Initialize Disk** window, select **MBR (Master Boot Record)** and click **OK**.
@@ -100,6 +115,9 @@
 ---
 
 ## Configure Internet Access
+
+**Task:** Configure and verify internet access and perform a PC health check in Windows 11.
+**Objective Reference:** 1.4
 
 1. In the search box, type **health**.
 2. Select **Device performance & health**.
