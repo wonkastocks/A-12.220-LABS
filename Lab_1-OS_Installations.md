@@ -660,32 +660,12 @@ Click Save settings and run backup.   
 Wait for the backup process to complete.    
 Once it is complete click control panel home and proceed to the next section.    
 Delete a User Profile
-In the All Control Panel Items window, click System.    
-Scroll down some and click the Advanced system settings link.    
-Under User Profiles click Settings.    
-Click the Student2 account and click Delete.    
-Click Yes to confirm deletion.    
-Close all windows except for Control Panel and proceed to the next section.    
-Restore a User Profile from a Backup
-In the All Control Panel Items window, click Backup and Restore (Windows 7).    
-Click the Restore all users' files link.    
-Click Browse for folders.    
-In the left pane click Backup on \SERVER22-HYPER-\Profiles.    
-In the right pane select Backup of C: and click Add folder.    
-Click Next.    
-Click Restore.    
-When the files have been restored click Finish.    
-Click Start.    
-Click Student.    
-Click the ellipsis (...).    
-Select Sign Out.    
-Close the VM window and proceed to the next exercise.    
 Installing Ubuntu Linux
-Click Ubuntu Install on the topology map.    
-You will be presented with the Choose your language page. Click the Reboot button in the VM window toolbar.    
-Click OK to reboot the VM.    
-This process may take a few minutes, please be patient.    
-You will again be presented with the Choose your language page. Click Next.    
+Click Ubuntu Install on the topology map.  
+You will be presented with the Choose your language page. Click the Reboot button in the VM window toolbar.  
+Click OK to reboot the VM.  
+This process may take a few minutes, please be patient.  
+{{ ... }}
 On the Accessability page click Next.    
 On the Select your keyboard layout page click Next.    
 On the Connect to the internet page, select Do not connect to the internet, and click Next.    
