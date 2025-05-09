@@ -33,7 +33,7 @@
 | Use Copilot to Explain a Script | 1.0 Operating Systems                                           |
 | Use Copilot to Modify a Script | 1.0 Operating Systems                                             |
 | Use Copilot for System Settings Help | 1.0 Operating Systems                                      |
-| Use Copilot for Troubleshooting Steps | 3.0 Software Troubleshooting    23%:                      |
+| Use Copilot for Troubleshooting Steps | 3.0 Software Troubleshooting                          |
 
 ---
 
