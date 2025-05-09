@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Identify Common Script File Types |
 | Execute a Basic Batch Script   |
 | Execute a Basic PowerShell Script |
@@ -19,7 +18,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Identify Common Script File Types | 4.0 Operational Procedures                                     |
 | Execute a Basic Batch Script   | 1.0 Operating Systems                                             |
 | Execute a Basic PowerShell Script | 1.0 Operating Systems                                          |
