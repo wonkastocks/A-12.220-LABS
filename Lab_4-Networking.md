@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Configure IP Addressing        |
 | Configure DNS Settings         |
 | Configure Windows Firewall Rules|
@@ -20,7 +19,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Configure IP Addressing        | 4.0 Operational Procedures                                        |
 | Configure DNS Settings         | 4.0 Operational Procedures                                        |
 | Configure Windows Firewall Rules| 4.0 Operational Procedures                                       |
