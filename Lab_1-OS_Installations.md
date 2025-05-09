@@ -61,648 +61,213 @@
 
 ## Lab Steps
 
-
-**Install Windows 11 from Install Media**
-
-Click the Start button to provision the lab.
-
-When the lab finishes starting up, click Hyper-V Server in the topology map.
-
-Click Send Ctrl+Alt+Delete.
-
-Sign in to the Administrator account with the password of P@ssword.
-
-Click the Hyper-V Manager icon in the taskbar.
-
-In the middle pane, double click Win11A. A connection window will appear.
-
-Click the Start button to power on the VM.
-
-To start the installer you must click inside the Connection window and press any key.
-
-NOTE: If this process fails, simply click the Action menu and select Reset, and try again.
-
-Once you have successfully started setup, click the Maximize button on the connection window.
-
-At the Select language settings window, click Next.
-
-At the Select keyboard settings window, click Next.
-
-At the Select setup option window, select the checkbox for I agree everything will be deleted including files, apps, and settings.
-
-Click Next.
-
-At the Product key window, select the link for I don't have a product key.
-
-At the Select image window, choose Windows 11 Pro, and click Next.
-
-At the Applicable notices and license terms window, click Accept.
-
-At the Select location to install Windows 11 window, click Next.
-
-At the Ready to install window, click Install.
-
-Please wait while Windows 11 installs. The VM may restart several times.
-
-At the Is this the right country or region page, press Shift+F10 (If that doesn't work try Shift+FN+F10).
-
-Click inside the Command Prompt window and type: OOBE\BypassNRO and press Enter.
-
-NOTE: This command allows a user to bypass the network requirement for Windows 11 and may be removed in a future version.
-
-At the Is this the right keyboard layout or input method page, click Yes.
-
-At the Want to add a second keyboard layout page, click Skip.
-
-When you get to the Let's connect you to a network page, click I don't have internet.
-
-At the Who's going to use this device page, type the username Student and click Next.
-
-At the Create a super memorable password page, type the password Password and click Next.
-
-At the Confirm your password page, type Password again and click Next.
-
-At the Now add security questions page, drop down the menu and click the first item.
-
-In the answer box, type ACI and click Next.
-
-Repeat this for questions 2 and 3.
-
-At the Choose privacy settings for your device page, click Next twice, then Accept.
-
-Please wait while the Student profile is created.
-
-When the desktop appears, leave the VM in its current state and proceed to the next exercise.
-
-
-**Break the Windows 11 Installation**
-
-Click File Explorer to open it.
-
-In the Search field type in ntoskrnl.
-
-Right click ntoskrnl and select Properties.
-
-Click the Advanced button.
-
-Next to TrustedInstaller, click the Change link.
-
-In the text box type in Student, then click the Check Names button.
-
-Click OK.
-
-In the Advanced Security Settings for ntoskrnl window click OK.
-
-In the ntoskrnl Properties window, click Edit.
-
-Click Add.
-
-In the text box type in Student and click Check Names.
-
-Click OK.
-
-In the Allow column, click the check box for Full Control.
-
-Click OK.
-
-In the Windows Security window click Yes.
-
-Click OK.
-
-Right click ntoskrnl file and click Delete.
-
-Right click Recycle bin and select Empty Recycle Bin.
-
-Click Yes to permanently delete the file.
-
-Right click Start and select Shut down or sign out > Restart.
-
-As the VM attempts to make automatic repairs move to the next section.
-
-
-**Restoring Windows 11**
-
-When Automatic Repair fails you will be presented with a blue screen.
-
-Click Advanced options.
-
-Click Troubleshoot.
-
-Click Reset this PC.
-
-Click Keep my files.
-
-Click Local reinstall.
-
-Click Reset.
-
-While the reset is processing move on to the next section.
-
-
-**Create an Extra Drive for Windows 11**
-
-When the Reset operation completes you will be presented with the login screen.
-
-Double click anywhere on that screen to make the login prompt appear.
-
-Click the power button in the bottom right corner and select Shut Down.
-
-Click Shut down anyway when asked.
-
-When the VM has finished shutting down, click the File menu in the connection window and select Settings.
-
-In the left pane select SCSI Controller.
-
-Ensure Hard Drive is selected and click Add.
-
-Drop down the Location box and select 3.
-
-Ensure that Virtual hard disk is selected and click the New button.
-
-Click the Next button three times.
-
-In the Size box enter 20 and click Next.
-
-Click Finish.
-
-Click OK to close the Settings window.
-
-Click the Start button to power on the VM again.
-
-Click the Maximize button to make the connection window full screen.
-
-Double click the login screen to make the prompt appear.
-
-Enter Password in the password field and press Enter to login.
-
-Leave the VM in this state and continue to the next section.
-
-
-**Manage New Hard Drive**
-
-Right click Start and select Disk Management.
-
-In the Initialize Disk window select MBR (Master Boot Record) and click OK.
-
-Click on Disk 1.
-
-Right click Disk 1 and select Convert to GPT Disk.
-
-Click the unallocated space for Disk 1.
-
-Right click the unallocated space and choose New Simple Volume.
-
-Click Next 3 times.
-
-In the Volume label box replace the text with Test Disk.
-
-Click Next.
-
-Click Finish.
-
-Close the Disk Manager window.
-
-Leave the device in its current state and proceed to the next section.
-
-
-**Run a PC Health Check**
-
-In the search box, type health.
-
-Select Device performance & health.
-
-Examine the Health Report.
-
-Leave the device in its current state and proceed to the next section.
-
-
-**Configure Internet Access**
-
-Right click Start and select Terminal (Admin).
-
-Click Yes in the UAC window.
-
-At the PowerShell prompt type: New-NetIPAddress -InterfaceAlias Ethernet -IPAddress 192.168.0.20 -PrefixLength 24 -DefaultGateway 192.168.0.250
-
-Press Enter.
-
-At the next prompt type: Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 1.1.1.1
-
-Press Enter.
-
-Close the Windows Terminal.
-
-
-**Driver Update**
-
-Right click Start and select Device Manager.
-
-Expand Display Adapters.
-
-Right click Microsoft Hyper-V Video and select Update Driver.
-
-Click Search automatically for drivers.
-
-Click Search for updated drivers on Windows Update.
-
-Click Advanced options.
-
-Click Optional updates.
-
-Note that there are no updates available at this time.
-
-Close the Settings app.
-
-Close Device Manager.
-
-Proceed to the next section.
-
-
-**Create a New User Profile**
-
-In the search bar type users and select Other Users.
-
-Click Add Account.
-
-Click I don't have this person's sign-in information.
-
-Click Add a user without a Microsoft account.
-
-In the User name box type in Student2.
-
-In the 2 password boxes type Password.
-
-For each of the security questions, drop down the list and select the first option that is not greyed out.
-
-For each of the answers enter: ACI
-
-Click Next.
-
-Note that the new user Student2 is now created.
-
-Close the Settings app and proceed to the next section.
-
-
-**Log In to the New Account**
-
-Right click Start and select Shut down or sign out > Sign out
-
-Double click the login screen so that the login prompt appears.
-
-Select Student2 in the left corner of the screen.
-
-Type Password in the box provided and press Enter.
-
-It will take a moment for the account profile to be created. Please wait.
-
-In the Choose privacy settings for your device window, scroll to the bottom and click Accept.
-
-Right click Start and select Shut down or sign out > Sign out
-
-Double click the login screen so that the login prompt appears.
-
-Select Student in the left corner of the screen.
-
-Type Password in the box provided and press Enter.
-
-Leave the VM in its current state and move on to the next section.
-
-
-**Backup a User Profile**
-
-Minimize the connection window.
-
-Click File Explorer in the taskbar of the Host.
-
-In the left pane, click Hyper-V (E:).
-
-In the right pane, right click the empty space and select New > Folder.
-
-Give the new folder the name of Profiles and press Enter.
-
-Right click Profiles and select Properties.
-
-Click the Sharing tab.
-
-Click the Advanced Sharing button.
-
-Check the Share this folder check box.
-
-Click the Permissions button.
-
-Check the check box for the Change permission in the Allow column.
-
-Click OK.
-
-Click OK.
-
-Click Close.
-
-Restore the Connection window.
-
-Click the File Explorer icon in the taskbar.
-
-Click Network in the left pane.
-
-You will see a yellow notice appear. Click the notice to activate a menu.
-
-Click Turn on network discovery and file sharing.
-
-A window will appear.
-
-Click No, make the network that I am connected to a private network.
-
-Close File Explorer.
-
-In the search bar type control panel, and select Control Panel from the search results.
-
-Drop down the View by list and select Small icons.
-
-Click on Backup and Restore (Windows 7).
-
-Click Set up backup.
-
-Click Save on a network...
-
-Click Browse...
-
-Expand SERVER22-HYPER-
-
-Select Profiles and click OK.
-
-In the Username field type administrator
-
-In the password field type P@ssword
-
-Click OK.
-
-Click Next.
-
-Select Let me choose and click Next.
-
-Uncheck Student's Libraries.
-
-Uncheck Include a system image...
-
-Click Next.
-
-Click Save settings and run backup.
-
-Wait for the backup process to complete.
-
-Once it is complete click control panel home and proceed to the next section.
-
-
-**Delete a User Profile**
-
-In the All Control Panel Items window, click System.
-
-Scroll down some and click the Advanced system settings link.
-
-Under User Profiles click Settings.
-
-Click the Student2 account and click Delete.
-
-Click Yes to confirm deletion.
-
-Close all windows except for Control Panel and proceed to the next section.
-
-
-**Restore a User Profile from a Backup**
-
-In the All Control Panel Items window, click Backup and Restore (Windows 7).
-
-Click the Restore all users' files link.
-
-Click Browse for folders.
-In the middle pane, double click Win11A. A connection window will appear.    
-Click the Start button to power on the VM.    
-To start the installer you must click inside the Connection window and press any key.    
-NOTE: If this process fails, simply click the Action menu and select Reset, and try again.    
-Once you have successfully started setup, click the Maximize button on the connection window.    
-At the Select language settings window, click Next.    
-At the Select keyboard settings window, click Next.    
-At the Select setup option window, select the checkbox for I agree everything will be deleted including files, apps, and settings.    
-Click Next.    
-At the Product key window, select the link for I don't have a product key.    
-At the Select image window, choose Windows 11 Pro, and click Next.    
-At the Applicable notices and license terms window, click Accept.    
-At the Select location to install Windows 11 window, click Next.    
-At the Ready to install window, click Install.    
-Please wait while Windows 11 installs. The VM may restart several times.    
-At the Is this the right country or region page, press Shift+F10 (If that doesn't work try Shift+FN+F10).    
-Click inside the Command Prompt window and type: OOBE\BypassNRO and press Enter.    
-NOTE: This command allows a user to bypass the network requirement for Windows 11 and may be removed in a future version.    
-At the Is this the right keyboard layout or input method page, click Yes.    
-At the Want to add a second keyboard layout page, click Skip.    
-When you get to the Let's connect you to a network page, click I don't have internet.    
-At the Who's going to use this device page, type the username Student and click Next.    
-At the Create a super memorable password page, type the password Password and click Next.    
-At the Confirm your password page, type Password again and click Next.    
-At the Now add security questions page, drop down the menu and click the first item.    
-In the answer box, type ACI and click Next.    
-Repeat this for questions 2 and 3.    
-At the Choose privacy settings for your device page, click Next twice, then Accept.    
-Please wait while the Student profile is created.    
-When the desktop appears, leave the VM in its current state and proceed to the next exercise.    
-Break the Windows 11 Installation
-Click File Explorer to open it.    
-In the Search field type in ntoskrnl.    
-Right click ntoskrnl and select Properties.    
-Click the Advanced button.    
-Next to TrustedInstaller, click the Change link.    
-In the text box type in Student, then click the Check Names button.    
-Click OK.    
-In the Advanced Security Settings for ntoskrnl window click OK.    
-In the ntoskrnl Properties window, click Edit.    
-Click Add.    
-In the text box type in Student and click Check Names.    
-Click OK.    
-In the Allow column, click the check box for Full Control.    
-Click OK.    
-In the Windows Security window click Yes.    
-Click OK.    
-Right click ntoskrnl file and click Delete.    
-Right click Recycle bin and select Empty Recycle Bin.    
-Click Yes to permanently delete the file.    
-Right click Start and select Shut down or sign out > Restart.    
-As the VM attempts to make automatic repairs move to the next section.    
-Restoring Windows 11
-When Automatic Repair fails you will be presented with a blue screen.    
-Click Advanced options.    
-Click Troubleshoot.    
-Click Reset this PC.    
-Click Keep my files.    
-Click Local reinstall.    
-Click Reset.    
-While the reset is processing move on to the next section.    
-Create an Extra Drive for Windows 11
-When the Reset operation completes you will be presented with the login screen.    
-Double click anywhere on that screen to make the login prompt appear.    
-Click the power button in the bottom right corner and select Shut Down.    
-Click Shut down anyway when asked.    
-When the VM has finished shutting down, click the File menu in the connection window and select Settings.    
-In the left pane select SCSI Controller.    
-Ensure Hard Drive is selected and click Add.    
-Drop down the Location box and select 3.    
-Ensure that Virtual hard disk is selected and click the New button.    
-Click the Next button three times.    
-In the Size box enter 20 and click Next.    
-Click Finish.    
-Click OK to close the Settings window.    
-Click the Start button to power on the VM again.    
-Click the Maximize button to make the connection window full screen.    
-Double click the login screen to make the prompt appear.    
-Enter Password in the password field and press Enter to login.    
-Leave the VM in this state and continue to the next section.    
-Manage New Hard Drive
-Right click Start and select Disk Management.    
-In the Initialize Disk window select MBR (Master Boot Record) and click OK.    
-Click on Disk 1.    
-Right click Disk 1 and select Convert to GPT Disk.    
-Click the unallocated space for Disk 1.    
-Right click the unallocated space and choose New Simple Volume.    
-Click Next 3 times.    
-In the Volume label box replace the text with Test Disk.    
-Click Next.    
-Click Finish.    
-Close the Disk Manager window.    
-Leave the device in its current state and proceed to the next section.    
-Run a PC Health Check
-In the search box, type health.    
-Select Device performance & health.    
-Examine the Health Report.    
-Leave the device in its current state and proceed to the next section.    
-Configure Internet Access
-Right click Start and select Terminal (Admin).    
-Click Yes in the UAC window.    
-At the PowerShell prompt type: New-NetIPAddress -InterfaceAlias Ethernet -IPAddress 192.168.0.20 -PrefixLength 24 -DefaultGateway 192.168.0.250    
-Press Enter.    
-At the next prompt type: Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 1.1.1.1    
-Press Enter.    
-Close the Windows Terminal.    
-Driver Update
-Right click Start and select Device Manager.    
-Expand Display Adapters.    
-Right click Microsoft Hyper-V Video and select Update Driver.    
-Click Search automatically for drivers.    
-Click Search for updated drivers on Windows Update.    
-Click Advanced options.    
-Click Optional updates.    
-Note that there are no updates available at this time.    
-Close the Settings app.    
-Close Device Manager.    
-Proceed to the next section.    
-Create a New User Profile
-In the search bar type users and select Other Users.    
-Click Add Account.    
-Click I don't have this person's sign-in information.    
-Click Add a user without a Microsoft account.    
-In the User name box type in Student2.    
-In the 2 password boxes type Password.    
-For each of the security questions, drop down the list and select the first option that is not greyed out.    
-For each of the answers enter: ACI    
-Click Next.    
-Note that the new user Student2 is now created.    
-Close the Settings app and proceed to the next section.    
-Log In to the New Account
-Right click Start and select Shut down or sign out > Sign out    
-Double click the login screen so that the login prompt appears.    
-Select Student2 in the left corner of the screen.    
-Type Password in the box provided and press Enter.    
-It will take a moment for the account profile to be created. Please wait.    
-In the Choose privacy settings for your device window, scroll to the bottom and click Accept.    
-Right click Start and select Shut down or sign out > Sign out    
-Double click the login screen so that the login prompt appears.    
-Select Student in the left corner of the screen.    
-Type Password in the box provided and press Enter.    
-Leave the VM in its current state and move on to the next section.    
-Backup a User Profile
-Minimize the connection window.    
-Click File Explorer in the taskbar of the Host.    
-In the left pane, click Hyper-V (E:).    
-In the right pane, right click the empty space and select New > Folder.    
-Give the new folder the name of Profiles and press Enter.    
-Right click Profiles and select Properties.    
-Click the Sharing tab.    
-Click the Advanced Sharing button.    
-Check the Share this folder check box.    
-Click the Permissions button.    
-Check the check box for the Change permission in the Allow column.    
-Click OK.    
-Click OK.    
-Click Close.    
-Restore the Connection window.    
-Click the File Explorer icon in the taskbar.    
-Click Network in the left pane.    
-You will see a yellow notice appear. Click the notice to activate a menu.    
-Click Turn on network discovery and file sharing.    
-A window will appear.    
-Click No, make the network that I am connected to a private network.    
-Close File Explorer.    
-In the search bar type control panel, and select Control Panel from the search results.    
-Drop down the View by list and select Small icons.    
-Click on Backup and Restore (Windows 7).    
-Click Set up backup.    
-Click Save on a network...    
-Click Browse...    
-Expand SERVER22-HYPER-    
-Select Profiles and click OK.    
-In the Username field type administrator    
-In the password field type P@ssword    
-Click OK.    
-Click Next.    
-Select Let me choose and click Next.    
-Uncheck Student's Libraries.    
-Uncheck Include a system image...    
-Click Next.    
-Click Save settings and run backup.    
-Wait for the backup process to complete.    
-Once it is complete click control panel home and proceed to the next section.    
-Delete a User Profile
-Installing Ubuntu Linux
-Click Ubuntu Install on the topology map.  
-You will be presented with the Choose your language page. Click the Reboot button in the VM window toolbar.  
-Click OK to reboot the VM.  
-This process may take a few minutes, please be patient.  
-{{ ... }}
-On the Accessability page click Next.    
-On the Select your keyboard layout page click Next.    
-On the Connect to the internet page, select Do not connect to the internet, and click Next.    
-On the What do you want to do with Ubuntu? page, click Next.    
-On the How would you like to install Ubuntu? page, click Next.    
-On the What apps would you like to start with? page, click Next.    
-On the Install proprietary software? page, click Next.    
-On the How do you want to install Ubuntu? page, click Next.    
-Enter the following information and click Next:    
-Your name: Student    
-Password: Password    
-Confirm Password: Password    
-In the timezone box type: New York then click Next.    
-Click Install.    
-Please wait while Ubuntu installs.    
-Once it is finished, click Restart Now.    
-If you get the message Please remove the install medium, and press ENTER:, just press enter to finish the reboot.    
-When presented with the login screen, click Student.    
-Enter the password of Password and press Enter.    
-Click Next three times then click Finish.    
-Click the Power icon in the upper right corner.    
-Click the gear icon to enter the Settings app.    
-In the Network panel, under Wired click the gear icon to enter wired network configuration.    
-Click the IPv4 tab.    
-Select Manual.    
-Enter 192.168.0.30 for the Address, 24 for the Netmask, and 192.168.0.250 for the Gateway.    
-For DNS enter 1.1.1.1, and click Apply.    
-Click the Show Apps button at the bottom left of the screen.    
-Type terminal in the search box.    
-Click on Terminal to open a terminal window.    
-At the prompt type ping -c 4 cisco.com and press Enter.    
-You should get success messages for all 4 pings.    
-Close the VM window and click the Stop button to complete the lab.    
-
-
-
-
-
-
-
+### Install Windows 11 from Install Media
+
+1. Click the **Start** button to provision the lab.
+2. When the lab finishes starting up, click **Hyper-V Server** in the topology map.
+3. Click **Send Ctrl+Alt+Delete**.
+4. Sign in to the **Administrator** account with the password `P@ssw0rd`.
+5. Click the **Hyper-V Manager** icon in the taskbar.
+6. In the middle pane, double-click **Win11A**. A connection window will appear.
+7. Click the **Start** button to power on the VM.
+8. To start the installer, click inside the Connection window and press any key.
+   - **Note**: If this process fails, click the **Action** menu and select **Reset**, and try again.
+9. Once you have successfully started setup, click the **Maximize** button on the connection window.
+10. At the **Select language settings** window, click **Next**.
+11. At the **Select keyboard settings** window, click **Next**.
+12. At the **Select setup option** window, select the checkbox for "I agree everything will be deleted including files, apps, and settings."
+13. Click **Next**.
+14. At the **Product key** window, select the link for **I don't have a product key**.
+15. At the **Select image** window, choose **Windows 11 Pro**, and click **Next**.
+16. At the **Applicable notices and license terms** window, click **Accept**.
+17. At the **Select location to install Windows 11** window, click **Next**.
+18. At the **Ready to install** window, click **Install**.
+19. Please wait while Windows 11 installs. The VM may restart several times.
+20. At the **Is this the right country or region** page, press **Shift+F10** (If that doesn't work try **Shift+FN+F10**).
+21. In the Command Prompt window, type: `OOBE\BypassNRO` and press **Enter**.
+   - **Note**: This command allows a user to bypass the network requirement for Windows 11 and may be removed in a future version.
+22. At the **Is this the right keyboard layout or input method** page, click **Yes**.
+23. At the **Want to add a second keyboard layout** page, click **Skip**.
+24. When you get to the **Let's connect you to a network** page, click **I don't have internet**.
+25. At the **Who's going to use this device** page, type the username **Student** and click **Next**.
+26. At the **Create a super memorable password** page, type the password **Passw0rd** and click **Next**.
+27. At the **Confirm your password** page, type **Passw0rd** again and click **Next**.
+28. At the **Now add security questions** page, drop down the menu and click the first item.
+29. In the answer box, type **ACI** and click **Next**.
+30. Repeat this for questions 2 and 3.
+31. At the **Choose privacy settings for your device** page, click **Next** twice, then **Accept**.
+32. Please wait while the **Student** profile is created.
+
+---
+
+## Break the Windows 11 Installation
+
+1. When the desktop appears, leave the VM in its current state and proceed to the next exercise.
+2. Click **File Explorer** to open it.
+3. In the **Search** field, type in **ntoskrnl**.
+4. Right-click **ntoskrnl** and select **Properties**.
+5. Click the **Advanced** button.
+6. Next to **TrustedInstaller**, click the **Change** link.
+7. In the text box, type in **Student**, then click the **Check Names** button.
+8. Click **OK**.
+9. In the **Advanced Security Settings for ntoskrnl** window, click **OK**.
+10. In the **ntoskrnl Properties** window, click **Edit**.
+11. Click **Add**. In the text box, type in **Student** and click **Check Names**.
+12. Click **OK**.
+13. In the **Allow** column, click the check box for **Full Control**.
+14. Click **OK**.
+15. In the **Windows Security** window, click **Yes**.
+
+---
+
+## Restoring Windows 11
+
+### Create an Extra Drive for Windows 11
+
+1. Right-click **ntoskrnl** file and click **Delete**.
+2. Right-click **Recycle bin** and select **Empty Recycle Bin**.
+3. Click **Yes** to permanently delete the file.
+4. Right-click **Start** and select **Shut down or sign out > Restart**.
+5. As the VM attempts to make automatic repairs, move to the next section.
+6. When **Automatic Repair** fails, you will be presented with a blue screen.
+7. Click **Advanced options**.
+8. Click **Troubleshoot**.
+9. Click **Reset this PC**.
+10. Click **Keep my files**.
+11. Click **Local reinstall**.
+12. Click **Reset**.
+13. While the reset is processing, move on to the next section.
+14. When the Reset operation completes, you will be presented with the login screen.
+
+---
+
+## Manage New Hard Drive
+
+1. Enter **Passw0rd** in the password field and press Enter to login.
+2. Right-click **Start** and select **Disk Management**.
+3. In the **Initialize Disk** window, select **MBR (Master Boot Record)** and click **OK**.
+4. Click on **Disk 1**.
+5. Right-click **Disk 1** and select **Convert to GPT Disk**.
+6. Click the unallocated space for **Disk 1**.
+7. Right-click the unallocated space and choose **New Simple Volume**.
+8. Click **Next** three times.
+9. In the **Volume label** box, replace the text with **Test Disk**.
+10. Click **Next**.
+11. Click **Finish**.
+12. Close the **Disk Manager** window.
+
+---
+## Configure Internet Access
+
+1. In the search box, type **health**.
+2. Select **Device performance & health**.
+3. Examine the Health Report.
+4. Right-click **Start** and select **Terminal (Admin)**.
+5. Click **Yes** in the UAC window.
+6. At the PowerShell prompt, type: 
+New-NetIPAddress -InterfaceAlias Ethernet -IPAddress 192.168.0.20 -PrefixLength 24 -DefaultGateway 192.168.0.250
+
+lua
+Copy
+7. Press Enter.
+8. At the next prompt, type: 
+Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 1.1.1.1
+
+markdown
+Copy
+9. Press Enter.
+10. Close the Windows Terminal.
+
+---
+## Create a New User Profile
+
+1. Right-click **Start** and select **Device Manager**.
+2. Expand **Display Adapters**.
+3. Right-click **Microsoft Hyper-V Video** and select **Update Driver**.
+4. Click **Search automatically for drivers**.
+5. Click **Search for updated drivers on Windows Update**.
+6. Click **Advanced options**.
+7. Click **Optional updates**.
+8. Close the **Settings** app.
+9. Close **Device Manager**.
+
+---
+
+## Log In to the New Account
+
+1. In the search bar, type **users** and select **Other Users**.
+2. Click **Add Account**.
+3. Click **I don't have this person's sign-in information**.
+4. Click **Add a user without a Microsoft account**.
+5. In the **User name** box, type **Student2**.
+6. In the **password** boxes, type **Passw0rd**.
+7. For each of the security questions, drop down the list and select the first option that is not greyed out.
+8. For each of the answers, enter **ACI**.
+9. Click **Next**.
+
+## Backup a User Profile
+
+1. Double-click the login screen so that the login prompt appears.
+2. Select **Student** and type **Passw0rd** in the box provided and press Enter.
+3. Minimize the connection window.
+4. Click **File Explorer** in the taskbar of the Host.
+5. In the left pane, click **Hyper-V (E:)**.
+6. In the right pane, right-click the empty space and select **New > Folder**.
+7. Name the folder **Profiles** and press Enter.
+8. Right-click **Profiles** and select **Properties**.
+9. Click the **Sharing** tab.
+10. Click the **Advanced Sharing** button.
+11. Check the **Share this folder** checkbox.
+12. Click the **Permissions** button.
+13. Check the checkbox for the **Change** permission in the **Allow** column.
+14. Click **OK**.
+
+---
+
+## Installing Ubuntu Linux
+
+1. Click **Ubuntu Install** on the topology map.
+2. You will be presented with the **Choose your language** page. Click the **Reboot** button in the VM window toolbar.
+3. Click **OK** to reboot the VM.
+4. This process may take a few minutes, please be patient.
+5. You will again be presented with the **Choose your language** page. Click **Next**.
+6. On the **Accessibility** page, click **Next**.
+7. On the **Select your keyboard layout** page, click **Next**.
+8. On the **Connect to the internet** page, select **Do not connect to the internet**, and click **Next**.
+9. On the **What do you want to do with Ubuntu?** page, click **Next**.
+10. On the **How would you like to install Ubuntu?** page, click **Next**.
+11. On the **What apps would you like to start with?** page, click **Next**.
+12. On the **Install proprietary software?** page, click **Next**.
+13. On the **How do you want to install Ubuntu?** page, click **Next**.
+14. Enter the following information and click **Next**:
+ - **Your name**: Student
+ - **Password**: Passw0rd
+ - **Confirm Password**: Passw0rd
+ - **Timezone**: New York
+15. Click **Install**.
+16. Please wait while Ubuntu installs.
+17. Once it is finished, click **Restart Now**.
+18. If you get the message **Please remove the install medium, and press ENTER**, just press Enter to finish the reboot.
+19. When presented with the login screen, click **Student**.
+20. Enter the password **Passw0rd** and press **Enter**.
+21. Click **Next** three times, then click **Finish**.
+22. Click the **Power** icon in the upper right corner.
+23. Click the gear icon to enter the **Settings** app.
+24. In the **Network** panel, under **Wired**, click the gear icon to enter wired network configuration.
+25. Click the **IPv4** tab.
+26. Select **Manual**.
+27. Enter the following details:
+ - **Address**: 192.168.0.30
+ - **Netmask**: 24
+ - **Gateway**: 192.168.0.250
+ - **DNS**: 1.1.1.1
+28. Click **Apply**.
+29. Click the **Show Apps** button at the bottom left of the screen.
+30. Type **terminal** in the search box.
+31. Click on **Terminal** to open a terminal window.
+32. At the prompt, type:
+ ```
+ ping -c 4 cisco.com
+ ```
+33. Press Enter. You should get success messages for all 4 pings.
+34. Close the VM window and click the **Stop** button to complete the lab.
