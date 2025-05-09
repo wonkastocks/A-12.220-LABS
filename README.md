@@ -124,6 +124,5 @@ Follow this roadmap, to pass the A+ 220-1202 Core 2 exam with confidence, ready 
 9. Perks, M., & Williams, C. (2018). *CompTIA A+ 220-902 practice questions exam cram*. Pearson IT Certification.
 
 10. Bennett, D. (2021). *A+ guide to managing and troubleshooting PCs* (9th ed.). Cengage Learning.
-=======
 
 
