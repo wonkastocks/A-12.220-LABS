@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Configure Windows Defender Antivirus |
 | Configure Windows Firewall Settings |
 | Manage User Accounts           |
@@ -20,7 +19,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Configure Windows Defender Antivirus | 4.0 Operational Procedures                                 |
 | Configure Windows Firewall Settings | 4.0 Operational Procedures                                   |
 | Manage User Accounts           | 4.0 Operational Procedures                                        |
