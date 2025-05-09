@@ -4,7 +4,6 @@
 
 | Task                                         |
 |-----------------------------------------------|
-| TASKS                                        |
 | Using Task Manager for System Monitoring      |
 | Managing System Resources with MMC Snap-ins   |
 | Analyzing System Information and Resources    |
@@ -20,7 +19,6 @@
 
 | Task                                         | Objective/Domain/Description        |
 |-----------------------------------------------|-------------------------------------|
-| TASKS                                        | 4.0 Operational Procedures          |
 | Using Task Manager for System Monitoring      | 1.0 Operating Systems               |
 | Managing System Resources with MMC Snap-ins   | 1.0 Operating Systems               |
 | Analyzing System Information and Resources    | 1.0 Operating Systems               |
