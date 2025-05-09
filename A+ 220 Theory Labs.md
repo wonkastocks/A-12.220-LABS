@@ -17,3 +17,5 @@ Safety procedures and environmental controls	Theory	Operational Procedures	Use c
 Summarize environmental impacts and local environment controls 4.5	N/A	
 Policy, licensing, and privacy compliance	Theory	Operational Procedures	Explain the importance of prohibited content/activity and privacy, licensing, and policy concepts 4.6	N/A	
 Communication skills and professionalism	Theory	Operational Procedures	Use proper communication techniques and professionalism 4.7	N/A	
+
+

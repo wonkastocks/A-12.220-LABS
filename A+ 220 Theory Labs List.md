@@ -19,3 +19,5 @@ Below is a list of theory labs extracted from the "Theory Labs" tab of your spre
 | Communication skills and professionalism       | Theory           | Operational Procedures | Use proper communication techniques and professionalism in the workplace 4.6                  | N/A              |        |
 
 *This table is generated for quick reference and review of all theory labs in the A+ 220 curriculum.*
+
+
