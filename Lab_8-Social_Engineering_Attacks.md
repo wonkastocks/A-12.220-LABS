@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Configure Strong Password Policies |
 | Implement User Account Control (UAC) |
 | Review and Modify Firewall Settings |
@@ -17,7 +16,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Configure Strong Password Policies | 4.0 Operational Procedures                                    |
 | Implement User Account Control (UAC) | 4.0 Operational Procedures                                 |
 | Review and Modify Firewall Settings | 4.0 Operational Procedures                                   |
