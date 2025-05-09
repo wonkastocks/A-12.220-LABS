@@ -271,3 +271,48 @@ Copy
  ```
 33. Press Enter. You should get success messages for all 4 pings.
 34. Close the VM window and click the **Stop** button to complete the lab.
+
+---
+
+## Discussion Questions
+
+**Question 1:**
+
+What are the key considerations when performing a clean installation versus an upgrade installation of Windows 11?
+
+**Answer:**
+
+A clean installation completely erases the existing operating system and user data, providing a fresh start and often better performance, but requires full data backup and application reinstallation. An upgrade installation preserves user data, settings, and applications but may carry over issues from the previous OS. Key considerations include hardware compatibility, data backup, application compatibility, and licensing. (Objective 1.1)
+
+**Question 2:**
+
+Why is it important to verify hardware compatibility before installing a new operating system, and how can you do this for Windows 11?
+
+**Answer:**
+
+Verifying hardware compatibility ensures the OS will function correctly and receive updates. For Windows 11, Microsoft provides the PC Health Check tool to verify requirements such as TPM 2.0, Secure Boot, CPU, RAM, and storage. Incompatible hardware may prevent installation or cause instability. (Objective 1.1)
+
+**Question 3:**
+
+Describe the process and purpose of partitioning and formatting a hard drive during an OS installation.
+
+**Answer:**
+
+Partitioning divides a physical drive into logical sections, allowing for multiple operating systems or data separation. Formatting prepares a partition with a file system (like NTFS or FAT32) so the OS can store files. This process is essential for organizing data and ensuring the OS can access and manage storage. (Objective 1.2)
+
+**Question 4:**
+
+What are some common reasons an OS installation might fail, and how can you troubleshoot them?
+
+**Answer:**
+
+Common reasons include hardware incompatibility, corrupt installation media, insufficient disk space, or missing drivers. Troubleshooting steps include verifying hardware requirements, using official installation media, checking for error codes, and reviewing installation logs. (Objective 1.3)
+
+**Question 5:**
+
+Explain the importance of applying updates and drivers immediately after installing a new operating system.
+
+**Answer:**
+
+Applying updates and drivers ensures the OS is secure, stable, and compatible with hardware. Updates patch vulnerabilities and improve performance, while drivers enable hardware functionality. Failing to update can leave the system exposed to security risks and hardware malfunctions. (Objective 1.4)
+
