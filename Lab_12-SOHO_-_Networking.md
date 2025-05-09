@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                          |
 |-------------------------------|
 | Change Default Router Password |
@@ -17,7 +18,9 @@
 
 ## Tasks to be Covered and Correlated Objectives
 
+
 | Task                          | Objective/Domain/Description                                                      |
+
 |-------------------------------|----------------------------------------------------------------------------------|
 | Change Default Router Password | 1.101.0  |  Operating Systems: Given a scenario, install and configure cloud-based productivity tools. |
 | Enable the Router Firewall     | 4.0 Operational Procedures                                                        |

@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                                         |
 |-----------------------------------------------|
 | Using Task Manager for System Monitoring      |
@@ -17,7 +18,9 @@
 
 ## Tasks to be Covered and Correlated Objectives
 
+
 | Task                                         | Objective/Domain/Description        |
+
 |-----------------------------------------------|-------------------------------------|
 | Using Task Manager for System Monitoring      | 1.0 Operating Systems               |
 | Managing System Resources with MMC Snap-ins   | 1.0 Operating Systems               |

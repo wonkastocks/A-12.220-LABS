@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                           |
 |--------------------------------|
 | Troubleshoot Blue Screen of Death (BSOD) Errors |
@@ -17,7 +18,9 @@
 
 ## Tasks to be Covered and Correlated Objectives
 
+
 | Task                           | Objective/Domain/Description                                      |
+
 |--------------------------------|------------------------------------------------------------------|
 | Troubleshoot Blue Screen of Death (BSOD) Errors | Software Troubleshooting                        |
 | Diagnose and Resolve Slow Performance Issues | Operational Procedures                              |

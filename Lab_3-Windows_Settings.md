@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                           |
 |--------------------------------|
 | Configure Display Settings     |
@@ -17,7 +18,9 @@
 | Configure File Explorer Options|
 | Configure Indexing Options     |
 
+
 ## Tasks to be Covered and Correlated Objectives
+
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|

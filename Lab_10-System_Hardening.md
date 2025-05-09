@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                           |
 |--------------------------------|
 | Configure Strong Passwords     |
@@ -17,7 +18,9 @@
 
 ## Tasks to be Covered and Correlated Objectives
 
+
 | Task                           | Objective/Domain/Description                                      |
+
 |--------------------------------|------------------------------------------------------------------|
 | Configure Strong Passwords     | 4.0 Operational Procedures                                        |
 | Enable Account Lockout Policies| 4.0 Operational Procedures                                        |

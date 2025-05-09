@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                           |
 |--------------------------------|
 | Configure IP Addressing        |
@@ -15,7 +16,9 @@
 | Configure Proxy Settings       |
 | Configure Network Locations    |
 
+
 ## Tasks to be Covered and Correlated Objectives
+
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|

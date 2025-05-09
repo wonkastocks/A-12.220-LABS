@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                           |
 |--------------------------------|
 | Perform a Full System Backup   |
@@ -17,7 +18,9 @@
 
 ## Tasks to be Covered and Correlated Objectives
 
+
 | Task                           | Objective/Domain/Description                                      |
+
 |--------------------------------|------------------------------------------------------------------|
 | Perform a Full System Backup   | 1.0 Operating Systems                                             |
 | Perform an Incremental Backup  | 4.0 Operational Procedures                                        |

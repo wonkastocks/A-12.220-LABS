@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                           |
 |--------------------------------|
 | Overwrite Data on a Hard Drive (Windows) |
@@ -15,7 +16,9 @@
 
 ## Tasks to be Covered and Correlated Objectives
 
+
 | Task                           | Objective/Domain/Description                                      |
+
 |--------------------------------|------------------------------------------------------------------|
 | Overwrite Data on a Hard Drive (Windows) | 1.0 Operating Systems                                   |
 | Overwrite Data on a Hard Drive (Linux) | 1.0 Operating Systems                                     |

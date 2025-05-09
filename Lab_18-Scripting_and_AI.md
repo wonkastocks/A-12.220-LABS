@@ -2,6 +2,7 @@
 
 ## Task List
 
+
 | Task                           |
 |--------------------------------|
 | Identify Common Script File Types |
@@ -14,7 +15,9 @@
 | Use Copilot for System Settings Help |
 | Use Copilot for Troubleshooting Steps |
 
+
 ## Tasks to be Covered and Correlated Objectives
+
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
