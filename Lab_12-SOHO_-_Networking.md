@@ -36,7 +36,7 @@
 | Configure DMZ Settings         | 4.0 Operational Procedures                                                        |
 | Update Router Firmware         | 4.0 Operational Procedures                                                        |
 | Configure Content Filtering    | 4.0 Operational Procedures                                                        |
-| Inspect Router Logs            | 2.92.0  |  Security: • Router settings                                              |
+| Inspect Router Logs            | 2.0 Security: • Router settings                                              |
 
 
 
