@@ -5,19 +5,33 @@
 
 | Task                           |
 |--------------------------------|
+| **Operating system installations and upgrades** |
 | Install Windows 11 From Install Media |
+| **Break the Windows 11 Installation** |
 | Break Windows 11 Install       |
+| **Restoring Windows 11** |
 | Restore Windows 11             |
+| **Create an Extra Drive for Windows 11** |
 | Create an Extra Drive for Windows 11 |
+| **Manage New Hard Drive** |
 | Manage New Drive               |
+| **Run a PC Health Check** |
 | Run a PC Health Check          |
+| **Configure Internet Access** |
 | Configure Internet Access      |
+| **Driver Update** |
 | Driver Update                  |
+| **Create a New User Profile** |
 | Create a New User Profile      |
+| **Log In to the New Account** |
 | Login to New Account           |
+| **Backup a User Profile** |
 | Backup a User Profile          |
+| **Delete a User Profile** |
 | Delete a User Profile          |
+| **Restore a User Profile from a Backup** |
 | Restore a Profile from Backup  |
+| **Installing Ubuntu Linux** |
 | Installing Ubuntu Linux        |
 
 
@@ -30,19 +44,33 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
+| **Operating system installations and upgrades** | |
 | Install Windows 11 From Install Media | Objective 1.1 |
+| **Break the Windows 11 Installation** | |
 | Break Windows 11 Install       | Objective 1.1 |
+| **Restoring Windows 11** | |
 | Restore Windows 11             | Objective 1.1 |
+| **Create an Extra Drive for Windows 11** | |
 | Create an Extra Drive for Windows 11 | Objective 1.1 |
+| **Manage New Hard Drive** | |
 | Manage New Drive               | Objective 1.1 |
+| **Run a PC Health Check** | |
 | Run a PC Health Check          | Objective 1.1 |
+| **Configure Internet Access** | |
 | Configure Internet Access      | Objective 1.1 |
+| **Driver Update** | |
 | Driver Update                  | Objective 1.1 |
+| **Create a New User Profile** | |
 | Create a New User Profile      | Objective 1.1 |
+| **Log In to the New Account** | |
 | Login to New Account           | Objective 1.1 |
+| **Backup a User Profile** | |
 | Backup a User Profile          | Objective 1.1 |
+| **Delete a User Profile** | |
 | Delete a User Profile          | Objective 1.1 |
+| **Restore a User Profile from a Backup** | |
 | Restore a Profile from Backup  | Objective 1.1 |
+| **Installing Ubuntu Linux** | |
 | Installing Ubuntu Linux        | Objective 1.1 |
 
 ## Lab Steps
