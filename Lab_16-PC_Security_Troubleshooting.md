@@ -33,7 +33,7 @@
 | Recover Missing or Renamed Files | 4.0 Operational Procedures                                      |
 | Troubleshoot Unwanted Notifications | 3.0 Software Troubleshooting                                 |
 | Diagnose OS Update Failures    | 4.0 Operational Procedures                                        |
-| Resolve Browser Redirection Issues | 1.101.0  |  Operating Systems: Given a scenario, install and configure cloud-based productivity tools.     . |
+| Resolve Browser Redirection Issues | 1.101.0   Operating Systems |
 | Diagnose Degraded Browser Performance | 4.0 Operational Procedures                                 |
 | Remove Random/Frequent Pop-ups | 4.0 Operational Procedures                                        |
 
