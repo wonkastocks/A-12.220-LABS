@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Troubleshoot Inability to Access Network |
 | Investigate Desktop Alerts     |
 | Analyze False Antivirus Alerts |
@@ -20,7 +19,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Troubleshoot Inability to Access Network | 3.0 Software Troubleshooting                            |
 | Investigate Desktop Alerts     | 4.0 Operational Procedures                                        |
 | Analyze False Antivirus Alerts | 4.0 Operational Procedures                                        |
