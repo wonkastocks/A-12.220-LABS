@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Configure Display Settings     |
 | Personalize the Desktop        |
 | Manage Power Options           |
@@ -22,7 +21,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | Operational Procedures                                            |
 | Configure Display Settings     | Operational Procedures                                            |
 | Personalize the Desktop        | Operational Procedures                                            |
 | Manage Power Options           | Operational Procedures                                            |
