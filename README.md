@@ -1,8 +1,43 @@
-# CompTIA A+ 220-1202 Project
+## Hands-On Labs
 
-Welcome to your CompTIA A+ 220-1202 Lab and Study Project! This repository contains all the resources, labs, and objectives you need to master the A+ Core 2 exam.
+| Lab # | Lab Title                      | Description                                               |
+|-------|-------------------------------|-----------------------------------------------------------|
+| 1     | OS installations              | Install, break, and restore Windows 11                    |
+| 2     | Windows graphical, CLI        | Use Windows graphical tools and CLI                       |
+| 3     | Windows Settings              | Configure Windows settings and personalization            |
+| 4     | Networking                    | Configure and troubleshoot networking                     |
+| 5     | Security controls             | Implement security controls in Windows                    |
+| 6     | Windows Local Security Confi  | Local Windows security configuration                      |
+| 7     | Malware defense               | Malware detection and defense                             |
+| 8     | Social Engineering Attacks    | Identify and mitigate social engineering attacks          |
+| 9     | SOHO malware-removal          | Malware removal in a SOHO environment                     |
+| 10    | System Hardening              | System hardening best practices                           |
+| 11    | Data Disposal                 | Secure data deletion and storage device sanitization      |
+| 12    | SOHO - Networking             | SOHO networking and security settings                     |
+| 13    | Browser Security              | Browser security configuration and privacy controls       |
+| 14    | Windows OS TS                 | Troubleshooting Windows operating system issues           |
+| 15    | Security Settings             | Windows security settings and policies                    |
+| 16    | PC Security Troubleshooting   | Diagnosing and resolving PC security problems             |
+| 17    | Backup and Recovery           | Backup, restore, and disaster recovery procedures         |
+| 18    | Scripting and AI              | Basic scripting and using AI tools                        |
 
-**Official Documentation is located in the `Documents` subfolder.**
+## Theory Labs
+
+| Lab Title                                      | Practical/Theory | Domain                | Objective                                                                                       |
+|------------------------------------------------|------------------|-----------------------|------------------------------------------------------------------------------------------------|
+| Operating system types, filesystems, lifecycle compatibility | Theory           | Operating Systems     | Explain common operating system types and their purposes 1.0                                    |
+| Windows edition features and comparison        | Theory           | Operating Systems     | Compare and contrast basic features of Microsoft Windows editions 1.2                           |
+| macOS and Linux desktop features and utilities | Theory           | Operating Systems     | Explain common features and tools of the macOS desktop operating system 1.7, Identify common features and tools of the Linux client/desktop operating system 1.8 |
+| Application and cloud-service deployment       | Theory           | Operating Systems     | Install applications according to requirements 1.9, Install and configure cloud-based productivity tools 1.10 |
+| Wireless security protocols and authentication | Theory           | Security              | Compare and contrast wireless security protocols and authentication methods 2.3                 |
+| Mobile-device security configuration           | Theory           | Security              | Apply common methods for securing mobile devices 2.8                                            |
+| Mobile OS and application troubleshooting      | Theory           | Software Troubleshooting | Troubleshoot common mobile OS and application issues 3.1                                   |
+| Mobile security issue troubleshooting          | Theory           | Software Troubleshooting | Troubleshoot common mobile OS and application security issues 3.3                             |
+| Documentation and asset-management best practices | Theory        | Operational Procedures | Implement best practices associated with documentation and support systems information management 4.1 |
+| Change-management process implementation       | Theory           | Operational Procedures | Apply change-management processes and procedures 4.2                                         |
+| Safety procedures and environmental controls   | Theory           | Operational Procedures | Apply basic safety procedures and environmental controls 4.4                                 |
+| Policy, licensing, and privacy compliance      | Theory           | Operational Procedures | Explain the importance of prohibited content/activity and privacy, licensing, and policy concepts 4.6 |
+| Communication skills and professionalism       | Theory           | Operational Procedures | Use proper communication techniques and professionalism 4.7                                    |
 
 ---
 
@@ -171,29 +206,13 @@ Each hands-on lab includes a set of practical tasks. See the corresponding `Lab_
 - **Status.md**  
   Status tracking for labs and project progress.
 
-
-Welcome to your CompTIA A+ 220-1202 Lab and Study Project! This repository contains all the resources, labs, and objectives you need to master the A+ Core 2 exam.
-
-**Official Documentation is located in the `Documents` subfolder.**
+---
 
 ---
 
-## Quick Reference
+## Summary
 
-### Hands-On Lab Titles
-- 1- OS installations
-- 2-Windows graphical, CLI
-- 3-Windows Settings
-- 4-Networking
-- 5-Security controls
-- 6- Windows Local Security Confi
-- 7-Malware defense
-- 8-Social Engineering Attacks
-- 9-SOHO malware-removal
-- 10-System Hardening
-- 11-Data Disposal
-- 12-SOHO - Networking
-- 13-Browser Security
+This project provides a comprehensive guide to mastering the CompTIA A+ 220-1202 exam. It includes hands-on labs, theory labs, and objectives summaries to help you prepare for the exam. The project file listing provides a detailed breakdown of all the resources available in this repository.
 - 14-Windows OS TS
 - 15 -Security Settings
 - 16- PC Security Troubleshooting
