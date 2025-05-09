@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Perform a Full System Backup   |
 | Perform an Incremental Backup  |
 | Perform a Differential Backup  |
@@ -20,7 +19,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Perform a Full System Backup   | 1.0 Operating Systems                                             |
 | Perform an Incremental Backup  | 4.0 Operational Procedures                                        |
 | Perform a Differential Backup  | 1.0 Operating Systems                                             |
