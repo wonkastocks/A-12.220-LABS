@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Troubleshoot Blue Screen of Death (BSOD) Errors |
 | Diagnose and Resolve Slow Performance Issues |
 | Troubleshoot Windows Boot Problems |
@@ -20,7 +19,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | Operational Procedures                                            |
 | Troubleshoot Blue Screen of Death (BSOD) Errors | Software Troubleshooting                        |
 | Diagnose and Resolve Slow Performance Issues | Operational Procedures                              |
 | Troubleshoot Windows Boot Problems | Software Troubleshooting                                      |
