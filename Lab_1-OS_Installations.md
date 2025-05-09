@@ -20,11 +20,15 @@
 | Restore a Profile from Backup  |
 | Installing Ubuntu Linux        |
 
+
+
+
+
+
 ## Tasks to be Covered and Correlated Objectives
 
 
 | Task                           | Objective/Domain/Description                                      |
-
 |--------------------------------|------------------------------------------------------------------|
 | Install Windows 11 From Install Media | Objective 1.1 Given a scenario, perform OS installations and upgrades in a diverse environment. |
 | Break Windows 11 Install       | Objective 1.1 Given a scenario, perform OS installations and upgrades in a diverse environment. |

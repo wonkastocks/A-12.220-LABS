@@ -16,11 +16,15 @@
 | Implement Data Encryption      |
 | Configure Automatic Updates    |
 
+
+
+
+
+
 ## Tasks to be Covered and Correlated Objectives
 
 
 | Task                           | Objective/Domain/Description                                      |
-
 |--------------------------------|------------------------------------------------------------------|
 | Configure Strong Passwords     | 4.0 Operational Procedures                                        |
 | Enable Account Lockout Policies| 4.0 Operational Procedures                                        |

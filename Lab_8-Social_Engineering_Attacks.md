@@ -13,11 +13,15 @@
 | Manage Email Security Options |
 | Configure Account Lockout Policies |
 
+
+
+
+
+
 ## Tasks to be Covered and Correlated Objectives
 
 
 | Task                           | Objective/Domain/Description                                      |
-
 |--------------------------------|------------------------------------------------------------------|
 | Configure Strong Password Policies | 4.0 Operational Procedures                                    |
 | Implement User Account Control (UAC) | 4.0 Operational Procedures                                 |

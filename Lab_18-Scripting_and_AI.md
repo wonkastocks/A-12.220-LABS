@@ -16,6 +16,10 @@
 | Use Copilot for Troubleshooting Steps |
 
 
+
+
+
+
 ## Tasks to be Covered and Correlated Objectives
 
 

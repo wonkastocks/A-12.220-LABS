@@ -15,12 +15,13 @@
 | Configure Windows Update Settings|
 | Configure Password Policies    |
 
- 
+
+
+
+
 
 ## Tasks to be Covered and Correlated Objectives
 
-
- 
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|

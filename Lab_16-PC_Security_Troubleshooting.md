@@ -16,11 +16,15 @@
 | Diagnose Degraded Browser Performance |
 | Remove Random/Frequent Pop-ups |
 
+
+
+
+
+
 ## Tasks to be Covered and Correlated Objectives
 
 
 | Task                           | Objective/Domain/Description                                      |
-
 |--------------------------------|------------------------------------------------------------------|
 | Troubleshoot Inability to Access Network | 3.0 Software Troubleshooting                            |
 | Investigate Desktop Alerts     | 4.0 Operational Procedures                                        |

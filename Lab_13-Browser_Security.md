@@ -16,11 +16,15 @@
 | Manage Password Settings       |
 | Configure Tracking Protection  |
 
+
+
+
+
+
 ## Tasks to be Covered and Correlated Objectives
 
 
 | Task                           | Objective/Domain/Description                                      |
-
 |--------------------------------|------------------------------------------------------------------|
 | Update the Web Browser         | 4.0 Operational Procedures                                        |
 | Manage Browser Extensions      | 4.0 Operational Procedures                                        |

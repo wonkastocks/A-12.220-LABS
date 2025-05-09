@@ -16,11 +16,15 @@
 | Resolve Slow Profile Load Issues |
 | Correct Time Drift Problems    |
 
+
+
+
+
+
 ## Tasks to be Covered and Correlated Objectives
 
 
 | Task                           | Objective/Domain/Description                                      |
-
 |--------------------------------|------------------------------------------------------------------|
 | Troubleshoot Blue Screen of Death (BSOD) Errors | Software Troubleshooting                        |
 | Diagnose and Resolve Slow Performance Issues | Operational Procedures                              |

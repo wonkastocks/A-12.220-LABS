@@ -16,11 +16,15 @@
 | Configure Group Policy         |
 | Configure File and Folder Attributes |
 
+
+
+
+
+
 ## Tasks to be Covered and Correlated Objectives
 
 
 | Task                           | Objective/Domain/Description                                      |
-
 |--------------------------------|------------------------------------------------------------------|
 | Configure Windows Defender Antivirus | 4.0 Operational Procedures                                 |
 | Configure Windows Firewall Settings | 4.0 Operational Procedures                                   |
