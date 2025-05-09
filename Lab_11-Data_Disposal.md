@@ -4,7 +4,6 @@
 
 | Task                           |
 |--------------------------------|
-| Tasks                         |
 | Overwrite Data on a Hard Drive (Windows) |
 | Overwrite Data on a Hard Drive (Linux) |
 | Securely Delete Files (Windows)|
@@ -18,7 +17,6 @@
 
 | Task                           | Objective/Domain/Description                                      |
 |--------------------------------|------------------------------------------------------------------|
-| Tasks                         | 4.0 Operational Procedures                                        |
 | Overwrite Data on a Hard Drive (Windows) | 1.0 Operating Systems                                   |
 | Overwrite Data on a Hard Drive (Linux) | 1.0 Operating Systems                                     |
 | Securely Delete Files (Windows)| 4.0 Operational Procedures                                       |
