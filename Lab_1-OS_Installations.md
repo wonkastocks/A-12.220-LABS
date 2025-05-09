@@ -61,6 +61,11 @@
 
 ## Lab Steps
 
+
+
+
+
+
 **Operating system installations and upgrades**
 
 Ensure Hard Drive is selected and click Add.
@@ -82,6 +87,11 @@ Click the Start button to power on the VM again.
 Click the Maximize button to make the connection window full screen.
 
 Double click the login screen to make the prompt appear.
+
+
+
+
+
 
 **Manage New Hard Drive**
 
@@ -114,6 +124,11 @@ Click Finish.
 Close the Disk Manager window.
 
 Leave the device in its current state and proceed to the next section.
+
+
+
+
+
 
 **Backup a User Profile**
 
@@ -183,6 +198,11 @@ Expand SERVER22-HYPER-
 
 Select Profiles and click OK.
 
+
+
+
+
+
 **Delete a User Profile**
 
 In the Username field type administrator
@@ -215,6 +235,11 @@ Under User Profiles click Settings.
 
 Click the Student2 account and click Delete.
 
+
+
+
+
+
 **Restore a User Profile from a Backup**
 
 Click Yes to confirm deletion.
@@ -246,6 +271,11 @@ Click the ellipsis (...)
 Select Sign Out.
 
 Close the VM window and proceed to the next exercise.
+
+
+
+
+
 
 **Installing Ubuntu Linux**
 
