@@ -48,43 +48,41 @@ Here are detailed, step-by-step instructions for each of the tasks you listed, f
 
 **Steps:**
 
-1.  **Open Task Manager:**
+1. Click the Start button to provision the lab.
 
-    * **Method 1:** Press `Ctrl + Shift + Esc`.
-    * **Method 2:** Right-click on the taskbar and select "Task Manager."
-    * **Method 3:** Type "Task Manager" in the search bar and press Enter.
+2. When the lab loads, click the computer image in the right pane to open a VM window.
 
-2.  **Explore the Tabs:**
+3. When Windows 11 finishes booting, double click the screen to reveal the login prompt.
 
-    * **Processes:** View running applications and background processes, and their resource usage (CPU, Memory, Disk, Network).
-    * **Performance:** Monitor overall system performance, including CPU, memory, disk, Wi-Fi, and Ethernet. Click on each item to see detailed graphs.
-    * **Users:** See logged-on users.
-    * **Details:** Provides more detailed information about processes than the "Processes" tab.
-    * **Services:** Manage system services (start, stop, restart).
+4. Click Student in the bottom left corner to select the Student account.
 
-3.  **Monitor Resource Usage:**
+5. Login with the password of Passw0rd.
 
-    * Observe the CPU, Memory, Disk, and Network graphs on the "Performance" tab. Note any high usage.
-        * \* **Adjustment:** Have the student open several applications (e.g., a web browser, a word processor, a video player) simultaneously.
-        * \* **Observation:** Ask the student to observe how the CPU and Memory usage changes as they open more applications. Have them identify which applications are consuming the most resources.
-    * On the "Processes" tab, click on the CPU, Memory, Disk, and Network columns to sort processes by resource usage. Identify resource-intensive processes.
-        * **Adjustment:** Have the student sort the processes by CPU usage and identify the top 3 consumers. Then, have them sort by Memory usage and note the top 3.
-        * **Observation:** Discuss with the student why certain applications or processes might use more resources than others (e.g., a video game vs. a text editor).
+6. Right-click on the taskbar and select Task Manager.
 
-4.  **End a Process (if necessary):**
+7. Examine each of the options on the left hand side of Task Manager.
 
-    * On the "Processes" tab, select a non-critical process (do *not* end system processes unless absolutely necessary for troubleshooting and you know what you are doing).
-        * **Adjustment:** Have the student open Notepad and type some text. Then, have them locate the Notepad process in Task Manager.
-    * Click "End task."
-        * **Observation:** Ask the student what happens to the Notepad application. Discuss the importance of saving work before ending a process.
+8. Click the Performance option on the left hand side.
 
-5.  **View Startup Apps:**
+9. Start various programs to see the changes in the CPU, Memory and Disk usage.
 
-    * Go to the "Startup apps" tab.
-    * Note the applications that start automatically when Windows starts.
-    * To disable a startup app, select it and click "Disable". \*Note:\* Be careful not to disable essential startup items.
-        * **Adjustment:** Have the student identify a non-essential startup app and disable it. Then, have them restart the computer.
-        * **Observation:** Ask the student if they notice any difference in the startup time after disabling the application. Discuss the impact of startup apps on system performance.
+10. Click the Processes option.
+
+11. Click the Run new task button.
+
+12. In the new window type in notepad and press Enter.
+
+13. Notice that Notepad appears in the process list.
+
+14. Select Notepad and click End task.
+
+15. Next select the Startup apps option on the left hand side.
+
+16. Select Microsoft OneDrive and click the Disable button to keep it from starting when the Student account logs in.
+
+17. Close any open windows in the Windows 11 VM and proceed to the next exercise.
+
+
 
 **Task 2: Managing System Resources with MMC Snap-ins (Objective 1.0)**
 
@@ -92,98 +90,82 @@ Here are detailed, step-by-step instructions for each of the tasks you listed, f
 
 **Steps:**
 
-1.  **Open MMC:**
-
-    * Type "mmc" in the search bar and press Enter.
-
-2.  **Add Snap-ins:**
-
-    * Click "File" > "Add/Remove Snap-in..."
-    * In the "Available snap-ins" list, select the following, clicking "Add >" after each, and then click "OK":
-        * **Event Viewer:** View system, application, and security logs.
-        * **Disk Management:** Manage hard drives, partitions, and volumes.
-        * **Task Scheduler:** Schedule automated tasks.
-        * **Device Manager:** Manage hardware devices and drivers.
-        * **Performance Monitor:** Analyze system performance.
-    * Click "OK".
-
-3.  **Use the Snap-ins:**
-
-    * **Event Viewer:**
-        * Expand "Event Viewer (Local)" in the left pane.
-        * Explore "Windows Logs" (Application, Security, System) to view events.
-            * **Adjustment:** Have the student navigate to the "System" log and look for any "Error" events.
-        * Click on an event to see its details.
-            * **Observation:** Ask the student to describe the information provided in the event details (e.g., event ID, source, description). Discuss the importance of Event Viewer for troubleshooting.
-    * **Disk Management:**
-        * In the left pane, click on "Disk Management".
-        * View the list of disks and their partitions. (Do *not* make changes unless specifically instructed).
-            * **Adjustment:** Have the student identify the file system type (e.g., NTFS, FAT32) of their system partition. Ask them to also identify the capacity and free space of a particular drive.
-        * Right-click on a partition to see available options (e.g., Format, Delete Volume).
-            * **Observation:** Discuss the options available. Emphasize the importance of understanding the consequences of formatting or deleting a volume.
-    * **Task Scheduler:**
-        * In the left pane, click on "Task Scheduler (Local)".
-        * Explore the Task Scheduler Library
-            * **Adjustment:** Have the student locate a scheduled task (e.g., a disk defragmentation task).
-        * Click "Create Basic Task..." in the right pane to create a new task (walk through the wizard, but do not save unless instructed).
-            * **Observation:** Discuss the different triggers and actions that can be configured for a task.
-    * **Device Manager:**
-        * In the left pane, click on "Device Manager".
-        * Expand the different device categories (e.g., "Disk drives," "Network adapters").
-        * Right-click on a device to view its properties, update drivers, or disable it.
-            * **Adjustment:** Have the student check the driver version of their network adapter. Then, have them open the properties of their display adapter and look at the driver tab.
-            * **Observation:** Show the student how to check for driver updates. Discuss the importance of keeping drivers up to date.
-    * **Performance Monitor:**
-        * In the left pane, click on "Performance Monitor".
-        * Click the green "+" button to add counters.
-        * Select performance counters (e.g., "CPU Usage," "Memory\\Available MBytes") and click "Add".
-        * Click "OK" to view the performance graph.
-            * **Adjustment**: Have the student add the "Processor Time" counter for all processor instances and observe the graph while opening and closing different applications.
-            * **Observation:** Ask the student to describe how the graph changes as they open and close applications. Discuss how Performance Monitor can be used to identify performance bottlenecks.
-    * Save the Console (Optional):
-        * Click "File" > "Save As..."
-        * Enter a name for the console (e.g., "AdminTools.msc") and save it to the desktop. This allows you to quickly access the same snap-ins later.
-
+1. Type mmc in the Search bar and press Enter to open Microsoft Management Console.
+2. Click Yes in the UAC window.
+3. Click File > Add/Remove Snap-in...
+4. Select Event Viewer and click Add >
+5. Leave Local computer selected and click OK.
+6. Select Disk Management and click Add >
+7. Leave This computer selected and click Finish.
+8. Select Task Scheduler and click Add >
+9. Leave Local computer selected and click OK.
+10. Select Device Manager and click Add >
+11. Select Performance Monitor and click Add >
+12. Click OK.
+13. Expand Event Viewer (Local) in the left pane.
+14. Explore Windows Logs (Application, Security, System) to view events.
+15. Navigate to the System log and look for any Error events.
+16. Click on an event to see its details.
+17. In the left pane, click on Disk Management.
+18. View the list of disks and their partitions. Do not make changes unless specifically instructed.
+19. Right-click on a partition to see available options.
+20. Press ESC to close the menu.
+21. In the left pane, click on Task Scheduler (Local)
+22. Explore the Task Scheduler Library
+23. Click Create Basic Task... in the right pane to create a new task.
+24. In the Name box type: Run Notepad.
+25. Click Next.
+26. On the Task Trigger page click Next.
+27. On the Daily page click Next.
+28. On the Action page leave the default action and click Next.
+29. On the Start a Program page click the Browse buton.
+30. In the Open dialog, in the search bar type note.
+31. Select notepad from the list and click Open.
+32. Click Next.
+33. Click Finish.
+34. Expand Task Scheduler (Local) and select Task Scheduler Library.
+35. In the center pane scroll down the list until you see Run Notepad.
+36. Right click Run Notepad and select Run.
+37. Notice that a Notepad window opens.
+38. Close Notepad.
+39. In the left pane, click on Device Manager.
+40. Expand the different device categories (e.g., "Disk drives," "Network adapters").
+41. Right-click on a device to view its properties, update drivers, or disable it.
+42. In the left pane, expand Performance (Local) .
+43. Expand Monitoring Tools.
+44. Select Performance Monitor.
+45. Click the green "+" button to add counters.
+46. Select performance counters (e.g., "CPU Usage," "Memory\Available MBytes") and click Add.
+47. Click OK to view the performance graph.
+48. Close Microsoft Management Console.
+49. Click No to skip saving the layout to a file.
+50. Proceed to the next section.
+ 
 **Task 3: Analyzing System Information and Resources (Objective 1.0)**
 
 **Objective:** Use System Information and Resource Monitor to analyze system details.
 
 **Steps:**
 
-1.  **Open System Information:**
+1. Type msinfo32 in the search bar and press Enter.
+2. In the left pane, explore the different categories:
+3. System Summary: View basic system information (OS version, system manufacturer, processor, memory).
+4. Locate the BIOS version and the total physical memory.
+5. Components: View information about installed software and drivers.
+6. Expand Components. 
+7. Select Display.
+8. Locate the Adapter Description.
+9. Close System Information.
+10. Type resmon in the search bar and press Enter.
+11. Explore the different sections.
+12. CPU: Monitor CPU usage by process, service, and thread.
+13. Identify the processes that are consuming the most CPU. 
+14. Memory: View memory usage, including physical memory, commit charge, and hard faults.
+15. Disk: Monitor disk activity, including read/write speeds and disk queue length.
+16. Network: View network activity, including bandwidth usage and network connections.
+17. Close Resource Monitor.
+18. Proceed to the next section.
 
-    * Type "msinfo32" in the search bar and press Enter.
-
-2.  **Explore System Information:**
-
-    * In the left pane, explore the different categories:
-        * **System Summary:** View basic system information (OS version, system manufacturer, processor, memory).
-            * **Adjustment**: Have the student locate the BIOS version and the total physical memory.
-            * **Observation**: Discuss what IRQs, DMAs, and I/O ports are and their significance.
-        * **Components:** View information about installed software and drivers.
-            * **Adjustment**: Have the student check the version of a specific driver (e.g., the display driver or network adapter driver).
-        * **Software Environment:** View running processes, startup programs, and environment variables.
-            * **Observation**: Have the student list the startup programs and compare them to what they saw in Task Manager.
-
-3.  **Open Resource Monitor:**
-
-    * Type "resmon" in the search bar and press Enter.
-    * \* **Alternative:** Open Task Manager, go to the "Performance" tab, and click "Open Resource Monitor" at the bottom.
-
-4.  **Analyze Resources:**
-
-    * **CPU:** Monitor CPU usage by process, service, and thread.
-        * **Adjustment**: Have the student run a CPU-intensive task (e.g., video encoding or a benchmark test) and observe the CPU usage in Resource Monitor.
-        * **Observation**: Ask the student to identify the processes that are consuming the most CPU. Discuss the difference between CPU usage by process, service, and thread.
-    * **Memory:** View memory usage, including physical memory, commit charge, and hard faults.
-        * **Adjustment**: Have the student open several applications and observe the memory usage. Then, have them close the applications and observe the change.
-        * **Observation**: Discuss the concepts of physical memory, commit charge, and hard faults. Explain how these values can indicate memory problems.
-    * **Disk:** Monitor disk activity, including read/write speeds and disk queue length.
-        * **Adjustment**: Have the student copy a large file from one drive to another and monitor the disk activity.
-        * **Observation**: Ask the student to describe the disk activity during the file transfer. Discuss how disk queue length can indicate a disk bottleneck.
-    * **Network:** View network activity, including bandwidth usage and network connections.
-        * **Adjustment**: Have the student start a large download and monitor the network usage.
-        * **Observation**: Ask the student to identify the process that is using the most network bandwidth. Discuss how Resource Monitor can be used to identify network-related issues.
 
 **Task 4: Managing and Optimizing Disk Performance (Objective 4.0)**
 
@@ -191,34 +173,20 @@ Here are detailed, step-by-step instructions for each of the tasks you listed, f
 
 **Steps:**
 
-1.  **Open Disk Defragmenter:**
-
-    * Type "dfrgui" in the search bar and press Enter.
-    * \*Note: On modern systems with SSDs, this tool may be called "Optimize Drives" and perform different functions appropriate to the drive type.\*
-
-2.  **Analyze a Drive:**
-
-    * Select a drive (e.g., C:).
-    * Click "Analyze". The tool will analyze the drive for fragmentation.
-        * **Observation**: Have the student note the fragmentation percentage before and after optimization. Discuss what file fragmentation is and why it impacts performance.
-
-3.  **Optimize the Drive (if needed):**
-
-    * If the analysis shows significant fragmentation (typically, more than 10%), click "Optimize".
-    * \*For SSDs, the "Optimize" function will perform operations like TRIM, which helps maintain performance, rather than defragmentation.\*
-        * **Adjustment**: If an SSD is present, have the student analyze and "optimize" it. Discuss the difference in operations performed on SSDs vs. HDDs.
-        * **Observation**: Discuss the purpose of TRIM and how it helps maintain SSD performance.
-
-4.  **Open Disk Cleanup:**
-
-    * Type "cleanmgr" in the search bar and press Enter.
-    * Select the drive you want to clean (e.g., C:) and click "OK".
-    * Disk Cleanup will calculate space that can be freed.
-    * In the list of "Files to delete", check the boxes for the types of files you want to delete (e.g., "Temporary Internet Files," "Recycle Bin").
-    * Click "OK" to delete the files.
-    * For more options, click "Clean up system files".
-        * **Adjustment**: Have the student use Disk Cleanup to remove temporary files and empty the Recycle Bin. Then, have them check the amount of free space on the drive before and after the cleanup.
-        * **Observation**: Discuss the different types of files that Disk Cleanup can remove and their purpose. Discuss the importance of regularly cleaning up unnecessary files.
+1. Type dfrgui in the search bar and press Enter.
+Note: On modern systems with SSDs, this tool may be called "Optimize Drives" and perform different functions appropriate to the drive type.
+2. Select C:
+3. Click Analyze. The tool will analyze the drive for fragmentation.
+4. Due to the fact that we are inside a VM. Defragmentation/Optimization will be unnecessary. On actual hardware it helps to periodically run this utility to maintain peak drive performance.
+5. Close Optimize Drives.
+6. Type cleanmgr in the search bar and press Enter.
+7. Disk Cleanup will calculate space that can be freed.
+8. In the list of "Files to delete", check the boxes for the types of files you want to delete (e.g., "Temporary Internet Files," "Recycle Bin").
+9. Click OK to delete the files.
+10. Click Clean up system files.
+11. Examine the new options.
+12. When you are finished, click Cancel to close Disk Cleanup.
+13. Proceed to the next section.
 
 **Task 5: Using Command-Line for File and Folder Navigation (Objective 4.0)**
 
