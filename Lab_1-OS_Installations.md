@@ -171,18 +171,19 @@ As a PC Technician, it is critical to understand how to install and configure op
 4. Right-click **Start** and select **Terminal (Admin)**.
 5. Click **Yes** in the UAC window.
 6. At the PowerShell prompt, type: 
+```
 New-NetIPAddress -InterfaceAlias Ethernet -IPAddress 192.168.0.20 -PrefixLength 24 -DefaultGateway 192.168.0.250
 
-lua
-Copy
-7. Press Enter.
-8. At the next prompt, type: 
+```
+
+8. Press Enter.
+9. At the next prompt, type: 
+```
 Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 1.1.1.1
 
-markdown
-Copy
-9. Press Enter.
-10. Close the Windows Terminal.
+```
+11. Press Enter.
+12. Close the Windows Terminal.
 
 ---
 ## Create a New User Profile
