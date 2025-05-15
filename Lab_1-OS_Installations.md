@@ -312,7 +312,9 @@ What was the original IPv4 setting for the network interface?
 **Answer:**
 
 Automatic
+
 ---
+
 ## Discussion Questions
 
 **Question 1:**
