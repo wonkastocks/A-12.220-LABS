@@ -194,51 +194,35 @@ Note: On modern systems with SSDs, this tool may be called "Optimize Drives" and
 
 **Steps:**
 
-1.  **Open Command Prompt:**
-
-    * Type "cmd" in the search bar.
-    * Right-click on "Command Prompt" in the search results and select "Run as administrator". (Some commands require administrator privileges.)
-
-2.  **Basic Navigation:**
-
-    * `cd <directory>`: Change directory. For example, `cd Documents` to go to the Documents folder, or `cd \` to go to the root of the drive.
-        * **Adjustment**: Have the student create a new folder on the C: drive using the `md` command. Then, have them use the `cd` command to navigate into that folder.
-    * `cd ..`: Go up one directory level.
-        * **Observation**: Have the student navigate to a subfolder and then use `cd ..` to go back to the parent folder.
-    * `dir`: List the files and subdirectories in the current directory.
-        * `dir /p`: Pauses the output, displaying one screen at a time.
-        * `dir /w`: Displays the listing in wide format.
-        * `dir /a`: Displays all files, including hidden and system files.
-            * **Adjustment**: Have the student use the `dir` command with different switches (`/p`, `/w`, `/a`) and observe the differences in the output. Have them create a few text files and then use `dir` with wildcards.
-            * **Observation**: Discuss the different ways the `dir` command can be used to display file and folder information. Explain the purpose of the different switches.
-    * `md <directory name>`: Create a new directory (folder). For example, `md NewFolder`.
-    * `rmdir <directory name>`: Remove an empty directory. For example, `rmdir NewFolder`. (Use `rmdir /s <directory name>` to remove a directory and its subdirectories and files).
-        * **Adjustment**: Have the student create a directory with subdirectories and files. Then, have them try to remove the parent directory with `rmdir` and then with `rmdir /s`.
-        * **Observation**: Discuss the difference between removing an empty directory and a directory with content. Emphasize the importance of using the `/s` switch with caution.
-    * `copy <source> <destination>`: Copy a file. For example, `copy file1.txt C:\Backup`.
-    * `move <source> <destination>`: Move a file or directory. For example, `move file1.txt C:\Backup`
-        * **Adjustment**: Have the student copy a file from one folder to another, then move it back. Then, have them try to copy a file to a directory that doesn't exist.
-        * **Observation**: Discuss the different ways the `copy` and `move` commands can be used. Explain how to handle errors, and what happens if the destination directory does not exist.
-    * `del <filename>`: Delete a file. For example, `del file1.txt`. (Use with caution!)
-        * **Adjustment**: Have the student create a text file and then delete it using the `del` command. Then, have them try to delete a file that doesn't exist.
-        * **Observation**:  **Important:** Emphasize the importance of using the `del` command with caution, as deleted files are not sent to the Recycle Bin when deleted from the command line.
-    * `type <filename>`: Display the contents of a text file.
-        * **Adjustment**: Have the student create a text file with several lines of text and then use the `type` command to display its contents.
-        * **Observation**: Discuss how the `type` command can be used to quickly view the contents of a text file.
-
-3.  **Wildcards:**
-
-    * `*`: Represents any character(s). For example, `dir *.txt` lists all files with the .txt extension.
-    * `?`: Represents any single character. For example, `dir file?.txt` lists files like file1.txt, file2.txt, etc.
-        * **Adjustment**: Have the student create several files with different names and extensions and then use wildcards to list specific groups of files. For example, have them create files like `file1.txt`, `file2.txt`, `fileA.txt`, `fileB.dat`, and then use commands like `dir file*.txt`, `dir file?.txt`, and `dir *.*`.
-        * **Observation**: Discuss how wildcards can be used to select multiple files and directories that match a pattern.
-
-4.  **Pathname Conventions**
-
-    * Absolute path: Specifies the exact location of a file or directory, starting from the root directory (e.g., `C:\Users\Username\Documents\MyFile.txt`).
-    * Relative path: Specifies the location relative to the current directory (e.g., if you are in `C:\Users\Username`, then `Documents\MyFile.txt` refers to the same file).
-        * **Adjustment**: Have the student navigate to a specific directory using both absolute and relative paths. For example, have them navigate to their "Documents" folder using both `cd C:\Users\Username\Documents` and `cd Documents` (assuming they are currently in `C:\Users\Username`).
-        * **Observation**: Discuss the difference between absolute and relative paths and when each might be more useful.
+1. Type cmd in the search bar.
+2. Right-click on Command Prompt in the search results and select Run as administrator.
+3. Type in cd \ and press Enter to navigate to the root directory of the C: drive.
+4. Type in md test and press Enter to create a new directory.
+5. Type in cd test and press Enter to navigate to the test directory.
+6. Type in cd .. and press Enter to navigate back one directory. In this case it brings you back to the root directory.
+7. Type in dir and press Enter to list the files and subdirectories in the current directory.
+8. Type in dir /p and press Enter to list the files and subdirectories in the current directory pausing the output, displaying one screen at a time.
+9. Type in dir /w and press Enter to list the files and subdirectories in the current directory in wide format.
+10. Type in dir /a and press Enter to list the files and subdirectories in the current directory, displaying all files, including hidden and system files.
+11. Type in rd test and press Enter to remove the test directory.
+NOTE: This will not work if the directory is not empty. In that case use rd /s <directory name> to remove a directory and its subdirectories and files
+12. Type in md test and press Enter.
+13. Type in cd test and press Enter to navigate to the test directory.
+14. To create a text file type in copy con file1.txt and press Enter.
+15. Type in This is a test file.
+16. Press Ctrl+z and then press Enter to save the empty text file.
+17. To copy the text file type in copy file1.txt file2.txt and press Enter.
+18. To move the new file to C:\Users\Student type in move file2.txt c:\Users\Student\file2.txt
+19. To delete a file without sending it to the Recycle Bin type in del c:\Users\Student\file2.txt
+20. To display the contents of file1.txt type in type file1.txt.
+21. To display the contents of the current directory type in dir and press Enter.
+22. To list all files with the extension .txt in the current directory type in dir *.txt and press Enter.
+NOTE: The "*" character is what is called a wildcard. In this case it allows for any character or characters to appear in the filename before .txt
+23. To list all files in the current directory that have a filename starting in file and ending in any one character followed by the extension .txt type in dir file?.txt. This is another example of a wildcard.
+24. Type in dir c:\Windows\System32\cmd.exe and press Enter. The path c:\Windows\System32\cmd.exe is what is known as an absolute path. An absolute path specifies the exact location of a file or directory, starting from the root directory.
+25. Type in cd .. and press Enter. 
+26. Type in dir test\file1.txt and press Enter. The path test\file1.txt is what is known as a relative path. A relative path specifies the location relative to the current directory.
+27. Leave the Command Prompt window as is and proceed to the next section.
 
 **Task 6: Using Command-Line for Network Management (Objective 4.0)**
 
@@ -246,43 +230,23 @@ Note: On modern systems with SSDs, this tool may be called "Optimize Drives" and
 
 **Steps:**
 
-1.  **Open Command Prompt (as administrator):**
+1. To display basic IP configuration information for all network adapters, type in ipconfig and press Enter.
+2. To display detailed IP configuration information, including DNS servers, MAC address, and DHCP status type in ipconfig /all and press Enter.
+3. To release the current IP address obtained from a DHCP server type in ipconfig /release and press Enter.
+4. To request a new IP address from a DHCP server type in ipconfig /renew and press Enter.
+5. To test network connectivity by sending ICMP echo request packets to a destination type in ping 192.168.0.250 and press Enter
+6. To display all active connections and listening ports type in netstat -a and press Enter.
+7. To show the executable involved in creating each connection or listening port type in netstat -b and press Enter.
+8. To display addresses and port numbers in numerical form type in netstat -n and press Enter.
+9. To query DNS servers to find the IP address associated with the google.com domain name type in nslookup google.com and press Enter.
+10. To create a network share type in net share test=c:\test and press Enter.
+11. To map the shared folder to the Z: drive type in net use Z: \\127.0.0.1\test and press Enter.
+12. Type in dir z:\ to show the contents of the network drive.
+13. To disconnect from drive Z: type in net use Z: /delete and press Enter.
+14. To trace the route that packets take to reach google.com, showing each hop along the way type in tracert google.com
+15. To show information similar to tracert, but also providing information about packet loss at each hop type in pathping google.com
+16. Leave the VM in its current state and proceed to the next section.
 
-    * Type "cmd" in the search bar.
-    * Right-click on "Command Prompt" in the search results and select "Run as administrator".
-
-2.  **Basic Network Commands:**
-
-    * `ipconfig`: Display basic IP configuration information for all network adapters.
-        * `ipconfig /all`: Display detailed IP configuration information, including DNS servers, MAC address, and DHCP status.
-            * **Adjustment**: Have the student use `ipconfig` and `ipconfig /all` and compare the output. Have them identify their IP address, subnet mask, default gateway, and DNS servers.
-        * `ipconfig /release`: Release the current IP address obtained from a DHCP server.
-        * `ipconfig /renew`: Request a new IP address from a DHCP server.
-            * **Adjustment**: If the student's computer is using DHCP, have them use `ipconfig /release` and then `ipconfig /renew`. Have them observe the change in their IP address. Ifconfig /all before and after
-            * **Observation**: Discuss the difference between static and dynamic IP addressing. Explain the role of DHCP.
-    * `ping <destination>`: Test network connectivity by sending ICMP echo request packets to a destination (e.g., `ping 8.8.8.8` to ping Google's public DNS server, or `ping www.google.com` to ping Google's website).
-        * **Adjustment**: Have the student ping several different destinations (e.g., their local router, a website, another computer on the network). Have them ping using both the IP address and the domain name.
-        * **Observation**: Discuss the output of the `ping` command and how it indicates network connectivity. Explain what the round-trip time (RTT) means. Discuss how to interpret packet loss.
-    * `netstat`: Display active network connections and listening ports.
-        * `netstat -a`: Display all active connections and listening ports.
-        * `netstat -b`: Show the executable involved in creating each connection or listening port.
-        * `netstat -n`: Display addresses and port numbers in numerical form.
-            * **Adjustment**: Have the student use `netstat` with different switches (`-a`, `-b`, `-n`) and compare the output. Have them identify the state of different connections (e.g., ESTABLISHED, LISTEN).
-            * **Observation**: Discuss the different states of network connections and what they mean. Explain the concept of ports and how they are used by network applications.
-    * `nslookup <domain name>`: Query DNS servers to find the IP address associated with a domain name (e.g., `nslookup www.google.com`). Also used to troubleshoot DNS issues.
-        * **Adjustment**: Have the student use `nslookup` to find the IP address of several websites. Then, have them try to use `nslookup` on a non-existent domain name.
-        * **Observation**: Discuss the role of DNS in resolving domain names to IP addresses. Explain how `nslookup` can be used to troubleshoot DNS problems.
-    * `net use`: Connect to, disconnect from, or display information about shared resources (e.g., network drives, printers).
-        * `net use Z: \\servername\sharename`: Map the network share `\\servername\sharename` to drive letter Z:.
-        * `net use Z: /delete`: Disconnect from drive Z:.
-            * **Adjustment**: If there is a network share available, have the student map a network drive using the `net use` command and then disconnect from it.
-            * **Observation**: Discuss how the `net use` command can be used to access shared resources on a network.
-    * `tracert <destination>`: Trace the route that packets take to reach a destination, showing each hop along the way (e.g., `tracert www.google.com`).
-        * **Adjustment**: Have the student use `tracert` to trace the route to several different destinations (e.g., a local website, a remote website).
-        * **Observation**: Discuss the output of the `tracert` command and how it shows the path that network traffic takes. Explain how `tracert` can be used to identify network bottlenecks.
-    * `pathping <destination>`: Similar to tracert, but also provides information about packet loss at each hop.
-        * **Adjustment**: Have the student compare the output of `tracert` and `pathping` to the same destination.
-        * **Observation**: Discuss the additional information provided by `pathping`, such as packet loss statistics.
 
 **Task 7: Configuring System Settings with System Configuration Utility (Objective 1.0)**
 
