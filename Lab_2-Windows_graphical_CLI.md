@@ -67,20 +67,20 @@ To complete this lab, follow the steps below to access your Windows lab environm
 | Configure Group Policy |
 | Administer Windows System Tools |
 
-## Tasks to be Covered and Correlated Objectives
+## Tasks and Objectives
 
-| Task | Objective/Domain/Description |
-|--------------------------------|------------------------------------------------------------------|
-| Monitor System Performance with Task Manager | 1.2 Operating Systems - Given a scenario, use the appropriate Microsoft command-line tool |
-| Manage System Resources with MMC Snap-ins | 1.4 Operating Systems - Given a scenario, use Microsoft operating system features and tools |
-| Analyze System Information and Resources | 1.2 Operating Systems - Given a scenario, use the appropriate Microsoft command-line tool |
-| Manage and Optimize Disk Performance | 4.0 Operational Procedures - Given a scenario, use the appropriate Microsoft operating system tools |
-| Navigate and Manage File System via Command Line | 4.0 Operational Procedures - Given a scenario, use the appropriate Microsoft command-line tool |
-| Configure and Manage Network via Command Line | 4.0 Operational Procedures - Given a scenario, use the appropriate Microsoft command-line tool |
-| Configure System Settings with System Configuration Utility | 1.2 Operating Systems - Given a scenario, use the appropriate Microsoft command-line tool |
-| Manage Windows Registry | 1.4 Operating Systems - Given a scenario, use Microsoft operating system features and tools |
-| Configure Group Policy | 4.0 Operational Procedures - Given a scenario, use the appropriate Microsoft operating system tools |
-| Administer Windows System Tools | 1.4 Operating Systems - Given a scenario, use Microsoft operating system features and tools |
+| Task | Objective Name | Objective Number |
+|--------------------------------|------------------------------------------------------------------|------------------|
+| Monitor System Performance with Task Manager | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
+| Manage System Resources with MMC Snap-ins | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
+| Analyze System Information and Resources | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
+| Manage and Optimize Disk Performance | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
+| Navigate and Manage File System via Command Line | Given a scenario, use Microsoft Windows command-line tools. | 1.5 |
+| Configure and Manage Network via Command Line | Given a scenario, configure Microsoft Windows networking features on a client/desktop. | 1.7 |
+| Configure System Settings with System Configuration Utility | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
+| Manage Windows Registry | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
+| Configure Group Policy | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
+| Administer Windows System Tools | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
 
 ## Key Learning Areas
 
