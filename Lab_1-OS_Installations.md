@@ -279,7 +279,40 @@ Copy
 34. Close the VM window and click the **Stop** button to complete the lab.
 
 ---
+## Challenge Questions
 
+**Question 1:**
+
+What was the command used to bypass the network requirement in Windows 11 setup?
+
+**Answer:**
+
+OOBE\BypassNRO
+
+**Question 2:**
+
+What is the PowerShell cmdlet used to set the IP address of a network interface?
+
+**Answer:**
+
+New-NetIPAddress
+
+**Question 3:**
+
+What is the network path that we are using to backup?
+
+**Answer:**
+
+\\SERVER22-HYPER-\Profiles
+
+**Question 4:**
+
+What was the original IPv4 setting for the network interface?
+
+**Answer:**
+
+Automatic
+---
 ## Discussion Questions
 
 **Question 1:**
