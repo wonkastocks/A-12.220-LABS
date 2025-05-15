@@ -137,7 +137,11 @@ The following sections provide detailed procedures for completing each task in t
 
 **Challenge Question:**
 
-*What tab in Task Manager allows you to view real-time CPU, Memory, and Disk usage?*
+*What section in Task Manager allows you to view real-time CPU, Memory, and Disk usage?*
+
+**Answer:**
+
+*Performance*
 
 **Task 1 Summary:**
 In this task, you learned to use Task Manager to monitor system performance and manage running processes. This skill is essential for diagnosing performance issues and ensuring system stability, which is a core responsibility for IT professionals and directly supports CompTIA A+ troubleshooting objectives.
@@ -205,6 +209,10 @@ In this task, you learned to use Task Manager to monitor system performance and 
 
 *In Task Scheduler, what is the name of the basic task you created to open Notepad?*
 
+**Answer:**
+
+*Run Notepad*
+
 **Task 2 Summary:**
 You practiced using MMC snap-ins to access and manage system resources and administrative tools. Mastering MMC enhances your ability to troubleshoot, configure, and maintain Windows environments efficiently, a key skill for IT support and the CompTIA A+ exam.
 
@@ -239,6 +247,10 @@ You practiced using MMC snap-ins to access and manage system resources and admin
 
 *What is the name of the graphics adapter listed in System Information under Components > Display?*
 
+**Answer:**
+
+*VMware SVGA 3D*
+
 **Task 3 Summary:**
 In this task, you used System Information and Resource Monitor to gather and analyze system details. These skills are vital for diagnosing hardware and software issues, supporting troubleshooting, and ensuring system reliability as required by IT support roles and CompTIA A+ objectives.
 
@@ -267,7 +279,10 @@ Note: On modern systems with SSDs, this tool may be called "Optimize Drives" and
 
 **Challenge Question:**
 
-*After running Disk Cleanup, name one category of files you selected for deletion.*
+*What is the name of the first category of files in the Files to delete list?*
+
+**Answer:**
+*Downloaded Program Files*
 
 **Task 4 Summary:**
 You practiced optimizing disk performance and cleaning up unnecessary files using Windows utilities. Maintaining disk health and free space is essential for system performance and longevity, which is a key part of IT maintenance and the A+ certification.
@@ -312,6 +327,10 @@ NOTE: The "*" character is what is called a wildcard. In this case it allows for
 
 *What command did you use to move file2.txt to your home directory?*
 
+**Answer:**
+
+*move*
+
 **Task 5 Summary:**
 In this task, you navigated and managed the file system using command-line tools. Mastering CLI navigation and file management boosts your efficiency and is fundamental for advanced troubleshooting and automation in IT support.
 
@@ -345,6 +364,10 @@ In this task, you navigated and managed the file system using command-line tools
 
 *What command did you use to display your current IPv4 address?*
 
+**Answer:**
+
+*ipconfig*
+
 **Task 6 Summary:**
 You configured and troubleshooted network settings using command-line utilities. These skills are crucial for diagnosing connectivity issues and ensuring secure, reliable network operations, as required for IT professionals and CompTIA A+.
 
@@ -354,18 +377,24 @@ You configured and troubleshooted network settings using command-line utilities.
 
 **Procedure:**
 
-1. Open the System Configuration Utility (`Win + R`, type `msconfig`, press Enter).
-2. In the **General** tab, select **Selective startup** and uncheck **Load startup items**. Make a note of the item you disabled.
-3. Go to the **Boot** tab and note the current timeout value. Change it to 10 seconds, then take a screenshot.
-4. In the **Services** tab, check **Hide all Microsoft services**, then disable one non-essential third-party service (if available). Record the change you made.
-5. In the **Startup** tab, click **Open Task Manager** and disable one non-essential startup item. Make a note of the item you disabled.
-6. Click **Apply** and **OK**. If prompted, restart your computer (or log off and back on if in a virtual environment).
+1. Open the System Configuration Utility by typing msconfig in the search bar and pressing Enter.
+2. In the **General** tab, select **Selective startup** and uncheck **Load startup items**.
+3. Go to the **Boot** tab and note the current timeout value. Change it to 10 seconds.
+4. In the Services tab, uncheck both instances of Microsoft Edge Update Service.
+5. In the Startup tab, click Open Task Manager and click OneDrive, then click the Disable button.
+6. Close Task Manager.
+7. Click **Apply** and **OK**. If prompted, restart your computer.
+8. When the VM finishes restarting, log back into the Student account with the password of Passw0rd.
 
 ---
 
 **Challenge Question:**
 
 *In the System Configuration Utility, which tab allows you to disable non-essential startup items?*
+
+**Answer:**
+
+*General*
 
 **Task 7 Summary:**
 You learned to adjust system startup, services, and configuration using the System Configuration Utility. This enables you to optimize boot times and troubleshoot startup issues, supporting system reliability and aligning with A+ objectives.
@@ -374,14 +403,17 @@ You learned to adjust system startup, services, and configuration using the Syst
 
 **Procedure:**
 
-1. Open Registry Editor (`Win + R`, type `regedit`, press Enter). Approve the UAC prompt.
-2. Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion` and locate the `ProductName` value. Take a screenshot showing the value.
-3. Export the `Desktop` key from `HKEY_CURRENT_USER\Control Panel\Desktop` (right-click > Export). Save the file as `DesktopBackup.reg`.
-4. Open the exported `.reg` file in Notepad and make a note of the first line (should be `Windows Registry Editor Version 5.00`).
-5. Import the backup file by double-clicking it and confirming the prompt.
-6. Create a new string value under `HKEY_CURRENT_USER\Control Panel\Desktop` called `TestValue` and set its data to `CascadeLab`. Record the value you entered.
-7. Delete the `TestValue` entry after taking your screenshot.
-8. Make a note of the first line of your exported `.reg` file.
+1. Open Registry Editor by typing regedit in the search bar and pressing Enter. Approve the UAC prompt.
+2. Export the `Desktop` key from `HKEY_CURRENT_USER\Control Panel\Desktop` (right-click > Export). Save the file as `DesktopBackup.reg`.
+3. Open File Explorer by clicking the icon on the taskbar.
+4. Click Documents in the left pane.
+5. Right click the exported .reg file and select Edit in Notepad and make a note of the first line (should be Windows Registry Editor Version 5.00).
+6. Close Notepad.
+7. Import the backup file by double-clicking it and confirming the prompt.
+8. Create a new string value under `HKEY_CURRENT_USER\Control Panel\Desktop` called `TestValue` and set its data to `CascadeLab`. Record the value you entered.
+9. Delete the `TestValue` entry after taking your screenshot.
+10. Close the Registry Editor.
+11. Leave the VM in its current condition and proceed to the next section.
 
 ---
 
@@ -389,39 +421,9 @@ You learned to adjust system startup, services, and configuration using the Syst
 
 *In Registry Editor, which key did you export to create a backup named DesktopBackup.reg?*
 
-6. **Creating New Registry Values:**
-   - Right-click in the right pane of any key
-   - Select "New" and choose the appropriate data type:
-     - `String Value (REG_SZ)`: For text strings
-     - `Binary Value (REG_BINARY)`: For binary data
-     - `DWORD (32-bit) Value (REG_DWORD)`: For 32-bit numbers
-     - `QWORD (64-bit) Value (REG_QWORD)`: For 64-bit numbers
-     - `Multi-String Value (REG_MULTI_SZ)`: For multiple text strings
-     - `Expandable String Value (REG_EXPAND_SZ)`: For expandable environment variables
-   - Name the new value appropriately
+**Answer:**
 
-7. **Modifying Existing Values:**
-   - Double-click any value to modify it
-   - Enter the new data in the appropriate format
-   - Click "OK" to save changes
-   - Note that changes take effect immediately
-
-8. **Removing Registry Entries:**
-   - Right-click the value or key you want to delete
-   - Select "Delete" from the context menu
-   - Click "Yes" to confirm the deletion
-   - Note that deleted entries bypass the Recycle Bin
-   - Restore from backup if you need to recover deleted entries
-
-9. **Registry Editor Closure:**
-   - Click the "X" in the top-right corner to close the Registry Editor
-   - If prompted to save changes, click "Yes" or "No" as appropriate
-   - Remember that some changes may require a system restart
-
-10. **System Restart (if required):**
-    - Save all open work before restarting
-    - Click Start > Power > Restart
-    - Wait for the system to restart completely
+*Desktop*
 
 **Task 8 Summary:**
 In this task, you navigated, modified, and backed up the Windows Registry. Understanding the registry is essential for advanced troubleshooting and configuration but requires caution due to its impact on system stability, as emphasized in A+ certification.
