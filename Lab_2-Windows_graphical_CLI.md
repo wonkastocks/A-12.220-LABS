@@ -99,14 +99,39 @@ The following sections provide detailed procedures for completing each task in t
 
 ### Step-by-Step Instructions
 
-1. Start your Windows 11 virtual machine and log in as the **Student** account (password: `Passw0rd`).
-2. Open **Task Manager** (right-click the taskbar > Task Manager).
-3. In the **Performance** tab, make a note of the current CPU usage percentage and available memory.
-4. Open **Notepad** (File > Run new task, type `notepad`, press Enter). Observe and make a note of any changes in CPU or memory usage.
-5. In the **Processes** tab, identify the process using the most CPU. Record the process name and CPU usage percentage.
-6. End the Notepad process from the Processes tab. Confirm it disappears from the list.
-7. In the **Startup apps** section, disable **Microsoft OneDrive** from starting at login. Make a note of which app you disabled.
-8. Close Task Manager.
+1. Click the Start button to provision the lab.
+
+2. When the lab loads, click the computer image in the right pane to open a VM window.
+
+3. When Windows 11 finishes booting, double click the screen to reveal the login prompt.
+
+4. Click Student in the bottom left corner to select the Student account.
+
+5. Login with the password of Passw0rd.
+
+6. Right-click on the taskbar and select Task Manager.
+
+7. Examine each of the options on the left hand side of Task Manager.
+
+8. Click the Performance option on the left hand side.
+
+9. Start various programs to see the changes in the CPU, Memory and Disk usage.
+
+10. Click the Processes option.
+
+11. Click the Run new task button.
+
+12. In the new window type in notepad and press Enter.
+
+13. Notice that Notepad appears in the process list.
+
+14. Select Notepad and click End task.
+
+15. Next select the Startup apps option on the left hand side.
+
+16. Select Microsoft OneDrive and click the Disable button to keep it from starting when the Student account logs in.
+
+17. Close any open windows in the Windows 11 VM and proceed to the next exercise.
 
 ---
 
@@ -123,17 +148,56 @@ In this task, you learned to use Task Manager to monitor system performance and 
 
 ### Step-by-Step Instructions
 
-1. Open the Microsoft Management Console (**Win + S**, type `mmc`, press Enter).
-2. Add the following snap-ins: **Event Viewer**, **Disk Management**, **Task Scheduler**, **Device Manager**, and **Performance Monitor** (File > Add/Remove Snap-in… > select each, choose Local computer, click Add, then OK).
-3. In **Task Scheduler**, create a new basic task:
-   - Name: "Run Notepad"
-   - Trigger: Daily (accept default)
-   - Action: Start a program (`notepad.exe`)
-   - Finish and save the task.
-4. Find "Run Notepad" in the Task Scheduler Library, right-click it, and select **Run**. Verify that Notepad opens.
-5. Record the name of the task you created and confirm Notepad opened.
-6. In **Event Viewer**, navigate to **Windows Logs > System**. Find and record the most recent error or warning event (make a note of the event ID and a brief description).
-7. In **Performance Monitor**, add a counter for **% Processor Time** for the CPU. Observe the graph and take a screenshot.
+1. Type mmc in the Search bar and press Enter to open Microsoft Management Console.
+2. Click Yes in the UAC window.
+3. Click File > Add/Remove Snap-in...
+4. Select Event Viewer and click Add >
+5. Leave Local computer selected and click OK.
+6. Select Disk Management and click Add >
+7. Leave This computer selected and click Finish.
+8. Select Task Scheduler and click Add >
+9. Leave Local computer selected and click OK.
+10. Select Device Manager and click Add >
+11. Select Performance Monitor and click Add >
+12. Click OK.
+13. Expand Event Viewer (Local) in the left pane.
+14. Explore Windows Logs (Application, Security, System) to view events.
+15. Navigate to the System log and look for any Error events.
+16. Click on an event to see its details.
+17. In the left pane, click on Disk Management.
+18. View the list of disks and their partitions. Do not make changes unless specifically instructed.
+19. Right-click on a partition to see available options.
+20. Press ESC to close the menu.
+21. In the left pane, click on Task Scheduler (Local)
+22. Explore the Task Scheduler Library
+23. Click Create Basic Task... in the right pane to create a new task.
+24. In the Name box type: Run Notepad.
+25. Click Next.
+26. On the Task Trigger page click Next.
+27. On the Daily page click Next.
+28. On the Action page leave the default action and click Next.
+29. On the Start a Program page click the Browse buton.
+30. In the Open dialog, in the search bar type note.
+31. Select notepad from the list and click Open.
+32. Click Next.
+33. Click Finish.
+34. Expand Task Scheduler (Local) and select Task Scheduler Library.
+35. In the center pane scroll down the list until you see Run Notepad.
+36. Right click Run Notepad and select Run.
+37. Notice that a Notepad window opens.
+38. Close Notepad.
+39. In the left pane, click on Device Manager.
+40. Expand the different device categories (e.g., "Disk drives," "Network adapters").
+41. Right-click on a device to view its properties, update drivers, or disable it.
+42. In the left pane, expand Performance (Local) .
+43. Expand Monitoring Tools.
+44. Select Performance Monitor.
+45. Click the green "+" button to add counters.
+46. Select performance counters (e.g., "CPU Usage," "Memory\Available MBytes") and click Add.
+47. Click OK to view the performance graph.
+48. Close Microsoft Management Console.
+49. Click No to skip saving the layout to a file.
+50. Proceed to the next section.
 
 ---
 
@@ -150,16 +214,24 @@ You practiced using MMC snap-ins to access and manage system resources and admin
 
 ### Step-by-Step Instructions
 
-1. Open **System Information** (**Win + S**, type `msinfo32`, press Enter).
-2. In **System Summary**, observe and make a note of the following:
-   - Installed RAM (make a note of the value)
-   - Processor model
-   - OS version
-3. Under **Components > Display**, make a note of the name of the graphics adapter installed.
-4. Record the Installed RAM, Processor model, OS version, and graphics adapter name.
-5. Open **Resource Monitor** (**Win + S**, type `resmon`, press Enter).
-6. In Resource Monitor, under the **CPU** tab, identify which process is using the most CPU. Record the process name and CPU usage.
-7. Make a note of the process using the most CPU and its usage.
+1. Type msinfo32 in the search bar and press Enter.
+2. In the left pane, explore the different categories:
+3. System Summary: View basic system information (OS version, system manufacturer, processor, memory).
+4. Locate the BIOS version and the total physical memory.
+5. Components: View information about installed software and drivers.
+6. Expand Components. 
+7. Select Display.
+8. Locate the Adapter Description.
+9. Close System Information.
+10. Type resmon in the search bar and press Enter.
+11. Explore the different sections.
+12. CPU: Monitor CPU usage by process, service, and thread.
+13. Identify the processes that are consuming the most CPU. 
+14. Memory: View memory usage, including physical memory, commit charge, and hard faults.
+15. Disk: Monitor disk activity, including read/write speeds and disk queue length.
+16. Network: View network activity, including bandwidth usage and network connections.
+17. Close Resource Monitor.
+18. Proceed to the next section.
 
 ---
 
@@ -176,13 +248,20 @@ In this task, you used System Information and Resource Monitor to gather and ana
 
 ### Step-by-Step Instructions
 
-1. Open **Optimize Drives** (`Win + S`, type `dfrgui`, press Enter). Select your system drive (usually C:), click **Analyze**, and make a note of the current status (e.g., % fragmented or 'OK').
-2. Record the analysis results.
-3. If the drive is fragmented (or if Windows recommends), click **Optimize** and wait for the process to finish. Make a note of the new status.
-4. Open **Disk Cleanup** (`Win + S`, type `cleanmgr`, press Enter). Wait for the scan to complete.
-5. Select at least two categories of files to delete (e.g., Temporary files, Recycle Bin). Make a note of the categories you selected for deletion.
-6. Click **OK** to perform the cleanup (or click Cancel if instructed by your instructor).
-7. Record your before/after status and briefly describe what you cleaned up.
+1. Type dfrgui in the search bar and press Enter.
+Note: On modern systems with SSDs, this tool may be called "Optimize Drives" and perform different functions appropriate to the drive type.
+2. Select C:
+3. Click Analyze. The tool will analyze the drive for fragmentation.
+4. Due to the fact that we are inside a VM. Defragmentation/Optimization will be unnecessary. On actual hardware it helps to periodically run this utility to maintain peak drive performance.
+5. Close Optimize Drives.
+6. Type cleanmgr in the search bar and press Enter.
+7. Disk Cleanup will calculate space that can be freed.
+8. In the list of "Files to delete", check the boxes for the types of files you want to delete (e.g., "Temporary Internet Files," "Recycle Bin").
+9. Click OK to delete the files.
+10. Click Clean up system files.
+11. Examine the new options.
+12. When you are finished, click Cancel to close Disk Cleanup.
+13. Proceed to the next section.
 
 ---
 
@@ -199,19 +278,35 @@ You practiced optimizing disk performance and cleaning up unnecessary files usin
 
 ### Step-by-Step Instructions
 
-1. Open Command Prompt as administrator (`Win + S`, type `cmd`, right-click, Run as administrator).
-2. Navigate to the root of C: (`cd \`).
-3. Create a new folder called `test` (`md test`).
-4. Change to the `test` folder (`cd test`).
-5. Create a text file: `echo This is a test file. > file1.txt`.
-6. Duplicate the file: `copy file1.txt file2.txt`.
-7. List all `.txt` files in the folder: `dir *.txt`.
-8. Move `file2.txt` to your home directory: `move file2.txt %USERPROFILE%\`.
-9. Verify the move by listing files in your home directory (`dir %USERPROFILE%`).
-10. Delete `file2.txt` from your home directory: `del "%USERPROFILE%\file2.txt"`.
-11. Remove the `test` folder and its contents: `cd ..`, then `rd /s /q test`.
-
----
+1. Type cmd in the search bar.
+2. Right-click on Command Prompt in the search results and select Run as administrator.
+3. Type in cd \ and press Enter to navigate to the root directory of the C: drive.
+4. Type in md test and press Enter to create a new directory.
+5. Type in cd test and press Enter to navigate to the test directory.
+6. Type in cd .. and press Enter to navigate back one directory. In this case it brings you back to the root directory.
+7. Type in dir and press Enter to list the files and subdirectories in the current directory.
+8. Type in dir /p and press Enter to list the files and subdirectories in the current directory pausing the output, displaying one screen at a time.
+9. Type in dir /w and press Enter to list the files and subdirectories in the current directory in wide format.
+10. Type in dir /a and press Enter to list the files and subdirectories in the current directory, displaying all files, including hidden and system files.
+11. Type in rd test and press Enter to remove the test directory.
+NOTE: This will not work if the directory is not empty. In that case use rd /s <directory name> to remove a directory and its subdirectories and files
+12. Type in md test and press Enter.
+13. Type in cd test and press Enter to navigate to the test directory.
+14. To create a text file type in copy con file1.txt and press Enter.
+15. Type in This is a test file.
+16. Press Ctrl+z and then press Enter to save the empty text file.
+17. To copy the text file type in copy file1.txt file2.txt and press Enter.
+18. To move the new file to C:\Users\Student type in move file2.txt c:\Users\Student\file2.txt
+19. To delete a file without sending it to the Recycle Bin type in del c:\Users\Student\file2.txt
+20. To display the contents of file1.txt type in type file1.txt.
+21. To display the contents of the current directory type in dir and press Enter.
+22. To list all files with the extension .txt in the current directory type in dir *.txt and press Enter.
+NOTE: The "*" character is what is called a wildcard. In this case it allows for any character or characters to appear in the filename before .txt
+23. To list all files in the current directory that have a filename starting in file and ending in any one character followed by the extension .txt type in dir file?.txt. This is another example of a wildcard.
+24. Type in dir c:\Windows\System32\cmd.exe and press Enter. The path c:\Windows\System32\cmd.exe is what is known as an absolute path. An absolute path specifies the exact location of a file or directory, starting from the root directory.
+25. Type in cd .. and press Enter. 
+26. Type in dir test\file1.txt and press Enter. The path test\file1.txt is what is known as a relative path. A relative path specifies the location relative to the current directory.
+27. Leave the Command Prompt window as is and proceed to the next section.
 
 **Challenge Question:**
 
@@ -226,14 +321,23 @@ In this task, you navigated and managed the file system using command-line tools
 
 ### Step-by-Step Instructions
 
-1. Open Command Prompt as administrator (see Task 5, Step 1).
-2. Run `ipconfig` and record your IPv4 address. Make a note of the output.
-3. Test network connectivity: run `ping google.com` and make a note of the average response time.
-4. Run `nslookup google.com` and make a note of the IP address returned.
-5. List all active network connections: `netstat -a`. Record the output.
-6. Map a network share: `net share test=c:\test` (create `c:\test` if it doesn't exist), then `net use Z: \\127.0.0.1\test`.
-7. List contents of the mapped drive: `dir z:\`. Make a note of the contents.
-8. Remove the mapping: `net use Z: /delete`.
+1. To display basic IP configuration information for all network adapters, type in ipconfig and press Enter.
+2. To display detailed IP configuration information, including DNS servers, MAC address, and DHCP status type in ipconfig /all and press Enter.
+3. To release the current IP address obtained from a DHCP server type in ipconfig /release and press Enter.
+4. To request a new IP address from a DHCP server type in ipconfig /renew and press Enter.
+5. To test network connectivity by sending ICMP echo request packets to a destination type in ping 192.168.0.250 and press Enter
+6. To display all active connections and listening ports type in netstat -a and press Enter.
+7. To show the executable involved in creating each connection or listening port type in netstat -b and press Enter.
+8. To display addresses and port numbers in numerical form type in netstat -n and press Enter.
+9. To query DNS servers to find the IP address associated with the google.com domain name type in nslookup google.com and press Enter.
+10. To create a network share type in net share test=c:\test and press Enter.
+11. To map the shared folder to the Z: drive type in net use Z: \\127.0.0.1\test and press Enter.
+12. Type in dir z:\ to show the contents of the network drive.
+13. To disconnect from drive Z: type in net use Z: /delete and press Enter.
+14. To trace the route that packets take to reach google.com, showing each hop along the way type in tracert google.com
+15. To show information similar to tracert, but also providing information about packet loss at each hop type in pathping google.com
+16. Leave the VM in its current state and proceed to the next section.
+
 
 ---
 
