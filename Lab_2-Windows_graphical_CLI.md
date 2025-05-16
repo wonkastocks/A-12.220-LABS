@@ -67,7 +67,7 @@ To complete this lab, follow the steps below to access your Windows lab environm
 | Configure Group Policy |
 | Administer Windows System Tools |
 
-## Tasks to be Covered and Correlated Objectives
+## Task/Objective
 
 | Task | Objective/Domain/Description |
 |--------------------------------|------------------------------------------------------------------|

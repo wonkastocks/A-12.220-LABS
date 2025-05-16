@@ -31,7 +31,7 @@ As a PC Technician, it is critical to understand how to install and configure op
 
 
 
-## Tasks to be Covered and Correlated Objectives
+## Task/Objective
 
 
 | Task                           | Objective/Domain/Description                                      |

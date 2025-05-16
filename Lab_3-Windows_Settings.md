@@ -23,7 +23,7 @@
 
 
 
-## Tasks to be Covered and Correlated Objectives
+## Task/Objective
 
 
 | Task                           | Objective/Domain/Description                                      |
