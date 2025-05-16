@@ -1,4 +1,4 @@
-# 12-SOHO - Networking
+
 
 ## Task List
 
@@ -21,7 +21,7 @@
 
 
 
-## Tasks to be Covered and Correlated Objectives
+## Task/Objective
 
 
 

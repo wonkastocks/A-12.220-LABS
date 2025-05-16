@@ -171,19 +171,18 @@ As a PC Technician, it is critical to understand how to install and configure op
 4. Right-click **Start** and select **Terminal (Admin)**.
 5. Click **Yes** in the UAC window.
 6. At the PowerShell prompt, type: 
-```
 New-NetIPAddress -InterfaceAlias Ethernet -IPAddress 192.168.0.20 -PrefixLength 24 -DefaultGateway 192.168.0.250
 
-```
-
-8. Press Enter.
-9. At the next prompt, type: 
-```
+lua
+Copy
+7. Press Enter.
+8. At the next prompt, type: 
 Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 1.1.1.1
 
-```
-11. Press Enter.
-12. Close the Windows Terminal.
+markdown
+Copy
+9. Press Enter.
+10. Close the Windows Terminal.
 
 ---
 ## Create a New User Profile
@@ -278,41 +277,6 @@ Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 1.1.1.1
  ```
 33. Press Enter. You should get success messages for all 4 pings.
 34. Close the VM window and click the **Stop** button to complete the lab.
-
----
-## Challenge Questions
-
-**Question 1:**
-
-What was the command used to bypass the network requirement in Windows 11 setup?
-
-**Answer:**
-
-OOBE\BypassNRO
-
-**Question 2:**
-
-What is the PowerShell cmdlet used to set the IP address of a network interface?
-
-**Answer:**
-
-New-NetIPAddress
-
-**Question 3:**
-
-What is the network path that we are using to backup?
-
-**Answer:**
-
-\\SERVER22-HYPER-\Profiles
-
-**Question 4:**
-
-What was the original IPv4 setting for the network interface?
-
-**Answer:**
-
-Automatic
 
 ---
 

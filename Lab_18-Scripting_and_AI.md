@@ -1,4 +1,4 @@
-# 18-Scripting and AI
+
 
 ## Task List
 
@@ -20,7 +20,7 @@
 
 
 
-## Tasks to be Covered and Correlated Objectives
+## Task/Objective
 
 
 | Task                           | Objective/Domain/Description                                      |
