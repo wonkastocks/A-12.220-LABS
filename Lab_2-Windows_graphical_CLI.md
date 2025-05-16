@@ -477,6 +477,24 @@ In this task, you navigated, modified, and backed up the Windows Registry. Under
 **Task 9 Summary:**
 You configured system and user settings using Group Policy. Mastering Group Policy allows you to enforce security, compliance, and operational standards across multiple computers, a critical skill for IT administrators and required by CompTIA A+.
 
+---
+
+**Challenge Question (Task 9):**
+
+*How can you force an immediate update of Group Policy settings on a Windows computer?*
+
+**Answer:**
+
+Open Command Prompt as Administrator and run `gpupdate /force` to immediately refresh all Group Policy settings.
+
+*What command can you use to view the Resultant Set of Policy (RSoP) on a Windows system?*
+
+**Answer:**
+
+Type `rsop.msc` in the Run dialog and press Enter to view the Resultant Set of Policy.
+
+---
+
 ## Task 10: Administer Windows System Tools
 
 **Objective:** Utilize built-in Windows tools for system administration and troubleshooting.
@@ -531,6 +549,28 @@ You configured system and user settings using Group Policy. Mastering Group Poli
    - Test changes in a non-production environment first
    - Check service dependencies before modifying any service
    - Use "Automatic (Delayed Start)" for non-critical services to improve boot performance
+
+---
+
+**Challenge Question (Task 10):**
+
+*What is the purpose of the "Services" administrative tool in Windows, and how can you use it to troubleshoot system issues?*
+
+**Answer:**
+
+The Services tool allows you to view, start, stop, and configure all background services running on Windows. You can use it to restart services that have failed, change startup types, and check dependencies—helpful for troubleshooting issues related to system performance, networking, or failed applications.
+
+*Which built-in tool would you use to review system and application logs for troubleshooting, and how do you access it?*
+
+**Answer:**
+
+Use **Event Viewer**. Open it by pressing `Win + R`, typing `eventvwr.msc`, and pressing Enter.
+
+*How can you automate a task to run at a specific time in Windows?*
+
+**Answer:**
+
+Use **Task Scheduler**. Open it by pressing `Win + R`, typing `taskschd.msc`, and pressing Enter. You can then create or manage scheduled tasks.
 
 **Task 10 Summary:**
 You used built-in Windows system tools for administration and troubleshooting. Proficiency with these tools enables you to manage, maintain, and secure Windows environments effectively—an essential competency for IT professionals and a key focus of CompTIA A+.
