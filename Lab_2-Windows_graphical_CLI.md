@@ -67,20 +67,20 @@ To complete this lab, follow the steps below to access your Windows lab environm
 | Configure Group Policy |
 | Administer Windows System Tools |
 
-## Tasks and Objectives
+## Tasks to be Covered and Correlated Objectives
 
-| Task | Objective Name | Objective Number |
-|--------------------------------|------------------------------------------------------------------|------------------|
-| Monitor System Performance with Task Manager | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
-| Manage System Resources with MMC Snap-ins | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
-| Analyze System Information and Resources | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
-| Manage and Optimize Disk Performance | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
-| Navigate and Manage File System via Command Line | Given a scenario, use Microsoft Windows command-line tools. | 1.5 |
-| Configure and Manage Network via Command Line | Given a scenario, configure Microsoft Windows networking features on a client/desktop. | 1.7 |
-| Configure System Settings with System Configuration Utility | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
-| Manage Windows Registry | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
-| Configure Group Policy | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
-| Administer Windows System Tools | Given a scenario, use Microsoft Windows operating system features and tools. | 1.4 |
+| Task | Objective/Domain/Description |
+|--------------------------------|------------------------------------------------------------------|
+| Monitor System Performance with Task Manager | 1.2 Operating Systems - Given a scenario, use the appropriate Microsoft command-line tool |
+| Manage System Resources with MMC Snap-ins | 1.4 Operating Systems - Given a scenario, use Microsoft operating system features and tools |
+| Analyze System Information and Resources | 1.2 Operating Systems - Given a scenario, use the appropriate Microsoft command-line tool |
+| Manage and Optimize Disk Performance | 4.0 Operational Procedures - Given a scenario, use the appropriate Microsoft operating system tools |
+| Navigate and Manage File System via Command Line | 4.0 Operational Procedures - Given a scenario, use the appropriate Microsoft command-line tool |
+| Configure and Manage Network via Command Line | 4.0 Operational Procedures - Given a scenario, use the appropriate Microsoft command-line tool |
+| Configure System Settings with System Configuration Utility | 1.2 Operating Systems - Given a scenario, use the appropriate Microsoft command-line tool |
+| Manage Windows Registry | 1.4 Operating Systems - Given a scenario, use Microsoft operating system features and tools |
+| Configure Group Policy | 4.0 Operational Procedures - Given a scenario, use the appropriate Microsoft operating system tools |
+| Administer Windows System Tools | 1.4 Operating Systems - Given a scenario, use Microsoft operating system features and tools |
 
 ## Key Learning Areas
 
@@ -474,24 +474,20 @@ In this task, you navigated, modified, and backed up the Windows Registry. Under
    - **Windows Settings**: Manage startup/shutdown scripts and security settings
    - **Administrative Templates**: Control system and application settings through policy
 
+6. **Apply and Test Policy:**
+   - After making changes, run `gpupdate /force` in Command Prompt to apply policies immediately.
+   - Log off and log back in (or restart the computer) to verify that the policy changes are in effect.
+   - Test the specific setting you configured (e.g., password complexity, desktop restrictions) to confirm the policy works as intended.
+
+**Outcome:**
+You have successfully modified and tested Group Policy settings. You should now be able to enforce security and operational standards, verify their effect, and troubleshoot policy-related issues—an essential skill for IT support roles and the CompTIA A+ exam.
+
+**Challenge Question:**
+
+*Which tool do you use to edit local Group Policy settings in Windows?*
+
 **Task 9 Summary:**
-You configured system and user settings using Group Policy. Mastering Group Policy allows you to enforce security, compliance, and operational standards across multiple computers, a critical skill for IT administrators and required by CompTIA A+.
-
----
-
-**Challenge Question (Task 9):**
-
-*How can you force an immediate update of Group Policy settings on a Windows computer?*
-
-**Answer:**
-
-Open Command Prompt as Administrator and run `gpupdate /force` to immediately refresh all Group Policy settings.
-
-*What command can you use to view the Resultant Set of Policy (RSoP) on a Windows system?*
-
-**Answer:**
-
-Type `rsop.msc` in the Run dialog and press Enter to view the Resultant Set of Policy.
+You learned to configure system and user settings using the Group Policy Editor. Mastering Group Policy allows you to enforce security, compliance, and operational standards across multiple computers, a critical skill for IT administrators and required by CompTIA A+.
 
 ---
 
@@ -543,37 +539,18 @@ Type `rsop.msc` in the Run dialog and press Enter to view the Resultant Set of P
       - **Recovery Tab**: Set actions for service failure
       - **Dependencies Tab**: View service dependencies
 
-4. **Best Practices:**
-   - Always document any service modifications with date and reason
-   - Create a system restore point before making significant changes
-   - Test changes in a non-production environment first
-   - Check service dependencies before modifying any service
-   - Use "Automatic (Delayed Start)" for non-critical services to improve boot performance
-
----
-
-**Challenge Question (Task 10):**
-
-*What is the purpose of the "Services" administrative tool in Windows, and how can you use it to troubleshoot system issues?*
-
-**Answer:**
-
-The Services tool allows you to view, start, stop, and configure all background services running on Windows. You can use it to restart services that have failed, change startup types, and check dependencies—helpful for troubleshooting issues related to system performance, networking, or failed applications.
-
-*Which built-in tool would you use to review system and application logs for troubleshooting, and how do you access it?*
-
-**Answer:**
-
-Use **Event Viewer**. Open it by pressing `Win + R`, typing `eventvwr.msc`, and pressing Enter.
-
-*How can you automate a task to run at a specific time in Windows?*
-
-**Answer:**
-
-Use **Task Scheduler**. Open it by pressing `Win + R`, typing `taskschd.msc`, and pressing Enter. You can then create or manage scheduled tasks.
+4. **Validate and Practice:**
+   - Open several of the listed tools (Services, Event Viewer, Task Scheduler, etc.) and explore their interfaces.
+   - Practice starting/stopping a service, viewing an event log, and creating a basic scheduled task.
+   - Use Disk Cleanup and Disk Defragmenter to maintain system health.
+   - Document what you changed or explored for lab completion.
 
 **Task 10 Summary:**
-You used built-in Windows system tools for administration and troubleshooting. Proficiency with these tools enables you to manage, maintain, and secure Windows environments effectively—an essential competency for IT professionals and a key focus of CompTIA A+.
+You learned to use essential built-in Windows system tools for administration and troubleshooting. Mastering these tools enables you to efficiently manage, maintain, and secure Windows environments—an essential competency for IT professionals and a key focus of the CompTIA A+ certification.
+
+**Challenge Question:**
+
+*What built-in Windows tool allows you to view and manage scheduled tasks on the system?*
 
 ---
 
