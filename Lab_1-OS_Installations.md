@@ -31,7 +31,7 @@ As a PC Technician, it is critical to understand how to install and configure op
 
 
 
-## Task/Objective
+## Tasks to be Covered and Correlated Objectives
 
 
 | Task                           | Objective/Domain/Description                                      |
@@ -71,7 +71,7 @@ As a PC Technician, it is critical to understand how to install and configure op
 
 1. Click the **Start** button to provision the lab.
 2. When the lab finishes starting up, click **Hyper-V Server** in the topology map.
-3. Click **Send Ctrl+Alt+Delete**.
+3. Click **Send `Ctrl+Alt+Delete`**.
 4. Sign in to the **Administrator** account with the password `P@ssw0rd`.
 5. Click the **Hyper-V Manager** icon in the taskbar.
 6. In the middle pane, double-click **Win11A**. A connection window will appear.
@@ -89,8 +89,8 @@ As a PC Technician, it is critical to understand how to install and configure op
 17. At the **Select location to install Windows 11** window, click **Next**.
 18. At the **Ready to install** window, click **Install**.
 19. Please wait while Windows 11 installs. The VM may restart several times.
-20. At the **Is this the right country or region** page, press **Shift+F10** (If that doesn't work try **Shift+FN+F10**).
-21. In the Command Prompt window, type: `OOBE\BypassNRO` and press **Enter**.
+20. At the **Is this the right country or region** page, press `Shift+F10` (If that doesn't work try `Shift+FN+F10`).
+21. In the Command Prompt window, type `OOBE\BypassNRO` and press `Enter`.
    - **Note**: This command allows a user to bypass the network requirement for Windows 11 and may be removed in a future version.
 22. At the **Is this the right keyboard layout or input method** page, click **Yes**.
 23. At the **Want to add a second keyboard layout** page, click **Skip**.
@@ -133,7 +133,7 @@ As a PC Technician, it is critical to understand how to install and configure op
 1. Right-click **ntoskrnl** file and click **Delete**.
 2. Right-click **Recycle bin** and select **Empty Recycle Bin**.
 3. Click **Yes** to permanently delete the file.
-4. Right-click **Start** and select **Shut down or sign out > Restart**.
+4. Right-click **Start** and select **Shut down or sign out > `Restart`**.
 5. As the VM attempts to make automatic repairs, move to the next section.
 6. When **Automatic Repair** fails, you will be presented with a blue screen.
 7. Click **Advanced options**.
@@ -150,7 +150,7 @@ As a PC Technician, it is critical to understand how to install and configure op
 ## Manage New Hard Drive
 
 1. Enter **Passw0rd** in the password field and press Enter to login.
-2. Right-click **Start** and select **Disk Management**.
+2. Right-click **Start** and select **`Disk Management`**.
 3. In the **Initialize Disk** window, select **MBR (Master Boot Record)** and click **OK**.
 4. Click on **Disk 1**.
 5. Right-click **Disk 1** and select **Convert to GPT Disk**.
@@ -168,26 +168,26 @@ As a PC Technician, it is critical to understand how to install and configure op
 1. In the search box, type **health**.
 2. Select **Device performance & health**.
 3. Examine the Health Report.
-4. Right-click **Start** and select **Terminal (Admin)**.
-5. Click **Yes** in the UAC window.
-6. At the PowerShell prompt, type: 
+4. Right-click **Start** and select **`Terminal (Admin)`**.
+5. Click `Yes` in the UAC window.
+6. At the `PowerShell` prompt, type: 
 New-NetIPAddress -InterfaceAlias Ethernet -IPAddress 192.168.0.20 -PrefixLength 24 -DefaultGateway 192.168.0.250
 
 lua
 Copy
-7. Press Enter.
+7. Press `Enter`.
 8. At the next prompt, type: 
 Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 1.1.1.1
 
 markdown
 Copy
-9. Press Enter.
-10. Close the Windows Terminal.
+9. Press `Enter`.
+10. Close the `Windows Terminal`.
 
 ---
 ## Create a New User Profile
 
-1. Right-click **Start** and select **Device Manager**.
+1. Right-click **Start** and select **`Device Manager`**.
 2. Expand **Display Adapters**.
 3. Right-click **Microsoft Hyper-V Video** and select **Update Driver**.
 4. Click **Search automatically for drivers**.
@@ -270,12 +270,12 @@ Copy
 28. Click **Apply**.
 29. Click the **Show Apps** button at the bottom left of the screen.
 30. Type **terminal** in the search box.
-31. Click on **Terminal** to open a terminal window.
+31. Click on **`Terminal`** to open a terminal window.
 32. At the prompt, type:
  ```
- ping -c 4 cisco.com
+ `ping -c 4 cisco.com`
  ```
-33. Press Enter. You should get success messages for all 4 pings.
+33. Press `Enter`. You should get success messages for all 4 pings.
 34. Close the VM window and click the **Stop** button to complete the lab.
 
 ---
