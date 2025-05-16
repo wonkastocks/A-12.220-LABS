@@ -439,15 +439,9 @@ You learned to configure system and user settings using the Group Policy Editor.
    - Use Disk Cleanup and Disk Defragmenter to maintain system health.
    - Document what you changed or explored for lab completion.
 
-**Task 10 Summary:**
-You have practiced using essential Windows system tools for administration and troubleshooting. You should now be able to access, configure, and utilize these tools to maintain and secure a Windows environment, which is a key requirement for IT professionals and the CompTIA A+ certification.
-
-**Challenge Question:**
-
-*What built-in Windows tool allows you to view and manage scheduled tasks on the system?*
-
-**Task 10 Summary:**
+Task 10 Summary:
 You learned to utilize built-in Windows tools for system administration and troubleshooting. Mastering these tools enables you to manage, maintain, and secure Windows environments effectively—an essential competency for IT professionals and a key focus of CompTIA A+.
+
 ---
 
 ## Challenge Questions: Windows GUI & CLI Lab
