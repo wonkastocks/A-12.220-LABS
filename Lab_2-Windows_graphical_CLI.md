@@ -403,62 +403,31 @@ In this task, you navigated, modified, and backed up the Windows Registry. Under
 
 **Objective:** Configure system and user settings using the Group Policy Editor.
 
-**Procedure:**
+### Step-by-Step Instructions
 
-1. **Group Policy Editor Initialization:**
-   - Press `Win + R`, type `gpedit.msc`, and press Enter
-   - Click "Yes" when prompted by User Account Control (UAC)
-   - Wait for the Group Policy Editor interface to load completely
-
-2. **Group Policy Structure:**
-   - In the left pane, locate these main branches:
-     - **Computer Configuration:** Policies that apply to all users on this computer
-     - **User Configuration:** Policies that apply to the current user account
-   - Expand each branch to view its three main folders:
-     - Software Settings
-     - Windows Settings
-     - Administrative Templates
-
-3. **Policy Application Methods:**
-   - **Automatic Updates:**
-     - Occurs every 90-120 minutes by default
-     - Background processing applies new policies automatically
-   - **Manual Updates:**
-     - For application-specific policies: Restart the affected application
-     - For user-specific policies: Sign out and back in, or use `gpupdate /target:user`
-     - For computer policies: Restart the computer or use `gpupdate /target:computer`
-     - System restart (for computer policies)
-     - `gpupdate /force` command (immediate update)
-
-4. **Policy Processing:**
-   - Understand that policies are applied in this order:
-     1. Local Group Policy
-     2. Site-level Group Policy (if applicable)
-     3. Domain-level Group Policy (if applicable)
-     4. Organizational Unit (OU) Group Policy (if applicable)
-   - Note that later policies override earlier ones by default
-   - To view effective settings, open Command Prompt and type `rsop.msc` to see the Resultant Set of Policy
-
-5. **Common Configuration Areas:**
-   - **Account Policies**: Configure password requirements and account lockout settings
-   - **Local Policies**: Set audit policies and user rights assignments
-   - **Windows Settings**: Manage startup/shutdown scripts and security settings
-   - **Administrative Templates**: Control system and application settings through policy
-
-6. **Apply and Test Policy:**
-   - After making changes, run `gpupdate /force` in Command Prompt to apply policies immediately.
-   - Log off and log back in (or restart the computer) to verify that the policy changes are in effect.
-   - Test the specific setting you configured (e.g., password complexity, desktop restrictions) to confirm the policy works as intended.
-
-**Outcome:**
-You have successfully modified and tested Group Policy settings. You should now be able to enforce security and operational standards, verify their effect, and troubleshoot policy-related issues—an essential skill for IT support roles and the CompTIA A+ exam.
+1. In the search bar, type gpedit.msc, and press Enter.
+2. The Local Group Policy Editor window opens showing a tree structure on the left.
+3. Expand User Configuration > Administrative Templates. 
+4. Under the Administrative Templates folder, select the Dektop folder.
+5. In the right pane, double click the policy Remove Recycle Bin Icon from Desktop.
+6. In the policy window, select Enabled and click OK.
+7. Close the Local Group Policy Editor window.
+8. Right click Start and select Shut down or sign out > Sign out.
+9. Double click the screen to reveal the password prompt.
+10. Enter the password of Passw0rd to login to the Student account.
+11. Note that the Recycle Bin is no longer available on the Desktop.
+12. Leave the VM in its current state and move on to the next section.
 
 **Challenge Question:**
 
-*Which tool do you use to edit local Group Policy settings in Windows?*
+*Which tool do you use to edit local Group Policy settings in Windows? (what you typed into the search bar.)*
+
+**Answer:**
+
+*gpedit.msc*
 
 **Task 9 Summary:**
-You learned to configure system and user settings using the Group Policy Editor. Mastering Group Policy allows you to enforce security, compliance, and operational standards across multiple computers, a critical skill for IT administrators and required by CompTIA A+.
+You configured user settings using Group Policy. Mastering Group Policy allows you to enforce security, compliance, and operational standards across multiple computers, a critical skill for IT administrators and required by CompTIA A+. This was a simple example, for more detail on this topic please consult your favorite search engine.
 
 ---
 
@@ -466,58 +435,31 @@ You learned to configure system and user settings using the Group Policy Editor.
 
 **Objective:** Utilize built-in Windows tools for system administration and troubleshooting.
 
-**Procedure:**
+### Step-by-Step Instructions
 
-1. **Accessing Administrative Tools:**
-   - Press `Win + X` and select "Windows PowerShell (Admin)" or "Command Prompt (Admin)"
-   - Alternatively, press `Win + R`, type `control admintools`, and press Enter
-   - For specific tools, use these Run commands:
-     - `services.msc` for Services
-     - `compmgmt.msc` for Computer Management
-     - `eventvwr.msc` for Event Viewer
-     - `taskschd.msc` for Task Scheduler
-
-2. **Core System Utilities:**
-   - **Computer Management (`compmgmt.msc`):**
-     1. Open Run dialog (`Win + R`), type `compmgmt.msc`, and press Enter
-     2. Explore these key sections:
-        - **Event Viewer**: Review system and application logs for troubleshooting
-        - **Task Scheduler**: Create and manage automated tasks
-        - **Shared Folders**: Monitor and manage network shares
-        - **Local Users and Groups**: Manage user accounts and groups
-        - **Performance Monitor**: Track system performance metrics
-        - **Device Manager**: Configure and troubleshoot hardware devices
-        - **Disk Management**: Manage disk partitions and volumes
-        - **Services**: Configure and control system services
-
-   - **System Maintenance Tools:**
-     - **Disk Defragmenter**: Type `dfrgui` in the Run dialog
-     - **Disk Cleanup**: Type `cleanmgr` in the Run dialog
-     - **System Configuration**: Type `msconfig` in the Run dialog
-     - **System Information**: Type `msinfo32` in the Run dialog
-     - **Resource Monitor**: Type `resmon` in the Run dialog
-     - **Windows Firewall**: Type `firewall.cpl` in the Run dialog
-
-3. **Service Management Example:**
-   1. Open Services by pressing `Win + R`, typing `services.msc`, and pressing Enter
-   2. Right-click any service to:
-      - **Start/Stop**: Control the service's current state
-      - **Restart**: Stop and then start the service
-      - **Properties**: Configure service settings
-   3. In the Properties window, configure:
-      - **General Tab**: Set display name, description, and startup type
-      - **Log On Tab**: Configure service account and desktop interaction
-      - **Recovery Tab**: Set actions for service failure
-      - **Dependencies Tab**: View service dependencies
-
-4. **Validate and Practice:**
-   - Open several of the listed tools (Services, Event Viewer, Task Scheduler, etc.) and explore their interfaces.
-   - Practice starting/stopping a service, viewing an event log, and creating a basic scheduled task.
-   - Use Disk Cleanup and Disk Defragmenter to maintain system health.
-   - Document what you changed or explored for lab completion.
+1. In the search bar type: compmgmt.msc and press Enter.
+2. This will open Computer Management in the MMC.
+3. Expand Services and Applications in the left pane.
+4. Select Services.
+5. Scroll down and find the Microsoft Edge Update Service (edgeupdate). Double click this service.
+6. A properties window opens up for it. Take a moment to explore the different tabs without changing anything.
+7. When you are finished, select the General tab.
+8. Click the Start button to start the service.
+9. Click OK in the warning dialog that appears.
+10. Click OK to close the properties window.
+11. (Optional) If you have time remaining, explore some of the other options in the Computer Management window.
 
 Task 10 Summary:
 You learned to utilize built-in Windows tools for system administration and troubleshooting. Mastering these tools enables you to manage, maintain, and secure Windows environments effectively—an essential competency for IT professionals and a key focus of CompTIA A+.
+
+**Challenge Question:**
+
+*In the left hand pane, what is the first option under Computer Management (Local)?*
+
+**Answer:**
+
+*System Tools*
+
 
 ---
 
