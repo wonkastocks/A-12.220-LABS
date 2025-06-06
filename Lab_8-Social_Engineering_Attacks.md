@@ -289,29 +289,20 @@ What browser feature warns about suspicious websites?
 **Task Summary:**
 You configured browser security settings that protect against web-based social engineering attacks. These settings help prevent malicious downloads, block deceptive websites, and require user confirmation for potentially dangerous actions, reducing the effectiveness of web-based manipulation attempts.
 
-## Task 6: Manage Email Security Options
+## Task 6: Configure File Attachment Security
 
-### Objective: Implement email filtering and protection
+### Objective: Secure email attachment handling through file associations
 
-1. **Open** **Mail** app from the Start menu
-
-2. **Click** **Settings** (gear icon) at the bottom of the sidebar
-
-3. **Click** **Manage Accounts**
-
-4. **Select** your email account
-
-5. **Click** **Change mailbox sync settings**
-
-6. **Enable** **Download images automatically** = **Off**
-
-7. **Set** **Download email from** to **last 3 days**
-
-8. **Return** to **Settings** and click **Reading**
-
-9. **Enable** **Block external images**
-
-10. **Configure** junk email filtering to **High** if available
+1. **Open** **Settings** > **Apps** > **Default apps**
+2. **Click** **Choose default apps by file type**
+3. **Review** dangerous file extensions (.exe, .scr, .bat, .vbs)
+4. **Configure** these to open with security warnings
+5. **Open** **File Explorer** > **View** > **Options**
+6. **Uncheck** **Hide extensions for known file types**
+7. **Navigate** to **Control Panel** > **Programs** > **Default Programs**
+8. **Configure** **Associate a file type** for security
+9. **Test** by creating test files with dangerous extensions
+10. **Verify** system warnings appear when opening suspicious files
 
 **Challenge Question:**
 What email setting prevents automatic loading of external content?
