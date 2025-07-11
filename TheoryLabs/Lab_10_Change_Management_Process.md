@@ -76,70 +76,200 @@ Continuous improvement drives change management evolution. Post-implementation r
 ### Task 1: Create Change Request Form
 **Objective**: Design a comprehensive change request form capturing all information needed for effective evaluation and implementation.
 
-**Challenge Question**: How do you balance gathering sufficient information for proper assessment without creating forms so complex they discourage compliance?
+**Steps**:
+1. Define change categories
+2. Create form template
+3. Add requester information
+4. Include change description
+5. Add business justification
+6. Create risk assessment fields
+7. Include rollback plan section
+8. Add testing requirements
+9. Define approval workflow
+10. Create submission process
+
+**Challenge Question**: What document formally proposes IT changes?
+**Answer**: RFC
 
 **Summary**: Students develop RFC templates including required fields, risk assessment sections, and approval workflows while considering usability and completeness requirements for different change types.
 
 ### Task 2: Perform Risk Assessment
 **Objective**: Conduct thorough risk analysis for a complex infrastructure change affecting multiple systems and stakeholders.
 
-**Challenge Question**: What methodologies help quantify risks for changes where historical data doesn't exist, such as implementing entirely new technologies?
+**Steps**:
+1. Identify affected systems
+2. List potential impacts
+3. Assess probability levels
+4. Rate impact severity
+5. Calculate risk scores
+6. Identify dependencies
+7. Create mitigation plans
+8. Document assumptions
+9. Review with stakeholders
+10. Update risk register
+
+**Challenge Question**: What assessment determines change approval level?
+**Answer**: Risk
 
 **Summary**: This task teaches systematic risk identification, probability and impact assessment, and development of mitigation strategies for technical and business risks.
 
 ### Task 3: Facilitate CAB Meeting
 **Objective**: Run an effective CAB meeting reviewing multiple change requests with varying risk levels and stakeholder impacts.
 
-**Challenge Question**: How do you manage CAB discussions when technical and business stakeholders have conflicting priorities or risk tolerances?
+**Steps**:
+1. Schedule CAB meeting
+2. Distribute change agenda
+3. Review RFC details
+4. Present risk assessments
+5. Facilitate discussion
+6. Address concerns raised
+7. Document decisions
+8. Assign action items
+9. Record approvals/rejections
+10. Publish meeting minutes
+
+**Challenge Question**: What group approves high-risk changes?
+**Answer**: CAB
 
 **Summary**: Students practice meeting facilitation, technical presentation to non-technical audiences, and consensus building while maintaining focus on risk-based decision making.
 
 ### Task 4: Develop Implementation Plan
 **Objective**: Create detailed implementation plans for approved changes including step-by-step procedures, resource requirements, and timing.
 
-**Challenge Question**: How should implementation plans account for dependencies between multiple simultaneous changes while maintaining individual change integrity?
+**Steps**:
+1. Define implementation steps
+2. Sequence tasks logically
+3. Assign resources
+4. Set time estimates
+5. Identify dependencies
+6. Create test plan
+7. Document rollback steps
+8. Schedule change window
+9. Plan communications
+10. Define success criteria
+
+**Challenge Question**: What plan enables change reversal?
+**Answer**: Rollback
 
 **Summary**: This exercise covers task sequencing, resource coordination, communication planning, and contingency preparation for complex change implementations.
 
 ### Task 5: Design Emergency Change Process
 **Objective**: Establish procedures for handling emergency changes that balance urgency with necessary controls and documentation.
 
-**Challenge Question**: What controls prevent emergency change procedures from being abused for bypassing normal change management requirements?
+**Steps**:
+1. Define emergency criteria
+2. Create expedited workflow
+3. Identify approvers
+4. Set notification rules
+5. Create documentation template
+6. Define testing requirements
+7. Establish review process
+8. Set time limits
+9. Create audit trail
+10. Schedule PIR requirement
+
+**Challenge Question**: What change type bypasses normal CAB?
+**Answer**: Emergency
 
 **Summary**: Students create expedited approval workflows, define emergency criteria, and establish post-implementation review requirements for emergency changes.
 
 ### Task 6: Create Change Calendar
 **Objective**: Develop a forward schedule of change that coordinates multiple changes while identifying conflicts and dependencies.
 
-**Challenge Question**: How do you manage change scheduling when business demands conflict with technical best practices for change windows?
+**Steps**:
+1. Compile approved changes
+2. Map to calendar view
+3. Identify change windows
+4. Check for conflicts
+5. Review dependencies
+6. Color-code by risk
+7. Add freeze periods
+8. Include milestones
+9. Share with stakeholders
+10. Update weekly
+
+**Challenge Question**: What shows all scheduled changes?
+**Answer**: FSC
 
 **Summary**: This task involves creating visual change calendars, establishing scheduling priorities, and developing conflict resolution procedures for competing change requirements.
 
 ### Task 7: Implement Change Metrics
 **Objective**: Design and implement measurement systems tracking change management effectiveness and identifying improvement opportunities.
 
-**Challenge Question**: Which metrics best indicate change management maturity versus those that might encourage gaming the system?
+**Steps**:
+1. Define success metrics
+2. Track success rates
+3. Monitor failure causes
+4. Measure cycle times
+5. Count emergency changes
+6. Track rollback frequency
+7. Monitor compliance rates
+8. Create dashboards
+9. Set target values
+10. Review trends monthly
+
+**Challenge Question**: What metric tracks change failures?
+**Answer**: Success-rate
 
 **Summary**: Students develop KPIs for change success rates, process compliance, and business impact while creating dashboards for different stakeholder audiences.
 
 ### Task 8: Conduct Post-Implementation Review
 **Objective**: Perform comprehensive PIR for a major change, capturing lessons learned and improvement recommendations.
 
-**Challenge Question**: How do you conduct effective PIRs when changes are perceived as failures, potentially creating blame-focused rather than improvement-focused discussions?
+**Steps**:
+1. Schedule PIR meeting
+2. Gather implementation data
+3. Review success criteria
+4. Identify what went well
+5. Document issues encountered
+6. Analyze root causes
+7. Capture lessons learned
+8. Create improvement actions
+9. Update procedures
+10. Share findings
+
+**Challenge Question**: What review captures change lessons?
+**Answer**: PIR
 
 **Summary**: This exercise teaches structured review techniques, root cause analysis for change issues, and translation of findings into actionable process improvements.
 
 ### Task 9: Automate Standard Changes
 **Objective**: Identify candidates for standard change designation and implement automation to streamline their execution.
 
-**Challenge Question**: What criteria determine whether a change type is suitable for automation versus requiring human review and decision-making?
+**Steps**:
+1. Analyze change history
+2. Identify repetitive changes
+3. Document standard procedures
+4. Define automation criteria
+5. Create change models
+6. Build automation workflows
+7. Set approval rules
+8. Test automation
+9. Monitor outcomes
+10. Adjust thresholds
+
+**Challenge Question**: What changes bypass CAB review?
+**Answer**: Standard
 
 **Summary**: Students analyze change patterns, develop automation criteria, and create workflows balancing efficiency with necessary controls for routine changes.
 
 ### Task 10: Build Change Communication Plan
 **Objective**: Create comprehensive communication strategies ensuring appropriate stakeholder notification throughout the change lifecycle.
 
-**Challenge Question**: How do you tailor change communications for different audiences while maintaining consistency and avoiding information overload?
+**Steps**:
+1. Identify stakeholders
+2. Define communication needs
+3. Select channels
+4. Create message templates
+5. Set notification timing
+6. Include impact details
+7. Add contact information
+8. Plan status updates
+9. Create feedback mechanism
+10. Document in RFC
+
+**Challenge Question**: What ensures stakeholders know about changes?
+**Answer**: Communication
 
 **Summary**: This task covers stakeholder analysis, communication channel selection, message crafting, and feedback mechanism implementation for change-related communications.
 
