@@ -76,70 +76,200 @@ Fire suppression in technology environments requires special considerations due 
 ### Task 1: Perform Electrical Safety Inspection
 **Objective**: Conduct comprehensive electrical safety inspection of a technology workspace identifying and documenting hazards.
 
-**Challenge Question**: How do you prioritize addressing multiple electrical safety issues when budget constraints prevent fixing everything immediately?
+**Steps**:
+1. Check all power cords for damage
+2. Verify proper grounding connections
+3. Test GFCI outlets functionality
+4. Inspect circuit breaker labels
+5. Look for overloaded circuits
+6. Check for exposed wiring
+7. Verify emergency shutoffs work
+8. Document all findings
+9. Prioritize by risk level
+10. Create remediation plan
+
+**Challenge Question**: What device prevents electrical shock from ground faults?
+**Answer**: GFCI
 
 **Summary**: Students learn systematic inspection techniques, hazard identification methods, and documentation requirements while developing risk-based prioritization skills for safety improvements.
 
 ### Task 2: Implement ESD Protection Station
 **Objective**: Set up properly equipped electrostatic discharge protection workstation for sensitive component handling.
 
-**Challenge Question**: What ESD protection measures remain effective in environments where ideal humidity control isn't feasible?
+**Steps**:
+1. Install anti-static mat
+2. Connect mat ground wire
+3. Set up wrist strap connection
+4. Test grounding resistance
+5. Place component storage bins
+6. Add ionizer if needed
+7. Post ESD warning signs
+8. Stock anti-static bags
+9. Verify humidity levels
+10. Train users on procedures
+
+**Challenge Question**: What protects components from static damage?
+**Answer**: ESD
 
 **Summary**: This task teaches proper workstation grounding, mat and wrist strap testing, and alternative ESD control methods for challenging environments.
 
 ### Task 3: Create LOTO Procedure
 **Objective**: Develop comprehensive lockout/tagout procedures for maintaining server room electrical equipment.
 
-**Challenge Question**: How do you implement LOTO procedures when multiple contractors need simultaneous access to equipment during maintenance windows?
+**Steps**:
+1. Identify all energy sources
+2. Create shutdown sequence
+3. Document lockout points
+4. Design tag templates
+5. Assign lock responsibilities
+6. Establish verification steps
+7. Create removal sequence
+8. Define emergency procedures
+9. Train affected personnel
+10. Post procedures visibly
+
+**Challenge Question**: What prevents accidental equipment energization?
+**Answer**: LOTO
 
 **Summary**: Students create step-by-step LOTO procedures, design tag systems, and establish coordination protocols for multi-party maintenance activities.
 
 ### Task 4: Design Environmental Monitoring System
 **Objective**: Plan environmental monitoring for a small data center including sensor placement and alert thresholds.
 
-**Challenge Question**: What environmental factors beyond temperature and humidity should be monitored in modern data centers, and why?
+**Steps**:
+1. Map facility layout
+2. Identify hot/cold aisles
+3. Place temperature sensors
+4. Add humidity monitors
+5. Install water leak detection
+6. Set alert thresholds
+7. Configure notification system
+8. Add smoke detection
+9. Monitor power quality
+10. Test alert responses
+
+**Challenge Question**: What causes condensation in equipment?
+**Answer**: Humidity
 
 **Summary**: This exercise covers sensor selection, placement strategies, and alert configuration while considering emerging environmental concerns like particulate monitoring.
 
 ### Task 5: Conduct Fire Suppression System Review
 **Objective**: Evaluate existing fire suppression systems for adequacy in protecting technology equipment and personnel.
 
-**Challenge Question**: How do you balance fire suppression effectiveness with minimizing false activations that could damage equipment unnecessarily?
+**Steps**:
+1. Identify suppression type
+2. Check coverage zones
+3. Verify detection sensors
+4. Test manual pulls
+5. Review agent capacity
+6. Inspect nozzle placement
+7. Check system pressure
+8. Verify alarm integration
+9. Review maintenance logs
+10. Update documentation
+
+**Challenge Question**: What suppression agent is safe for electronics?
+**Answer**: FM-200
 
 **Summary**: Students assess suppression system types, coverage patterns, and activation mechanisms while understanding trade-offs between sensitivity and false alarm risks.
 
 ### Task 6: Develop Ergonomic Assessment Checklist
 **Objective**: Create comprehensive ergonomic evaluation tools for technology workspaces preventing repetitive strain injuries.
 
-**Challenge Question**: How can ergonomic principles be applied in dynamic environments where technicians work in varied positions throughout the day?
+**Steps**:
+1. Evaluate monitor height/distance
+2. Check chair adjustments
+3. Assess keyboard position
+4. Review mouse placement
+5. Measure desk height
+6. Check lighting levels
+7. Evaluate cable routing
+8. Test equipment reach
+9. Document posture issues
+10. Recommend improvements
+
+**Challenge Question**: What prevents repetitive strain injuries?
+**Answer**: Ergonomics
 
 **Summary**: This task teaches ergonomic assessment techniques, common injury patterns in IT work, and practical solutions for diverse working conditions.
 
 ### Task 7: Handle Hazardous Material Disposal
 **Objective**: Properly identify, handle, and document disposal of various hazardous materials found in technology environments.
 
-**Challenge Question**: What procedures ensure data security when disposing of storage devices containing both sensitive data and hazardous materials?
+**Steps**:
+1. Identify hazardous materials
+2. Check MSDS sheets
+3. Use proper PPE
+4. Segregate by type
+5. Label containers clearly
+6. Store in designated area
+7. Contact certified recycler
+8. Complete manifest forms
+9. Maintain disposal records
+10. Train staff on procedures
+
+**Challenge Question**: What document details chemical hazards?
+**Answer**: MSDS
 
 **Summary**: Students learn material classification, proper handling techniques, regulatory compliance requirements, and secure disposal methods for technology waste.
 
 ### Task 8: Create Emergency Response Plan
 **Objective**: Develop comprehensive emergency response procedures for technology facility incidents.
 
-**Challenge Question**: How do emergency response procedures differ when incidents occur in facilities with always-on critical systems versus standard office environments?
+**Steps**:
+1. Identify potential emergencies
+2. Create evacuation routes
+3. Assign response roles
+4. Establish meeting points
+5. Document EPO locations
+6. Create contact lists
+7. Define escalation procedures
+8. Plan system shutdowns
+9. Schedule drills
+10. Review annually
+
+**Challenge Question**: What disconnects all facility power?
+**Answer**: EPO
 
 **Summary**: This exercise covers emergency planning, communication protocols, and special considerations for maintaining critical services during emergencies.
 
 ### Task 9: Implement Battery Safety Program
 **Objective**: Establish procedures for safely handling, storing, and disposing of various battery types used in technology equipment.
 
-**Challenge Question**: What special precautions are necessary when dealing with damaged lithium-ion batteries that may pose fire risks?
+**Steps**:
+1. Inventory battery types
+2. Create storage areas
+3. Install fire cabinets
+4. Label charge states
+5. Separate damaged units
+6. Provide sand buckets
+7. Post warning signs
+8. Train on spill response
+9. Schedule inspections
+10. Document incidents
+
+**Challenge Question**: What battery type poses thermal runaway risk?
+**Answer**: Lithium-ion
 
 **Summary**: Students learn battery chemistry hazards, proper storage requirements, and emergency response for battery-related incidents including thermal runaway.
 
 ### Task 10: Design Safety Training Program
 **Objective**: Create comprehensive safety training curriculum for new technology staff members.
 
-**Challenge Question**: How do you maintain engagement in recurring safety training while ensuring critical information remains fresh?
+**Steps**:
+1. Define learning objectives
+2. Create training modules
+3. Develop hands-on exercises
+4. Design assessment tests
+5. Include incident examples
+6. Create reference materials
+7. Schedule regular refreshers
+8. Track completion rates
+9. Update content regularly
+10. Measure effectiveness
+
+**Challenge Question**: What ensures consistent safety practices?
+**Answer**: Training
 
 **Summary**: This task involves curriculum development, training delivery methods, and assessment strategies for effective safety education programs.
 
