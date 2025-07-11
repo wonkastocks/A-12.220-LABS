@@ -76,70 +76,200 @@ Battery and power management troubleshooting has become increasingly important a
 ### Task 1: Diagnose Boot Loop Issues
 **Objective**: Identify and resolve a boot loop problem on a mobile device using recovery mode options.
 
-**Challenge Question**: What are the risks associated with performing a cache partition wipe versus a full factory reset, and how do you determine which is appropriate?
+**Steps**:
+1. Power off the device completely
+2. Press and hold Volume Up + Power buttons
+3. Release when recovery menu appears
+4. Navigate using volume keys
+5. Select "Wipe cache partition"
+6. Confirm the action
+7. Wait for process completion
+8. Select "Reboot system now"
+9. Monitor boot process
+10. Document if issue persists
+
+**Challenge Question**: What recovery option preserves user data?
+**Answer**: Cache
 
 **Summary**: This task teaches students to access recovery mode on different devices, understand available recovery options, and safely attempt repairs starting with least invasive methods like cache clearing before progressing to more drastic measures.
 
 ### Task 2: Analyze Application Crash Logs
 **Objective**: Use platform-specific tools to retrieve and interpret application crash logs to identify the root cause of app failures.
 
-**Challenge Question**: How can you distinguish between crashes caused by the application itself versus those triggered by system-level issues or resource constraints?
+**Steps**:
+1. Enable Developer Options in Settings
+2. Connect device to computer via USB
+3. Open terminal/command prompt
+4. Run "adb devices" command
+5. Execute "adb logcat > crash.log"
+6. Reproduce the app crash
+7. Stop logcat with Ctrl+C
+8. Search log for "FATAL EXCEPTION"
+9. Identify problematic app package
+10. Note error type and line numbers
+
+**Challenge Question**: What Android tool captures system logs?
+**Answer**: Logcat
 
 **Summary**: Students learn to access crash logs through iOS Console or Android's ADB logcat, interpret stack traces, identify error patterns, and determine whether issues are app-specific or system-wide.
 
 ### Task 3: Resolve Memory Management Issues
 **Objective**: Diagnose and fix problems related to excessive memory usage and application crashes due to low memory conditions.
 
-**Challenge Question**: Why might an application that runs perfectly on a newer device with more RAM crash frequently on older devices, even when both run the same OS version?
+**Steps**:
+1. Open Settings > Developer Options
+2. Enable "Show memory info"
+3. Check current RAM usage
+4. Open Running Services section
+5. Identify high memory apps
+6. Force stop heavy applications
+7. Clear app caches individually
+8. Check background app limits
+9. Restart device
+10. Monitor memory improvement
+
+**Challenge Question**: What causes gradual RAM consumption increase?
+**Answer**: Leak
 
 **Summary**: This exercise demonstrates how to monitor memory usage, identify memory leaks, understand platform-specific memory management, and optimize device performance through selective app management.
 
 ### Task 4: Troubleshoot Network Connectivity Problems
 **Objective**: Diagnose and resolve issues with Wi-Fi, cellular data, and Bluetooth connectivity on mobile devices.
 
-**Challenge Question**: What diagnostic steps would you take when a device connects to Wi-Fi but cannot access the internet, while other devices on the same network work fine?
+**Steps**:
+1. Toggle Airplane mode on/off
+2. Check Wi-Fi password accuracy
+3. Forget the network
+4. Re-add network manually
+5. Verify IP address assignment
+6. Check DNS settings
+7. Test with different DNS
+8. Reset network settings
+9. Update device software
+10. Test connectivity again
+
+**Challenge Question**: What protocol assigns IP addresses automatically?
+**Answer**: DHCP
 
 **Summary**: Students practice systematic network troubleshooting including checking settings, forgetting and re-adding networks, analyzing network logs, and performing network resets when necessary.
 
 ### Task 5: Fix Synchronization Issues
 **Objective**: Resolve problems with cloud service synchronization including contacts, calendars, photos, and application data.
 
-**Challenge Question**: How do you determine whether sync failures are due to account authentication issues, network problems, or service-side failures?
+**Steps**:
+1. Check account sync status
+2. Verify account password
+3. Toggle sync off and on
+4. Check date/time settings
+5. Clear app data for sync service
+6. Remove and re-add account
+7. Check available storage
+8. Test on different network
+9. Force manual sync
+10. Monitor sync completion
+
+**Challenge Question**: What must be accurate for secure sync connections?
+**Answer**: Time
 
 **Summary**: This task covers checking account settings, verifying credentials, understanding sync protocols, and troubleshooting common sync failures across different cloud services.
 
 ### Task 6: Perform Safe Mode Troubleshooting
 **Objective**: Use safe mode to isolate and identify problematic third-party applications causing system instability.
 
-**Challenge Question**: What types of problems can be diagnosed in safe mode, and what are its limitations for troubleshooting hardware-related issues?
+**Steps**:
+1. Press and hold power button
+2. Long-press "Power off" option
+3. Tap "OK" for safe mode
+4. Wait for device restart
+5. Verify "Safe mode" indicator
+6. Test device functionality
+7. Check if issue persists
+8. Uninstall recent apps
+9. Restart normally
+10. Test after each removal
+
+**Challenge Question**: What type of apps does safe mode disable?
+**Answer**: Third-party
 
 **Summary**: Students learn to boot devices into safe mode, test functionality, systematically identify problematic apps, and understand when safe mode indicates system-level versus app-level issues.
 
 ### Task 7: Optimize Battery Performance
 **Objective**: Identify and resolve excessive battery drain issues through systematic analysis and optimization.
 
-**Challenge Question**: How do you differentiate between normal battery degradation and software-related battery drain issues?
+**Steps**:
+1. Open Battery Usage stats
+2. Identify top consuming apps
+3. Check screen-on time
+4. Review background activity
+5. Disable unnecessary features
+6. Lower screen brightness
+7. Enable battery saver mode
+8. Restrict background data
+9. Update all applications
+10. Monitor improvement
+
+**Challenge Question**: What prevents device sleep mode?
+**Answer**: Wakelock
 
 **Summary**: This exercise teaches battery diagnostics interpretation, identifying power-hungry apps and services, understanding wake lock issues, and implementing power-saving configurations.
 
 ### Task 8: Clear System and Application Caches
 **Objective**: Safely clear various types of cache data to resolve performance and storage issues without losing important user data.
 
-**Challenge Question**: What is the difference between clearing app cache versus app data, and when is each action appropriate?
+**Steps**:
+1. Open Settings > Storage
+2. Select "Cached data"
+3. Confirm cache clearing
+4. Navigate to Apps section
+5. Select problematic app
+6. Tap "Storage" option
+7. Choose "Clear Cache"
+8. Avoid "Clear Data" initially
+9. Test app functionality
+10. Repeat for other apps
+
+**Challenge Question**: What does clearing app data remove?
+**Answer**: Everything
 
 **Summary**: Students learn about different cache types, their purposes, safe clearing procedures, and potential consequences of cache clearing on app functionality and user experience.
 
 ### Task 9: Troubleshoot Update Failures
 **Objective**: Diagnose and resolve issues preventing successful installation of OS and application updates.
 
-**Challenge Question**: What steps would you take when an OTA update repeatedly fails to install, showing different error codes each time?
+**Steps**:
+1. Check available storage space
+2. Free up 2GB minimum
+3. Connect to stable Wi-Fi
+4. Ensure 50%+ battery
+5. Clear Google Play cache
+6. Reset app preferences
+7. Check date/time accuracy
+8. Remove SD card temporarily
+9. Try manual APK download
+10. Consider factory reset
+
+**Challenge Question**: What update method bypasses carrier delays?
+**Answer**: Sideload
 
 **Summary**: This task covers checking storage space, verifying network stability, understanding update prerequisites, and using alternative update methods when standard procedures fail.
 
 ### Task 10: Perform System Recovery
 **Objective**: Execute system recovery procedures using manufacturer tools and recovery images when standard troubleshooting fails.
 
-**Challenge Question**: How do you ensure data preservation during system recovery, and what are the limitations of built-in backup systems?
+**Steps**:
+1. Backup device data first
+2. Download official firmware
+3. Install manufacturer tools
+4. Enable USB debugging
+5. Boot to download mode
+6. Connect device to PC
+7. Launch recovery software
+8. Select firmware file
+9. Begin recovery process
+10. Complete initial setup
+
+**Challenge Question**: What mode allows firmware flashing?
+**Answer**: Download
 
 **Summary**: Students practice using iTunes/Finder for iOS recovery or fastboot/recovery tools for Android, understanding when recovery is necessary and how to minimize data loss.
 
