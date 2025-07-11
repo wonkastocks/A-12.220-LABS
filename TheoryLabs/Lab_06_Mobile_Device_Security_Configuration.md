@@ -74,70 +74,200 @@ Application security extends beyond basic permissions management. Mobile Applica
 ### Task 1: Configure Biometric Authentication
 **Objective**: Set up and test multiple biometric authentication methods on a mobile device.
 
-**Challenge Question**: Why might an organization require both biometric and PIN authentication rather than relying on biometrics alone?
+**Steps**:
+1. Navigate to Settings > Security > Biometrics
+2. Select "Add Fingerprint" option
+3. Follow on-screen prompts to scan finger multiple times
+4. Test fingerprint unlock on lock screen
+5. Return to Settings > Security > Face Recognition
+6. Position face within camera frame for enrollment
+7. Complete facial scan from different angles
+8. Enable "Require eyes open" security option
+9. Test face unlock functionality
+10. Configure PIN as fallback method
+
+**Challenge Question**: What biometric method is considered most secure?
+**Answer**: Iris
 
 **Summary**: This task involves enabling fingerprint and facial recognition on a mobile device, understanding the enrollment process, and configuring fallback authentication methods. Students learn how biometric data is stored securely and the importance of having alternative authentication options.
 
 ### Task 2: Implement MDM Profile Installation
 **Objective**: Install and configure an MDM profile on a test device, exploring the various policies that can be enforced.
 
-**Challenge Question**: What are the privacy implications of MDM solutions in BYOD scenarios, and how can organizations balance security needs with employee privacy?
+**Steps**:
+1. Access MDM enrollment portal via web browser
+2. Enter organization credentials
+3. Download configuration profile
+4. Open Settings > General > Profiles
+5. Tap downloaded MDM profile
+6. Review permissions requested
+7. Enter device passcode to confirm
+8. Accept certificate installation
+9. Verify MDM enrollment status
+10. Check for pushed policies in settings
+
+**Challenge Question**: What protocol do most MDM solutions use for device enrollment?
+**Answer**: HTTPS
 
 **Summary**: Students work with an MDM solution to create and deploy configuration profiles, understanding how policies are pushed to devices and the level of control administrators have over managed devices.
 
 ### Task 3: Configure Application Permissions
 **Objective**: Review and modify application permissions on both iOS and Android devices to minimize security risks.
 
-**Challenge Question**: How do application permission models differ between iOS and Android, and what are the security implications of these differences?
+**Steps**:
+1. Open Settings > Privacy/Apps
+2. Select "App Permissions" or "Permission Manager"
+3. Review Camera permission list
+4. Disable camera for unnecessary apps
+5. Check Location Services settings
+6. Set location to "While Using App" only
+7. Review Microphone permissions
+8. Revoke microphone for untrusted apps
+9. Check Contacts access list
+10. Remove contact permissions from social apps
+
+**Challenge Question**: What permission is most commonly abused by malicious apps?
+**Answer**: Location
 
 **Summary**: This exercise teaches students to audit installed applications, understand permission requests, and make informed decisions about granting or revoking access to device features and data.
 
 ### Task 4: Set Up Secure Network Connections
 **Objective**: Configure VPN connections and Wi-Fi security settings on mobile devices.
 
-**Challenge Question**: What risks are associated with connecting to public Wi-Fi networks, and how does a VPN mitigate these risks?
+**Steps**:
+1. Navigate to Settings > Network > VPN
+2. Tap "Add VPN Configuration"
+3. Select protocol type (IKEv2/IPSec)
+4. Enter server address and credentials
+5. Enable "Always-on VPN" option
+6. Test VPN connection
+7. Go to Wi-Fi settings
+8. Disable "Auto-join" for public networks
+9. Forget all untrusted networks
+10. Enable "Ask to Join Networks" option
+
+**Challenge Question**: Which VPN protocol is considered most secure?
+**Answer**: IKEv2
 
 **Summary**: Students learn to configure VPN profiles, understand different VPN protocols, and implement Wi-Fi security best practices including forgetting untrusted networks and disabling auto-join features.
 
 ### Task 5: Enable Encryption and Secure Backup
 **Objective**: Verify device encryption status and configure secure backup solutions.
 
-**Challenge Question**: How does cloud backup encryption differ from device encryption, and what additional steps might be needed to secure cloud-stored data?
+**Steps**:
+1. Open Settings > Security > Encryption
+2. Verify encryption is enabled
+3. Check encryption type (File-based/Full-disk)
+4. Navigate to Backup settings
+5. Select cloud backup service
+6. Enable "Encrypt backup" option
+7. Create backup encryption password
+8. Initiate manual backup
+9. Verify backup completion
+10. Test backup restoration process
+
+**Challenge Question**: What encryption standard is typically used for mobile device storage?
+**Answer**: AES
 
 **Summary**: This task covers enabling full-disk encryption, understanding how encryption keys are managed, and configuring encrypted backups to both local and cloud storage locations.
 
 ### Task 6: Implement Remote Management Features
 **Objective**: Configure and test remote location tracking and remote wipe capabilities.
 
-**Challenge Question**: What legal and ethical considerations must organizations address when implementing remote tracking and wiping capabilities on employee devices?
+**Steps**:
+1. Enable Find My Device/Find My iPhone
+2. Sign in to device cloud account
+3. Allow location services for system
+4. Test location from web portal
+5. Send test notification to device
+6. Enable "Send Last Location" feature
+7. Review remote wipe options
+8. Understand wipe confirmation process
+9. Enable activation lock
+10. Document recovery procedures
+
+**Challenge Question**: What feature prevents device reactivation after remote wipe?
+**Answer**: Lock
 
 **Summary**: Students set up Find My Device services, test remote location features, and understand the process and implications of performing remote wipes on lost or stolen devices.
 
 ### Task 7: Configure MAM Policies
 **Objective**: Deploy mobile application management policies for specific business applications.
 
-**Challenge Question**: In what scenarios would MAM be preferred over MDM, and what are the limitations of app-level management?
+**Steps**:
+1. Access MAM console dashboard
+2. Select target application
+3. Configure authentication requirements
+4. Set session timeout values
+5. Enable copy/paste restrictions
+6. Block screenshot capability
+7. Configure allowed data sharing
+8. Set offline access period
+9. Deploy policy to test group
+10. Verify policy enforcement
+
+**Challenge Question**: What technology enables app-specific VPN connections?
+**Answer**: Per-app
 
 **Summary**: This exercise demonstrates how to apply security policies to individual applications without affecting the entire device, including data sharing restrictions and app-specific authentication requirements.
 
 ### Task 8: Perform Security Assessment
 **Objective**: Use mobile security assessment tools to identify potential vulnerabilities on a device.
 
-**Challenge Question**: How do mobile security assessment tools differ from traditional vulnerability scanners, and what unique challenges do mobile platforms present?
+**Steps**:
+1. Install mobile security scanner app
+2. Grant necessary permissions
+3. Initiate full device scan
+4. Review OS version status
+5. Check for security patch level
+6. Scan installed applications
+7. Identify permission risks
+8. Review network connections
+9. Check for malware indicators
+10. Generate security report
+
+**Challenge Question**: What mobile OS component verifies app signatures?
+**Answer**: Bootloader
 
 **Summary**: Students learn to use security scanning applications to identify misconfigurations, outdated software, and potential security risks on mobile devices.
 
 ### Task 9: Configure Conditional Access Policies
 **Objective**: Implement conditional access rules that restrict device access based on compliance status.
 
-**Challenge Question**: How can conditional access policies be used to enforce zero-trust security principles in a mobile environment?
+**Steps**:
+1. Access conditional access portal
+2. Create new access policy
+3. Define user scope
+4. Set device compliance requirements
+5. Configure location-based rules
+6. Add network trust conditions
+7. Set authentication strength
+8. Define session controls
+9. Enable policy in report-only mode
+10. Monitor policy impact
+
+**Challenge Question**: What defines device trust level in zero-trust architecture?
+**Answer**: Compliance
 
 **Summary**: This task involves creating policies that check device compliance before allowing access to corporate resources, understanding how device health attestation works.
 
 ### Task 10: Implement App Protection Policies
 **Objective**: Configure data protection policies for mobile applications handling sensitive information.
 
-**Challenge Question**: What are the trade-offs between security and usability when implementing strict app protection policies?
+**Steps**:
+1. Select protected app group
+2. Enable data encryption requirement
+3. Block copy to unmanaged apps
+4. Disable screenshot functionality
+5. Configure PIN requirement
+6. Set maximum offline period
+7. Enable jailbreak detection
+8. Configure app data backup
+9. Set data retention policies
+10. Test policy enforcement
+
+**Challenge Question**: What prevents data transfer between managed and unmanaged apps?
+**Answer**: Containerization
 
 **Summary**: Students configure policies that prevent data leakage through copy/paste restrictions, screenshot blocking, and controlled sharing between applications.
 
