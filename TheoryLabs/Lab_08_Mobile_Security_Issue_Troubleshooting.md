@@ -76,70 +76,200 @@ Remediation strategies must balance security effectiveness with user impact. Whi
 ### Task 1: Identify Malware Indicators
 **Objective**: Analyze device behavior patterns to identify potential malware infection indicators.
 
-**Challenge Question**: How would you differentiate between malware-caused battery drain and legitimate causes such as aging batteries or resource-intensive apps?
+**Steps**:
+1. Check battery usage statistics
+2. Review data usage by app
+3. Monitor device temperature
+4. Look for unknown apps
+5. Check running services
+6. Review app permissions
+7. Scan recent downloads
+8. Check notification access
+9. Look for admin apps
+10. Run security scan
+
+**Challenge Question**: What mining malware symptom affects battery most?
+**Answer**: Drain
 
 **Summary**: Students learn to systematically check battery usage statistics, data consumption patterns, running processes, and temperature readings to identify anomalies suggesting malware presence versus normal device behavior.
 
 ### Task 2: Analyze Suspicious Network Connections
 **Objective**: Use network monitoring tools to identify potentially malicious network communications from mobile devices.
 
-**Challenge Question**: What network behaviors would indicate a device is part of a botnet, and how would you confirm this suspicion?
+**Steps**:
+1. Install network monitor app
+2. Grant VPN permissions
+3. Start traffic capture
+4. Review active connections
+5. Check for unknown IPs
+6. Identify encrypted traffic
+7. Look for C2 patterns
+8. Check DNS queries
+9. Verify against threat feeds
+10. Document suspicious IPs
+
+**Challenge Question**: What pattern indicates command-and-control communication?
+**Answer**: Periodic
 
 **Summary**: This task teaches students to monitor network traffic, identify connections to suspicious domains, recognize command-and-control communication patterns, and use threat intelligence to validate findings.
 
 ### Task 3: Investigate Permission Abuse
 **Objective**: Review and analyze application permissions to identify potential security risks and privacy violations.
 
-**Challenge Question**: How can you determine if an app's permission requests are legitimate for its stated functionality versus potentially malicious overreach?
+**Steps**:
+1. Open Settings > Apps
+2. Select Permission Manager
+3. Review location access
+4. Check camera permissions
+5. Audit microphone access
+6. Review contacts access
+7. Check SMS permissions
+8. Identify unusual combos
+9. Revoke excessive permissions
+10. Monitor app behavior
+
+**Challenge Question**: What permission combo suggests spyware presence?
+**Answer**: All
 
 **Summary**: Students examine permission requests in context, identify apps with excessive permissions, understand permission groups and their implications, and learn to recognize common patterns in malicious apps.
 
 ### Task 4: Remove Persistent Malware
 **Objective**: Implement procedures to remove malware that persists through standard uninstallation attempts.
 
-**Challenge Question**: What techniques do advanced mobile malware use to maintain persistence, and how can these be countered without factory reset?
+**Steps**:
+1. Boot into safe mode
+2. Check device admin apps
+3. Revoke admin privileges
+4. Uninstall suspicious apps
+5. Clear app cache/data
+6. Check accessibility services
+7. Disable unknown sources
+8. Run malware scanner
+9. Check for system modifications
+10. Verify complete removal
+
+**Challenge Question**: What privilege allows malware to resist uninstallation?
+**Answer**: Admin
 
 **Summary**: This exercise covers safe mode troubleshooting, identifying system-level infections, using ADB for Android malware removal, and understanding when factory reset becomes necessary.
 
 ### Task 5: Respond to Phishing Attacks
 **Objective**: Diagnose and remediate devices compromised through phishing attacks, including credential theft and malware installation.
 
-**Challenge Question**: After a user clicks a phishing link and enters credentials, what immediate steps should be taken to minimize damage?
+**Steps**:
+1. Disconnect from internet
+2. Change compromised passwords
+3. Enable two-factor authentication
+4. Check for new apps
+5. Review browser history
+6. Clear saved passwords
+7. Check email forwarding
+8. Review account activity
+9. Scan for malware
+10. Monitor for fraud
+
+**Challenge Question**: What should be changed first after credential theft?
+**Answer**: Password
 
 **Summary**: Students learn rapid response procedures including password changes, session termination, checking for installed profiles or apps, and implementing additional authentication security.
 
 ### Task 6: Secure Compromised Accounts
 **Objective**: Implement account recovery procedures after mobile device compromise exposes authentication credentials.
 
-**Challenge Question**: How do you prioritize which accounts to secure first after a device compromise, and what recovery methods are most effective?
+**Steps**:
+1. List all device accounts
+2. Prioritize financial accounts
+3. Change email passwords first
+4. Enable 2FA everywhere
+5. Review account recovery options
+6. Check linked accounts
+7. Revoke app permissions
+8. Review login history
+9. Set up login alerts
+10. Document changes made
+
+**Challenge Question**: Which account type should be secured first?
+**Answer**: Email
 
 **Summary**: This task teaches account security hierarchy, multi-factor authentication implementation, security key usage, and monitoring for unauthorized access across linked accounts.
 
 ### Task 7: Detect and Remove Spyware
 **Objective**: Identify and eliminate spyware applications designed to covertly monitor user activities.
 
-**Challenge Question**: What behavioral indicators distinguish commercial spyware from other types of malware, and what legal considerations apply?
+**Steps**:
+1. Check for hidden apps
+2. Review battery usage
+3. Look for recording indicators
+4. Check data usage spikes
+5. Review installed keyboards
+6. Scan with anti-spyware
+7. Check GPS usage
+8. Review notification access
+9. Factory reset if needed
+10. Change all passwords
+
+**Challenge Question**: What feature do most stalkerware apps hide?
+**Answer**: Icon
 
 **Summary**: Students learn to identify stalkerware indicators, understand the technical and legal aspects of spyware removal, and implement privacy protection measures.
 
 ### Task 8: Investigate Bluetooth Security Issues
 **Objective**: Diagnose and resolve Bluetooth-related security vulnerabilities and active exploits.
 
-**Challenge Question**: How can you determine if unexpected Bluetooth behavior is due to legitimate features versus security compromise?
+**Steps**:
+1. Check paired devices list
+2. Remove unknown devices
+3. Disable Bluetooth visibility
+4. Update device firmware
+5. Check for BlueBorne patches
+6. Monitor connection attempts
+7. Use Bluetooth scanner app
+8. Check for auto-pairing
+9. Disable unnecessary profiles
+10. Enable pairing notifications
+
+**Challenge Question**: What attack exploits unpatched Bluetooth stacks?
+**Answer**: BlueBorne
 
 **Summary**: This exercise covers Bluetooth security assessment, identifying unauthorized pairings, understanding Bluetooth attack vectors, and implementing secure Bluetooth configurations.
 
 ### Task 9: Analyze iOS Configuration Profiles
 **Objective**: Examine and assess iOS configuration profiles for security implications and potential compromise vectors.
 
-**Challenge Question**: What risks do malicious configuration profiles pose, and how can they bypass normal iOS security restrictions?
+**Steps**:
+1. Open Settings > General
+2. Check for VPN & Device Management
+3. Review installed profiles
+4. Check profile sources
+5. Verify certificate validity
+6. Look for restrictions
+7. Check VPN configurations
+8. Review email settings
+9. Remove suspicious profiles
+10. Monitor for reinstalls
+
+**Challenge Question**: What can malicious iOS profiles install?
+**Answer**: Certificates
 
 **Summary**: Students learn to review installed profiles, understand profile capabilities and restrictions, identify suspicious profiles, and safely remove problematic configurations.
 
 ### Task 10: Perform Security Hardening
 **Objective**: Implement comprehensive security hardening procedures on previously compromised devices.
 
-**Challenge Question**: How do you balance security hardening with usability to ensure users don't circumvent security measures?
+**Steps**:
+1. Enable automatic updates
+2. Configure strong authentication
+3. Disable developer options
+4. Enable Google Play Protect
+5. Configure app verification
+6. Limit app installations
+7. Enable remote wipe
+8. Configure secure DNS
+9. Disable ad tracking
+10. Schedule security reviews
+
+**Challenge Question**: What prevents most mobile malware infections?
+**Answer**: Updates
 
 **Summary**: This task covers implementing defense-in-depth strategies, configuring security features, educating users on secure practices, and establishing ongoing monitoring procedures.
 
