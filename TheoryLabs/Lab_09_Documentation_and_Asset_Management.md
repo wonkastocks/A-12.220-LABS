@@ -76,70 +76,200 @@ Configuration Management Databases (CMDBs) represent advanced asset management i
 ### Task 1: Create Network Documentation
 **Objective**: Develop comprehensive network documentation including logical and physical diagrams, IP addressing schemes, and device inventories.
 
-**Challenge Question**: How would you document a network environment where constant changes occur, ensuring diagrams remain accurate without creating excessive maintenance burden?
+**Steps**:
+1. Choose diagramming tool (Visio/draw.io)
+2. Create network topology template
+3. Document all network devices
+4. Add IP addressing scheme
+5. Include VLAN configurations
+6. Map physical connections
+7. Document wireless coverage
+8. Add device naming conventions
+9. Include subnet allocations
+10. Create update schedule
+
+**Challenge Question**: What diagram type shows device relationships?
+**Answer**: Logical
 
 **Summary**: Students learn to use diagramming tools to create standardized network representations, document IP allocation strategies, and establish update procedures that balance accuracy with practicality.
 
 ### Task 2: Build Knowledge Base Articles
 **Objective**: Write effective knowledge base articles for common technical issues, following best practices for structure and clarity.
 
-**Challenge Question**: What elements distinguish highly effective knowledge base articles from those that users find unhelpful or confusing?
+**Steps**:
+1. Identify common support issues
+2. Create article template
+3. Write clear problem statement
+4. Add symptom descriptions
+5. Include step-by-step solution
+6. Add relevant screenshots
+7. Include troubleshooting tips
+8. Add related article links
+9. Define target audience
+10. Implement feedback system
+
+**Challenge Question**: What makes knowledge articles most findable?
+**Answer**: Keywords
 
 **Summary**: This task teaches students to structure articles with clear problem statements, step-by-step solutions, related articles links, and feedback mechanisms for continuous improvement.
 
 ### Task 3: Implement Asset Tagging System
 **Objective**: Design and deploy an asset tagging system including numbering schemes, label placement standards, and scanning procedures.
 
-**Challenge Question**: How do you balance the need for detailed asset tracking with practical limitations of tagging and scanning in distributed environments?
+**Steps**:
+1. Define numbering scheme format
+2. Select tag type (barcode/RFID)
+3. Create location coding system
+4. Design label templates
+5. Establish placement standards
+6. Document scanning procedures
+7. Set up asset database
+8. Create mobile scanning app
+9. Define verification schedule
+10. Train staff on system
+
+**Challenge Question**: What technology enables wireless asset scanning?
+**Answer**: RFID
 
 **Summary**: Students develop asset numbering schemes, create tagging standards for different equipment types, and establish procedures for maintaining tag integrity throughout asset lifecycles.
 
 ### Task 4: Document Disaster Recovery Procedures
 **Objective**: Create comprehensive disaster recovery documentation including system dependencies, recovery sequences, and contact information.
 
-**Challenge Question**: How can disaster recovery documentation be designed to remain useful during actual emergencies when stress levels are high and key personnel may be unavailable?
+**Steps**:
+1. Identify critical systems
+2. Map system dependencies
+3. Define recovery priorities
+4. Document restore procedures
+5. Create contact lists
+6. Include vendor support info
+7. Add network diagrams
+8. Create offline copies
+9. Test recovery steps
+10. Schedule annual reviews
+
+**Challenge Question**: What defines system restoration order?
+**Answer**: Priority
 
 **Summary**: This exercise covers creating clear recovery runbooks, establishing documentation accessibility during outages, and testing documentation effectiveness through simulated recovery scenarios.
 
 ### Task 5: Develop Configuration Standards
 **Objective**: Create standardized templates for documenting system configurations across different platforms and technologies.
 
-**Challenge Question**: What level of configuration detail should be documented to balance completeness with maintenance effort and security concerns?
+**Steps**:
+1. Identify configuration categories
+2. Create baseline templates
+3. Define required fields
+4. Add version control fields
+5. Include change history
+6. Document security settings
+7. Add network configurations
+8. Include service accounts
+9. Create approval workflow
+10. Establish review cycle
+
+**Challenge Question**: What tracks configuration changes over time?
+**Answer**: Version
 
 **Summary**: Students learn to identify critical configuration elements, create reusable templates, and establish documentation standards that capture essential information without overwhelming detail.
 
 ### Task 6: Create Software License Database
 **Objective**: Build a comprehensive software license tracking system capturing entitlements, deployments, and compliance status.
 
-**Challenge Question**: How do you track software licenses across various deployment models including on-premises, cloud, and hybrid environments?
+**Steps**:
+1. Inventory all software titles
+2. Document license types
+3. Record purchase information
+4. Track installation counts
+5. Map user assignments
+6. Monitor usage metrics
+7. Set compliance alerts
+8. Create audit reports
+9. Track renewal dates
+10. Calculate true-up needs
+
+**Challenge Question**: What prevents costly software audit failures?
+**Answer**: Compliance
 
 **Summary**: This task involves designing license tracking schemas, implementing discovery procedures, and creating compliance reports that identify risks and optimization opportunities.
 
 ### Task 7: Establish Documentation Workflow
 **Objective**: Design documentation creation and review workflows ensuring quality, accuracy, and timely updates.
 
-**Challenge Question**: How can documentation workflows encourage participation from technical staff who may view documentation as a low-priority task?
+**Steps**:
+1. Define documentation types
+2. Create approval matrix
+3. Set review frequencies
+4. Assign document owners
+5. Build review checklist
+6. Integrate with ticketing
+7. Automate notifications
+8. Track completion metrics
+9. Create quality standards
+10. Implement feedback loop
+
+**Challenge Question**: What ensures documentation remains current?
+**Answer**: Reviews
 
 **Summary**: Students create workflow processes incorporating peer review, automated reminders, and integration with existing work tracking systems to embed documentation into standard procedures.
 
 ### Task 8: Build Service Catalog
 **Objective**: Develop a comprehensive IT service catalog documenting available services, request procedures, and service level expectations.
 
-**Challenge Question**: How should service catalogs be structured to serve both technical staff managing services and end users requesting them?
+**Steps**:
+1. List all IT services
+2. Create service categories
+3. Define service descriptions
+4. Document request processes
+5. Add approval workflows
+6. Include SLA details
+7. Set pricing information
+8. Create user interface
+9. Add search functionality
+10. Implement request portal
+
+**Challenge Question**: What defines service performance commitments?
+**Answer**: SLA
 
 **Summary**: This exercise teaches service definition, categorization strategies, and user interface design for service catalogs that facilitate self-service while maintaining control.
 
 ### Task 9: Implement CMDB
 **Objective**: Design and populate a Configuration Management Database capturing assets and their relationships.
 
-**Challenge Question**: What strategies ensure CMDB data remains accurate as infrastructure changes occur through various channels?
+**Steps**:
+1. Define CI types
+2. Create relationship model
+3. Import existing assets
+4. Map dependencies
+5. Set up discovery tools
+6. Configure auto-population
+7. Create reconciliation rules
+8. Integrate change management
+9. Build impact analysis views
+10. Schedule accuracy audits
+
+**Challenge Question**: What captures asset relationships in CMDB?
+**Answer**: Dependencies
 
 **Summary**: Students learn CMDB design principles, relationship modeling, and integration strategies for maintaining data accuracy through automated discovery and change management integration.
 
 ### Task 10: Create Onboarding Documentation
 **Objective**: Develop comprehensive documentation packages for new IT staff members covering systems, procedures, and organizational standards.
 
-**Challenge Question**: How can onboarding documentation be structured to progressively introduce complexity while enabling quick productivity for new team members?
+**Steps**:
+1. Define role requirements
+2. Create day-one checklist
+3. Document access procedures
+4. List essential systems
+5. Include org chart
+6. Add tool guides
+7. Create training schedule
+8. Include mentor assignments
+9. Add escalation paths
+10. Track completion progress
+
+**Challenge Question**: What documentation helps new staff most?
+**Answer**: Procedures
 
 **Summary**: This task covers creating role-specific documentation packages, establishing mentorship programs supported by documentation, and measuring onboarding effectiveness.
 
